@@ -15,7 +15,7 @@ import sys
 if sys.argv[0] == "./rumors_pydub-wav.py":
    #Si se ejecuta desde una terminal
    sys.path.append('..')
-   import utilitats.colors as c
+   import python.utilitats.colors as c
 else:
    #Si se ejecuta desde un IDE que ya incluye la referencia al directorio utilitats
    import colors as c
