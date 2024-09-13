@@ -1,11 +1,5 @@
 Acte Segon
 
-Situació Escènica
-
-Hi ha plats de menjar buits arreu. Ampolles buides de vi i de xampany escampades pertot arreu.
-Tot està silenciós. Molt silenciós.
-Ningú no diu res. Tothom està profundament submergit en els seus pensaments. Cap d’ells no mira cap dels altres.
-
 Escena 1
 Glen: Encara no me’n sé avenir. Trobo que tota aquesta història és tan difícil de creure.
 Leni: Troba que aquesta història és difícil de creure. Perquè hem fet l’impossible per amagar-vos la veritat.
@@ -31,8 +25,8 @@ Erni: En Len ens ho ha explicat.
 Ken: En Glen t’ho ha explicat?
 Erni: No. Leni. Leni. En Leni ens ho ha explicat.
 Leni: He suat com un porc fent veure que hi era la Maira. He fet autèntics diàlegs amb ella i tot, allà dalt. He hagut d’imitar la seva veu per si de cas algú escoltava.
-Erni: I tu, Cassi? Notaves que passava alguna cosa estranya?
-Cassi: Sí. Des de fa uns sis mesos aproximadament.
+Erni: I tu, Keisi? Notaves que passava alguna cosa estranya?
+Keisi: Sí. Des de fa uns sis mesos aproximadament.
 Erni: Què vols dir? Què vol dir?
 Glen: L’heu de perdonar. Encara està molt afectada per la pèrdua del seu quars.
 Leni: Amb el braç ferit i tot, Cuqui, has fet un sopar per llepar-s’hi els dits. Em trec el barret.
@@ -45,5 +39,5 @@ Erni: Tens raó. Oh, déu meu, té tota la raó. Tots estàvem tan engrescats me
 Leni: Molt bé, hi pujo jo i acabem amb tot això d’una vegada.
 Glen: Espera, espera. Tots ens trobem en una situació prou delicada. No només el futur d’en Charly, sinó el d’una pila de gent depèn de com resoldrem aquest assumpte.
 Cler: Et refereixes a tu, bàsicament, oi?
-Glen: Bé, doncs no. La Cassi i jo som els últims que hem arribat aquí. Acabem de saber el que ha passat fa un minut. No hi estem gaire involucrats, que diguem.
+Glen: Bé, doncs no. La Keisi i jo som els últims que hem arribat aquí. Acabem de saber el que ha passat fa un minut. No hi estem gaire involucrats, que diguem.
 Cuqui: I l’Erni i jo hem estat cuinant tota l’estona. Ningú no ens ha explicat res. Em sap greu.

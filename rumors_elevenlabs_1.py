@@ -1,41 +1,28 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Nov 12 18:53:17 2023
+#!/usr/bin/python3
+# -*- coding: UTF8 -*-
+'''
+@created: Thu Sep 12 12:45:25 2024
 @author: rafael
-@description: Convierte texto a audio
+@description: Rumors: nivell principiant
+'''
 
-pip install gTTS
-pip install pydub
-pip install soundfile
-pip install pyworld
-pip install wave
-"""
-import os, re, glob, time, shutil
-import sys
-import soundfile as sf
-import pyworld as pw
-import wave
-from gtts import gTTS
-from pydub import AudioSegment
-if sys.argv[0] == "./rumors_pydub-wav.py":
+import sys, os, re, time
+import elevenlabs
+if sys.argv[0] == "./rumors_elevenlabs_1.py":
    #Si se ejecuta desde una terminal
    sys.path.append('..')
    import python.utilitats.colors as c
 else:
    #Si se ejecuta desde un IDE que ya incluye la referencia al directorio utilitats
    import colors as c
-# import pygame
-# from pygame import mixer
 
 sencer = True if (len(sys.argv) > 1 and sys.argv[1] == "sencer") else False
 
-FragmentVeu = "rumors"
+fragmentVeu = "rumors"
 baseDir = os.getcwd()
 baseArxiu = "rumors-Ernie" if sencer else "rumors-Ernie-escena-"
-dirSortida = "sortides/rumors/wav/"
+dirSortida = "sortides/rumors/mp3/"
 baseArxiuWav = baseDir + "/" + dirSortida
-ArxiuWav = ""
 tmp3 = dirSortida + "temp.mp3"
 twav = dirSortida + "temp.wav"
 
@@ -53,40 +40,10 @@ Personatges = {'Erni':  {'speed': 1.20, 'grave': 2.4, 'reduction': 0.6},
                'Cler':  {'speed': 1.20, 'grave': 1.2, 'reduction': 1},
                'Leni':  {'speed': 1.60, 'grave': 2.0, 'reduction': 0.8},
                'Glen':  {'speed': 1.20, 'grave': 2.0, 'reduction': 0.8},
-               'Keisi': {'speed': 1.20, 'grave': 0.8, 'reduction': 1},
+               'Cassi': {'speed': 1.20, 'grave': 0.8, 'reduction': 1},
                'Güel':  {'speed': 1.20, 'grave': 2.0, 'reduction': 1},
                'Padni': {'speed': 1.20, 'grave': 1.3, 'reduction': 1}}
 Narrador = {'speed': 1.30, 'grave': 1.2, 'reduction': 0.7}
-
-def elimina_fragments(escena):
-   print(c.BG_CYN+"-----------\nFi de l\'escena "+escena+"\n"+c.C_NONE)
-   os.chdir(baseArxiuWav)
-   files = glob.glob("rumors_[0-9]*.wav")
-   for filename in files:
-      os.remove(filename)
-   os.chdir(baseDir)
-
-def concatena_wavs(wfile):
-   if os.path.isfile(ArxiuWav):
-      infiles = [ArxiuWav, wfile]
-
-      data = []
-      for infile in infiles:
-         w = wave.open(infile, 'rb')
-         # params: nchannels, sampwidth, framerate, nframes, comptype, compname
-         data.append([w.getparams(), w.readframes(w.getnframes())])
-         w.close()
-
-      output = wave.open(ArxiuWav, 'wb')
-      output.setparams(data[0][0])
-      for i in range(len(data)):
-         output.writeframes(data[i][1])
-      output.close()
-   else:
-      shutil.copyfile(wfile, ArxiuWav)
-
-def nom_arxiu(num):
-   return dirSortida + FragmentVeu + "_" + f'{num:{"0"}{">"}{4}}' + ".wav"
 
 """
 @type text: string; text que es tracta
@@ -98,7 +55,7 @@ def fragments(text, n, to_veu, ends):
    len_text = len(text)
    ini = 0
    while ini < len_text:
-      longitud = 180
+      longitud = 600
       if longitud < len_text:
          longitud = text[ini:].find(" ", longitud)
       if longitud == -1 or longitud > len_text:
@@ -112,30 +69,18 @@ def text_to_audio(text, output_file, veu_params, ends):
    ini_color = c.CB_CYN if text in Personatges else c.C_NONE
    ini_color = c.CB_YLW if text == "Erni" else ini_color
    ini_color = c.BG_CYN + "\n" if (text[:6]=="Rumors" or text[:11]=="Acte Primer" or text[:10]=="Acte Segon" or
-                                   text[:17]=="Situació Escènica" or text[:7]=="Comença" or text[:4]=="Teló") \
+                                   text[:17]=="Situació Escènica" or text[:7]=="Comença" or text[:7]=="Escena " or
+                                   text[:4]=="Teló") \
                                    else ini_color
    print(ini_color + text + c.C_NONE, end=ends)
    if ends == ": " and (text != "Erni" or sencer): return
-   #if text == "Erni" and sencer: text = "parla l'"+text
 
-   # obtenir els parametres
-   speed, grave, reduction = list(veu_params.values())
+   audio = elevenlabs.generate(text = "",
+                  voice = "Arnold",
+                  model = "eleven_multilingual_v1"
+                 )
+   elevenlabs.save(audio, dirSortida+fragmentVeu+".mp3")
 
-   # Generar un arxiu d'audio temporal amb gTTS
-   tts = gTTS(text, lang='ca')
-   tts.save(tmp3)
-
-   # Convertir l'arxiu mp3 a wav
-   audio = AudioSegment.from_mp3(tmp3)
-   audio.export(twav, format="wav")
-
-   # tractament de l'audio
-   x, fs = sf.read(twav)
-   f0, sp, ap = pw.wav2world(x, fs)
-   yy = pw.synthesize(f0/grave, sp/reduction, ap, fs/speed, pw.default_frame_period)
-   sf.write(output_file, yy, fs)
-
-   concatena_wavs(output_file)   # va creando un archivo único añadiendo cada fragmento
 
    # Eliminar l'arxiu temporal
    if os.path.isfile(tmp3):
@@ -145,16 +90,19 @@ def text_to_audio(text, output_file, veu_params, ends):
    elif os.path.isfile(twav):
       os.rename(twav, output_file)
 
-if __name__ == "__main__":
+
+def nom_arxiu(num):
+   extra = "_" + f'{num:{"0"}{">"}{4}}' if sencer else ""
+   return dirSortida + fragmentVeu + extra + ".mp3"
+
+
+def process():
    patt_person = "^(\w*?\s?)(:\s?)(.*$)"
    patt_narrador = "([^\(]*)(\(.*?\))(.*)"
 
    for escena in escenes:
       arxiu = baseArxiu + escena
       ArxiuEntrada = "entrades/" + arxiu + ".txt"
-      ArxiuWav = baseArxiuWav + arxiu + ".wav"
-
-      if os.path.isfile(ArxiuWav): os.remove(ArxiuWav)
 
       with open(ArxiuEntrada, 'r', encoding="utf-8") as f:
          sentencies = f.read().split('\n')
@@ -187,5 +135,3 @@ if __name__ == "__main__":
                   n = fragments(ma.group(3), n, to_veu, "\n")
             else:
                n = fragments(sentencia, n, Narrador, "\n")
-
-      if not sencer: elimina_fragments(escena)
