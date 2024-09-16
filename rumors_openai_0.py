@@ -6,10 +6,17 @@
 '''
 from openai import OpenAI
 
-OPENAI_API_KEY = "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"
-ELEVENLABS_API_KEY = "sk_d5f6b46b457062243308bc8b37cd0f78a28d79f038247e96"
+f = open("API_Key_ElevenLabs", "r")
+eAK = f.read()
+f.close()
+f = open("API_Key_OpenAI", "r")
+oAK = f.read()
+f.close()
 
 client = OpenAI(
-  organization='org-KdOHXYUXcATh2AV92A7O1SKc',
-  project='$PROJECT_ID',
+	f = open("org_OpenAI", "r")
+	o = f.read()
+	f.close()
+	organization=o,
+	project='$PROJECT_ID',
 )

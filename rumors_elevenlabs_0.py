@@ -7,7 +7,6 @@
 import elevenlabs as e
 from elevenlabs.client import ElevenLabs
 
-AK = "sk_d5f6b46b457062243308bc8b37cd0f78a28d79f038247e96"
 Personatges = {'Erni':  {'id':"JBFqnCBsd6RMkjVDRZzb", 'name':"George"},
                'Cuqui': {'id':"FGY2WhTYpPnrIDTdsKH5", 'name':"Laura"},
                'Cris':  {'id':"cgSgspJ2msm6clMCkdW9", 'name':"Jessica"},
@@ -67,7 +66,10 @@ def llistat_raw_veus():
 	voices = client.voices.get_all()
 	print(voices)
 
-client = ElevenLabs(api_key = AK)
+f = open("API_Key_ElevenLabs", "r")
+k = f.read()
+f.close()
+client = ElevenLabs(api_key = k)
 
 #llistat_raw_veus()
 #llistat_id_veus()

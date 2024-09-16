@@ -49,8 +49,12 @@ Personatges = {'Erni':  {'speed': 1.20, 'grave': 2.4, 'reduction': 0.6},
                'Padni': {'speed': 1.20, 'grave': 1.3, 'reduction': 1}}
 Narrador = {'speed': 1.30, 'grave': 1.2, 'reduction': 0.7}
 
-def inici():
-   set_api_key("sk_d5f6b46b457062243308bc8b37cd0f78a28d79f038247e96")
+def read_api_key():
+	f = open("API_Key_ElevenLabs", "r")
+	k = f.read()
+	f.close()
+   #set_api_key(k)
+   return k
 
 
 def elimina_fragments(escena):
@@ -115,7 +119,8 @@ def text_to_audio(text, output_file, veu_params, ends):
 if __name__ == "__main__":
 
    client = ElevenLabs(
-      api_key="sk_d5f6b46b457062243308bc8b37cd0f78a28d79f038247e96"
+      api_key = ELEVENLABS_API_KEY
+      #api_key = read_api_key()
    )
    #veus = {"Sarah","Laura","Charlie","George","Callum","Liam","Charlotte","Alice","Matilda","Will","Jessica","Eric","Chris","Brian","Daniel","Lily","Bill","Martin Osborne 5","Sara Martin 2","David Martin 2"}
    veus = client.voices.get_all()
