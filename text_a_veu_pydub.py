@@ -29,9 +29,9 @@ else:
 
 idioma = 'es'
 FragmentVeu = "fragment_veu"
-baseDir = os.getcwd()
+baseDir = os.getcwd() + "/"
 dirSortida = "sortides/wav/"
-baseArxiuWav = baseDir + "/" + dirSortida
+baseArxiuWav = baseDir + dirSortida
 baseArxiu = ""
 ArxiuWav = ""
 tmp3 = dirSortida + "temp.mp3"
@@ -45,6 +45,10 @@ if (not arg or arg[0]=="-h" or arg[0]=="-help"):
 	exit()
 else:
 	baseArxiu = arg[0]
+	ArxiuEntrada = "entrades/" + baseArxiu + ".txt"
+	if not os.path.exists(baseDir + ArxiuEntrada):
+		print("No s'ha trobat l'arxiu: " + baseDir + ArxiuEntrada)
+		exit()
 
 Personatges = {'Erni':  {'speed': 1.20, 'grave': 2.4, 'reduction': 0.6},
                'Cuqui': {'speed': 1.20, 'grave': 0.8, 'reduction': 1}}
@@ -137,7 +141,6 @@ if __name__ == "__main__":
    patt_person = "^(\w*?\s?)(:\s?)(.*$)"
    patt_narrador = "([^\(]*)(\(.*?\))(.*)"
 
-   ArxiuEntrada = "entrades/" + baseArxiu
    ArxiuWav = baseArxiuWav + baseArxiu + ".wav"
 
    if os.path.isfile(ArxiuWav): os.remove(ArxiuWav)
