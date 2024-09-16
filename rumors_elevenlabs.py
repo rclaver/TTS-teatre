@@ -50,9 +50,9 @@ Personatges = {'Erni':  {'speed': 1.20, 'grave': 2.4, 'reduction': 0.6},
 Narrador = {'speed': 1.30, 'grave': 1.2, 'reduction': 0.7}
 
 def read_api_key():
-	f = open("API_Key_ElevenLabs", "r")
-	k = f.read()
-	f.close()
+   f = open("API_Key_ElevenLabs", "r")
+   k = f.read()
+   f.close()
    #set_api_key(k)
    return k
 
@@ -124,7 +124,7 @@ if __name__ == "__main__":
    )
    #veus = {"Sarah","Laura","Charlie","George","Callum","Liam","Charlotte","Alice","Matilda","Will","Jessica","Eric","Chris","Brian","Daniel","Lily","Bill","Martin Osborne 5","Sara Martin 2","David Martin 2"}
    veus = client.voices.get_all()
-	for veu in veus.voices: print(veu.name)
+   for veu in veus.voices: print(veu.name)
 
    patt_person = "^(\w*?\s?)(:\s?)(.*$)"
    patt_narrador = "([^\(]*)(\(.*?\))(.*)"
