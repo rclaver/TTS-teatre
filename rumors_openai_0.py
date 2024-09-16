@@ -14,9 +14,9 @@ oAK = f.read()
 f.close()
 
 client = OpenAI(
-	 f = open("org_OpenAI", "r")
-	 o = f.read()
-	 f.close()
-   organization=o,
-   project='$PROJECT_ID',
+	f = open("org_OpenAI", "r")
+	o = f.read()
+	f.close()
+	organization=o,
+	project='$PROJECT_ID',
 )
