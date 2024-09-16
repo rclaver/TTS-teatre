@@ -12,11 +12,12 @@ f.close()
 f = open("API_Key_OpenAI", "r")
 oAK = f.read()
 f.close()
+f = open("org_OpenAI", "r")
+org = f.read()
+f.close()
+
 
 client = OpenAI(
-   f = open("org_OpenAI", "r")
-   o = f.read()
-   f.close()
-   organization=o,
-   project='$PROJECT_ID',
+   organization=org,
+   #project='$PROJECT_ID'
 )
