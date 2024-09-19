@@ -59,7 +59,7 @@ Personatges = {'Erni':  {'speed': 1.20, 'grave': 2.4, 'reduction': 0.6},
 Narrador = {'speed': 1.30, 'grave': 1.2, 'reduction': 0.7}
 
 def elimina_fragments(escena):
-   print(c.BG_CYN+"-----------\nFi de l\'escena "+escena+"\n"+c.C_NONE)
+   print(c.BG_CYN+"Fi de l\'escena "+escena+c.C_NONE+"\n")
    os.chdir(baseArxiuWav)
    files = glob.glob("rumors_[0-9]*.wav")
    for filename in files:
