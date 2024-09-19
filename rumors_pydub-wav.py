@@ -114,7 +114,7 @@ def text_to_audio(text, output_file, veu_params, ends):
    ini_color = c.BG_CYN + "\n" if (text[:6]=="Rumors" or text[:11]=="Acte Primer" or text[:10]=="Acte Segon" or
                                    text[:17]=="Situació Escènica" or text[:7]=="Comença" or text[:6]=="Escena" or
                                    text[:4]=="Teló") \
-                                   else ini_color
+                               else ini_color
    print(ini_color + text + c.C_NONE, end=ends)
    if ends == ": ": return
    #if ends == ": " and (text != "Erni" or sencer): return
