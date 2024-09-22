@@ -1,5 +1,5 @@
 Escena 3
-(Sona el telèfon. Tots ells el miren. El telèfon torna a sonar. Tots es miren entre ells.)
+(Sona el telèfon.)
 Erni: Calmem-nos tots plegats una mica, i ja està, eh? Digui? Sí? Sí, sí que hi és De part de qui, sisplau? Ja, és clar. Molt bé Un moment, sisplau. És una dona. Demana per a en Glen.
 Cler: I què?
 Erni: Sembla la veu de la Maira.
@@ -22,14 +22,12 @@ Erni: Això no és cap joc. Ken, vols fer el favor d’anar a buscar en Glen? Ho
 Ken: Calleu tots! Estic sentint un soroll!
 Cler: Deu ser el Concorde aterrant a Londres.
 Ken: És un cotxe que s’acosta a la casa.
-(Fars de cotxe a través de la finestra.)
 Cler: Potser és la Maira.
 Leni: Potser són en Harry i la Joan que acaben d’arribar de Veneçuela.
-(La porta d’entrada s’obre ràpidament i Glen entra disparat aguantant-se un mocador al nas tot tacat de sang.)
 Glen: Tenim un problema. Oh, déu, i quin problema!
 Ken: Quin?
 Glen: La policia. Està arribant un cotxe de la policia.
-Cuqui: Estan intentant de parlar amb la Cassi. Ella es nega a abaixar el vidre de la finestra.
+Cuqui: Estan intentant de parlar amb la Keisi. Ella es nega a abaixar el vidre de la finestra.
 Leni: El meu vidre de la meva finestra? Ara me’ls trencaran tots, ho estic veient! Ja em veig tornant a casa amb el cotxe apedaçat.
 Erni: Per què l’has deixada allà tirada a dintre el cotxe? No està en condicions per contestar preguntes de la policia.
 Glen: Però sí que està en perfectes condicions per trencar-me el nas Hòstia, m’he tacat de sang la camisa!

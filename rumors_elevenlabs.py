@@ -5,15 +5,14 @@ Created on Sun Nov 12 18:53:17 2023
 @author: rafael
 @description: Convierte texto a audio
 
-pip install gTTS
 pip install elevenlabs
-pip install pydub
-pip install soundfile
-pip install pyworld
-pip install wave
 """
-import sys
-if sys.argv[0] == "./rumors_pydub-wav.py":
+import sys, os, re, glob, time
+#import request
+#from dotenv import load_dotenv
+from elevenlabs import generate, save, set_api_key
+from elevenlabs.client import ElevenLabs
+if sys.argv[0] == "./rumors_elevenlabs.py":
    #Si se ejecuta desde una terminal
    sys.path.append('..')
    import python.utilitats.colors as c
@@ -21,17 +20,11 @@ else:
    #Si se ejecuta desde un IDE que ya incluye la referencia al directorio utilitats
    import colors as c
 
-import os, re, glob, time
-import request
-from dotenv import load_dotenv
-from elevenlabs import generate, save, set_api_key
-from elevenlabs.client import ElevenLabs
-
 sencer = True if (len(sys.argv) > 1 and sys.argv[1] == "sencer") else False
 
 fragmentVeu = "rumors"
 baseDir = os.getcwd()
-baseArxiu = "rumors" if sencer else "rumors-Ernie-escena-"
+baseArxiu = "rumors-Ernie" if sencer else "rumors-Ernie-escena-"
 dirSortida = "sortides/rumors/mp3/"
 baseArxiuWav = baseDir + "/" + dirSortida
 tmp3 = dirSortida + "temp.mp3"
@@ -56,12 +49,16 @@ Personatges = {'Erni':  {'speed': 1.20, 'grave': 2.4, 'reduction': 0.6},
                'Padni': {'speed': 1.20, 'grave': 1.3, 'reduction': 1}}
 Narrador = {'speed': 1.30, 'grave': 1.2, 'reduction': 0.7}
 
-def inici():
-   set_api_key("sk_d5f6b46b457062243308bc8b37cd0f78a28d79f038247e96")
+def read_api_key():
+   f = open("API_Key_ElevenLabs", "r")
+   k = f.read()
+   f.close()
+   #set_api_key(k)
+   return k
 
 
 def elimina_fragments(escena):
-   print(c.BG_CYN+"-----------\nFi de l\'escena "+escena+"\n"+c.C_NONE);
+   print(c.BG_CYN+"-----------\nFi de l\'escena "+escena+"\n"+c.C_NONE)
    os.chdir(baseArxiuWav)
    files = glob.glob("rumors_[0-9]*.mp3")
    for filename in files:
@@ -96,12 +93,13 @@ def text_to_audio(text, output_file, veu_params, ends):
    ini_color = c.CB_CYN if text in Personatges else c.C_NONE
    ini_color = c.CB_YLW if text == "Erni" else ini_color
    ini_color = c.BG_CYN + "\n" if (text[:6]=="Rumors" or text[:11]=="Acte Primer" or text[:10]=="Acte Segon" or
-                                   text[:17]=="Situació Escènica" or text[:7]=="Comença" or text[:4]=="Teló") \
+                                   text[:17]=="Situació Escènica" or text[:7]=="Comença" or text[:7]=="Escena " or
+                                   text[:4]=="Teló") \
                                    else ini_color
    print(ini_color + text + c.C_NONE, end=ends)
    if ends == ": " and (text != "Erni" or sencer): return
 
-   load_dotenv()
+   #load_dotenv()
 
    audio = generate(text = "",
                   voice = "Arnold",
@@ -121,10 +119,12 @@ def text_to_audio(text, output_file, veu_params, ends):
 if __name__ == "__main__":
 
    client = ElevenLabs(
-      api_key="sk_d5f6b46b457062243308bc8b37cd0f78a28d79f038247e96"
+      api_key = ELEVENLABS_API_KEY
+      #api_key = read_api_key()
    )
-   voices = client.voices.get_all()
-
+   #veus = {"Sarah","Laura","Charlie","George","Callum","Liam","Charlotte","Alice","Matilda","Will","Jessica","Eric","Chris","Brian","Daniel","Lily","Bill","Martin Osborne 5","Sara Martin 2","David Martin 2"}
+   veus = client.voices.get_all()
+   for veu in veus.voices: print(veu.name)
    patt_person = "^(\w*?\s?)(:\s?)(.*$)"
    patt_narrador = "([^\(]*)(\(.*?\))(.*)"
 

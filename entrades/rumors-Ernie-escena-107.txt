@@ -1,9 +1,8 @@
 Escena 7
-(De sobte, se sent un tret de pistola que prové de l’habitació d’en Charly.)
+(Se sent un tret de pistola.)
 Cuqui: Ah, socors!
-(Tothom es queda petrificat. Cuqui es desploma damunt el sofà.)
+(Tothom es queda petrificat.)
 Erni: Què cony ha estat això?
-(La porta de l’habitació de Charly s’obre i apareix Ken, visiblement angoixat, mira a baix repenjat a la barana i intenta fer veure que no ha estat res.)
 Ken: No passa res. No ha estat res. Tot controlat. Hola, Erni. Hola, Cuqui Oh, Cris, carinyo, et sabria greu pujar només una estona ?
 Cris: Podeu disculpar-me només una estona? Em sap molt de greu, odio aquestes situacions.
 Erni: M’he tornat boig o això era un tret de pistola?
@@ -17,9 +16,22 @@ Erni: Quina mena de globus era aquest, un d’aerostàtic, potser? Hi pujo.
 Leni: Cler, per què no poses una miqueta de música? Ara vinc. Aviseu-me si truca el doctor Doolittle.
 Erni: Ja l’agafo jo. Continuo pensant que pel soroll, allò era un tret. És el meu grup de teràpia de divendres al vespre. Tinc sessió telefònica amb ells.
 Cuqui: Vés-hi, vés-hi, carinyo. Puc aixecar-me tota sola.
-(Erni entra corrents a la cuina.)
-Cler: Per què? Qui el sentirà, el telèfon, si sona allà dalt?
-Leni: Per l’amor de déu, ets pitjor que un gra de pus al cul. Val més que pugi ara mateix a buscar la Cris. Doctor Duddley? Què? Oh, sí, és la meva dona, la pobra, que pateix molt amb un gra de pus que té al Però no, no és greu, no el té infectat ni res. Li fa res esperar un minutet, que aviso la Cris, sisplau? A aquest paio li devem un bon regal. Li enviarem la Cuqui i que l’agafi com a pacient.
+Cler: (Sona una altra línia telefònica.) Digui? Sí, sí que hi és. No, ha estat el meu marit qui li ha trucat.
+Leni: Qui truca?
+Cler: Un criat del doctor Duddley.
+Leni: Ah, socors! Què és això?
+Cler: La Cuqui.
+Cuqui: No passa res. Ho faig molt sovint. M’ajuda a fer baixar la tensió de l’esquena.
+Leni: On és l’Erni?
+Cler: Allà. Què ha passat allà dalt? Ha pres mal en Charley?
+Leni: No. Estava dormint. En Ken volia amagar la pistola a l’armari perquè en Charley no la trobés. Ha ensopegat amb les sabatilles d’en Charley i se li ha disparat la pistola molt a prop del cap. No sent absolutament res ni per una orella ni per l’altra.
+Cler: En Ken o en Charley?
+Leni: En Ken. En Charley ni s’ha mogut, està completament flipat amb el vàlium que s’ha pres.
+Cler: Han penjat. Però t’he agafat el missatge.
+Cler: Escolta, per què en Ken ha fet pujar la Chris a l’habitació?
+Leni: Per trucar al metge d’en Ken i preguntar-li què ha de fer per la sordesa que li ha agafat. Ell no hi pot parlar tot sol, per telèfon, amb el metge, perquè no el sentiria. Me’n torno a dalt.
+Cler: Això vol dir que la Chris li ha dit al metge que se li ha disparat una pistola? Aleshores li deu haver explicat tot el que li ha passat a en Charley.
+Leni: No. Li anava a dir que en Ken estava passejant pel jardí de la casa i li ha explotat la tapa de la bomba d’aigua a un pam de les orelles.
 (La porta del menjador s’obre i apareix l’Erni.)
 Erni: M’ha semblat sentir en Leni per aquí. T’ha dit en Leni què ha estat aquell soroll?
 Cler: El tret de pistola?
@@ -30,5 +42,3 @@ Cler: No. Ha estat un pot d’escuma d’afaitar. Que ha explotat.
 Erni: Li ha explotat l’escuma d’afaitar?
 Cler: No passa res. Es neteja amb una mica d’aigua i no en queda ni rastre.
 Cuqui: Erni? Et necessito, hauries de treure a fora les escombraries.
-(Cuqui i Erni entren dins la cuina.)
-(La porta de l’habitació de Charly s’obre i apareixen Leni i Ken. Ken duu una tovallola al voltant les orelles.)

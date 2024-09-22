@@ -1,3 +1,8 @@
 ~*
 *.*~
+.spyproject
 sortides/*
+.env
+API_Key_ElevenLabs
+API_Key_OpenAI
+org_OpenAI
