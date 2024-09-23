@@ -125,7 +125,6 @@ if __name__ == "__main__":
    #veus = {"Sarah","Laura","Charlie","George","Callum","Liam","Charlotte","Alice","Matilda","Will","Jessica","Eric","Chris","Brian","Daniel","Lily","Bill","Martin Osborne 5","Sara Martin 2","David Martin 2"}
    veus = client.voices.get_all()
    for veu in veus.voices: print(veu.name)
-
    patt_person = "^(\w*?\s?)(:\s?)(.*$)"
    patt_narrador = "([^\(]*)(\(.*?\))(.*)"
 

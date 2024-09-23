@@ -44,7 +44,8 @@ if sencer:
 elif len(sys.argv) > 1 and sys.argv[1] != "":
    escenes = [sys.argv[1]]
 else:
-   escenes = ["106","107","108","109","111","112","201","202","203","204","205","207"]
+   #escenes = ["106","107","108","109","111","112","201","202","203","204","205","207"]
+   escenes = ["108"]
 
 Personatges = {'Erni':  {'speed': 1.20, 'grave': 2.4, 'reduction': 0.6},
                'Cuqui': {'speed': 1.20, 'grave': 0.8, 'reduction': 1},
