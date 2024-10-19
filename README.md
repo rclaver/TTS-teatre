@@ -1,2 +1,2 @@
-# IA_text-to-audio
+# TTS-teatre
 Convierte textos obras de teatro en audios con diferentes voces
