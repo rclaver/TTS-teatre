@@ -32,7 +32,7 @@ Leni: En Gorbatxev? Doncs li va dir: “No ho sé. No l’he tastada mai, la car
 Cuqui: Tots aneu tan ben arreglats, oh, que macos
 Cler: Cuqui, el teu vestit em torna boja. Tu sempre desenterrant les coses més originals. D’on l’has tret?
 Cuqui: Ui, mare de déu, aquest té seixanta anys. Era de la meva àvia. Se’l va emportar de Rússia.
-Cler: No és el que et vas posar per l’acte de la Distròfia Muscular de! juny passat?
+Cler: No és el que et vas posar per l’acte de la Distròfia muscular del juny passat?
 Cuqui: No. Pel de l’Emfisema de l’agost.
 Cler: Oh, quin coixí més maco. És per en Charly o per la Maira?
 Cuqui: No, és per la meva esquena. El duia dins el vestit però se m’ha sortit al cap d’una estoneta de posar-me’l.
@@ -95,7 +95,7 @@ Cris: Quina meravella, oi? Sense ajuda de ningú. Només nosaltres tot sols.
 Cuqui: Vols dir que ens hem de ficar tots a la cuina per cuinar?
 Cris: Tots excepte en Charly i la Maira. La Cler i jo els hem dit que es quedessin a dalt descansant i que no patissin. Ja els avisarem quan ho tindrem tot enllestit.
 Cuqui: I què hem de fer per sopar?
-Cler: Ui, si hi ha de tot. Carn rostida, gall dindi fumat, ànec i pasta?
+Cler: Ui, si hi ha de tot. Carn rostida, gall dindi fumat, ànec i pasta
 Erni: Carn rostida? Ànec? Massa colesterol per a mi.
 Leni: Erni, no hem vingut aquí per viure un parell de dies més. Sinó per passar-nos-ho bé.
 Cuqui: No acabo d’entendre per què ens hem posat els nostres millors vestits per passar la nit a la cuina fent el sopar.
