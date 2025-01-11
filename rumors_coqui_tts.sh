@@ -8,48 +8,46 @@ source colors
 
 # paràmetres
 #
-[[ "$1" == "sencer" ]] && sencer = 0
+[ "$1" == "sencer" ] && sencer=1
+declare -a escenes=()
 
-if $sencer; then
-   escenes = [""]
+if [ $sencer ]; then
    echo -e "${BG_CYN}Es convertirà l'arxiu sencer${C_NONE}"
-elif [[ "$1" != "" ]]; then
-   escenes = $1
-   echo -e "${BG_CYN}Es convertiran les escenes indicades: $escenes${C_NONE}"
+elif [ ${#1} -gt 0 ]; then
+   escenes+=($1)
+   echo -e "${BG_CYN}Es convertiran les escenes indicades: ${escenes[@]}${C_NONE}"
 else
-   escenes = ["106","107","108","109","111","112","201","202","203","204","205","207"]
-   echo -e "${BG_CYN}Es convertiran (per defecte) aquestes escenes: $escenes${C_NONE}"
+   escenes+=("106" "107" "108" "109" "111" "112" "201" "202" "203" "204" "205" "207")
+   echo -e "${BG_CYN}Es convertiran (per defecte) aquestes escenes: ${escenes[@]}${C_NONE}"
 
 # Get device
 tts = TTS("tts_models/ca/custom/vits", progress_bar=False, verbose=False).to(device)
 
 # variables locals
 #
-FragmentVeu = "rumors"
-baseDir = os.getcwd()
-baseArxiu = "rumors-Ernie" if sencer else "rumors-Ernie-escena-"
-dirSortida = "sortides/rumors/wav/"
-baseArxiuWav = baseDir + "/" + dirSortida
-ArxiuWav = ""
-tmp3 = dirSortida + "temp.mp3"
-twav = dirSortida + "temp.wav"
+FragmentVeu="rumors"
+baseDir=$(pwd)
+dirSortida="sortides/rumors/wav/"
+baseArxiuWav="${baseDir}/${dirSortida}"
+[ $sencer ] && baseArxiu="rumors-Ernie" || baseArxiu="rumors-Ernie-escena-"
+ArxiuWav=""
 
-Personatges = {'Erni':  '02689',
-               'Cuqui': '01591',
-               'Cris':  '02452',
-               'Ken':   '00762',
-               'Cler':  'mar',
-               'Leni':  'jan',
-               'Glen':  'pau',
-               'Keisi': 'ona',
-               'Güel':  'pol',
-               'Padni': '00983a845f95493fb27125b114c635f3b40060efaee167d32d8a3dd040c877713446c7bd3e6944641227bdb4165ecb8d684ec2ef66c817e65e77c52cc50e62ed'}
-Narrador = 'pep'
+Personatges=('Erni':  '02689'
+             'Cuqui': '01591'
+             'Cris':  '02452'
+             'Ken':   '00762'
+             'Cler':  'mar'
+             'Leni':  'jan'
+             'Glen':  'pau'
+             'Keisi': 'ona'
+             'Güel':  'pol'
+             'Padni': '00983a845f95493fb27125b114c635f3b40060efaee167d32d8a3dd040c877713446c7bd3e6944641227bdb4165ecb8d684ec2ef66c817e65e77c52cc50e62ed')
+Narrador='pep'
 
 
 function elimina_fragments(escena):
    print(c.BG_CYN+"Fi de l\'escena "+escena+c.C_NONE+"\n")
-   os.chdir(baseArxiuWav)
+   cd baseArxiuWav
    files = glob.glob("rumors_[0-9]*.wav")
    for filename in files:
       os.remove(filename)
@@ -124,9 +122,8 @@ function fragments(text, n, id_veu, ends):
 # ------------------------------
 # principal
 # ------------------------------
-if __name__ == "__main__":
-   patt_person = "^(\w*?\s?)(:\s?)(.*$)"
-   patt_narrador = "([^\(]*)(\(.*?\))(.*)"
+   patt_person= "^(\w*?\s?)(:\s?)(.*$)"
+   patt_narrador="([^\(]*)(\(.*?\))(.*)"
 
    for escena in escenes:
       arxiu = baseArxiu + escena

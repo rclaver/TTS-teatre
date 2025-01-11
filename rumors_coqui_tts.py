@@ -47,8 +47,6 @@ baseArxiu = "rumors-Ernie" if sencer else "rumors-Ernie-escena-"
 dirSortida = "sortides/rumors/wav/"
 baseArxiuWav = baseDir + "/" + dirSortida
 ArxiuWav = ""
-tmp3 = dirSortida + "temp.mp3"
-twav = dirSortida + "temp.wav"
 
 Personatges = {'Erni':  '02689',
                'Cuqui': '01591',
