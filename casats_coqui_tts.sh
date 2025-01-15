@@ -27,23 +27,21 @@ model_name="tts_models/ca/custom/vits"
 LF="\n"
 BL=" "
 CC=": "
-FragmentVeu="rumors"
+FragmentVeu="casats"
 baseDir=$(pwd)
-dirSortida="sortides/rumors/wav/"
+dirSortida="sortides/casats/wav/"
 baseArxiuWav="${baseDir}/${dirSortida}"
-[ $sencer ] && baseArxiu="rumors-Ernie" || baseArxiu="rumors-Ernie-escena-"
+[ $sencer ] && baseArxiu="casats" || baseArxiu="casats-escena-"
 ArxiuWav=""
 
-Personatges=('Erni':'02689'
-             'Cuqui':'01591'
-             'Cris':'02452'
-             'Ken':'00762'
-             'Cler':'mar'
-             'Leni':'jan'
-             'Glen':'pau'
-             'Keisi':'ona'
-             'Güel':'pol'
-             'Padni':'00983a845f95493fb27125b114c635f3b40060efaee167d32d8a3dd040c877713446c7bd3e6944641227bdb4165ecb8d684ec2ef66c817e65e77c52cc50e62ed')
+Personatges=('Joan':'02689'
+             'Pompeu':'01591'
+             'Canut':'02452'
+             'Justa':'mar'
+             'Tina':'00762'
+             'Gisela':'jan'
+             'Mar':'pau'
+             'Emma':'ona')
 Narrador='pep'
 
 function get_id_personatge() {
@@ -72,9 +70,9 @@ function is_personatge() {
 
 function elimina_fragments() {
    echo -e "${BG_CYN}Fi de l'escena ${1}${C_NONE}\n"
-   rm "${baseArxiuWav}rumors_[0-9]*.wav"
+   rm "${baseArxiuWav}casats_[0-9]*.wav"
    #cd $baseArxiuWav
-   #for file in "${baseArxiuWav}rumors_[0-9]*.wav"; do
+   #for file in "${baseArxiuWav}casats_[0-9]*.wav"; do
    #   rm "$file"
    #done
    #cd $baseDir
@@ -93,11 +91,13 @@ function prepara_echo() {
          ini_color=$CB_CYN
       fi
    else
-      if [[ ${1:0:6} == "Rumors" ||
+      if [[ ${1:0:6} == "Casats" ||
             ${1:0:11} == "Acte Primer" ||
             ${1:0:10} == "Acte Segon" ||
-            ${1:0:17} == "Situació Escènica" ||
-            ${1:0:7} == "Comença" ||
+            ${1:0:11} == "Acte Tercer" ||
+            ${1:0:10} == "Acte Quart" ||
+            ${1:0:12} == "Primera Part" ||
+            ${1:0:11} == "Segona Part" ||
             ${1:0:6} == "Escena" ||
             ${1:0:4} == "Teló" ]]
       then
@@ -123,24 +123,18 @@ function fragment_text_to_audio() {
       #if [[ $1 == "Erni" && $sencer ]]; then $1="parla l'$1"; fi
 
       # Run TTS
-      tts --text "${1}" --model_name "${model_name}" --speaker_idx "${3}" --out_path "$(nom_arxiu $n)" 1&2>/dev/null
+      tts --text "${1}" --model_name "${model_name}" --speaker_idx "${3}" --out_path "$(nom_arxiu $n)" 2>/dev/null
    fi
    return $n;
 }
 
-# ------------------------------
-# principal
-# ------------------------------
-pattern_person="^(\w*?\s?)(:\s?)(.*$)"
-pattern_narrador="([^\(]*)(\(.*?\))(.*)"
-
-for escena in ${escenes[@]}; do
+function proces() {
+   escena=$1
    arxiu=$baseArxiu$escena;
    ArxiuWav="baseArxiuWav${arxiu}.wav";
    if [ -f $ArxiuWav ]; then rm $ArxiuWav; fi
    ArxiuEntrada="entrades/${arxiu}.txt";
 
-   n=0;
    while IFS= read -r sentencia
    do
       echo -e "Sentència:.$sentencia.${#sentencia}";
@@ -180,4 +174,19 @@ for escena in ${escenes[@]}; do
    done < $ArxiuEntrada
 
    if [ -z $sencer ]; then elimina_fragments $escena; fi
-done
+}
+# ------------------------------
+# principal
+# ------------------------------
+pattern_person="^(\w*?\s?)(:\s?)(.*$)"
+pattern_narrador="([^\(]*)(\(.*?\))(.*)"
+
+n=0;
+
+if [ $sencer ]; then
+   proces
+else
+   for escena in ${escenes[@]}; do
+      proces $escena
+   done
+fi
