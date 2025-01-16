@@ -16,7 +16,8 @@ import wave
 
 # paràmetres
 #
-if sys.argv[0] == "./casats_coqui_tts.py":
+terminal = True if (sys.argv[0] == "./casats_coqui_tts.py") else False
+if terminal:
    #Si se ejecuta desde una terminal
    sys.path.append('../..')
    import python.utilitats.colors as c
@@ -24,16 +25,19 @@ else:
    #Si se ejecuta desde un IDE que ya incluye la referencia al directorio utilitats
    import colors as c
 
-sencer = True if (len(sys.argv) > 1 and sys.argv[1] == "sencer") else False
-if sencer:
-   escenes = [""]
-   print(c.BG_CYN+"Es convertirà l'arxiu sencer" + c.C_NONE)
+if not terminal:
+   escenes = input("indica les escenes:").split()
 elif len(sys.argv) > 1 and sys.argv[1] != "":
    escenes = [sys.argv[1]]
-   print(c.BG_CYN+"Es convertiran les escenes indicades", escenes, c.C_NONE)
+   print(c.CB_YLW+"Es convertiran les escenes indicades", escenes, c.C_NONE)
 else:
-   escenes = ["106","107","108","109","111","112","201","202","203","204","205","207"]
-   print(c.BG_CYN+"Es convertiran (per defecte) aquestes escenes", escenes, c.C_NONE)
+   escenes = ["101","102","103","201","202"]
+   print(c.CB_YLW+"Es convertiran (per defecte) aquestes escenes", escenes, c.C_NONE)
+
+sencer = True if (len(sys.argv) > 1 and sys.argv[1] == "sencer" or not escenes) else False
+if sencer:
+   escenes = []
+   print(c.CB_YLW+"Es convertirà l'arxiu sencer" + c.C_NONE)
 
 # Get device
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -45,7 +49,7 @@ FragmentVeu = "casats"
 baseDir = os.getcwd()
 baseArxiu = "casats" if sencer else "casats-escena-"
 dirSortida = "sortides/casats/wav/"
-baseArxiuWav = baseDir + "/" + dirSortida
+rutaArxiuWav = baseDir + "/" + dirSortida
 ArxiuWav = ""
 
 Personatges={'Joan':  '02689',
@@ -61,7 +65,7 @@ Narrador='pep'
 
 def elimina_fragments(escena):
    print(c.BG_CYN+"Fi de l\'escena "+escena+c.C_NONE+"\n")
-   os.chdir(baseArxiuWav)
+   os.chdir(rutaArxiuWav)
    files = glob.glob("casats_[0-9]*.wav")
    for filename in files:
       os.remove(filename)
@@ -131,14 +135,15 @@ def fragment_text_to_audio(text, n, id_veu, ends):
 
    return n
 
-def proces(escena):
-   arxiu = baseArxiu + escena
-   ArxiuWav = baseArxiuWav + arxiu + ".wav"
+def proces(escena=None):
+   global ArxiuWav
+   arxiu = baseArxiu + escena if escena else baseArxiu
+   ArxiuWav = rutaArxiuWav + arxiu + ".wav"
    if os.path.isfile(ArxiuWav): os.remove(ArxiuWav)
-   ArxiuEntrada = "entrades/" + arxiu + ".txt"
+   arxiu = "entrades/" + arxiu + ".txt"
    n = 0
 
-   with open(ArxiuEntrada, 'r', encoding="utf-8") as f:
+   with open(arxiu, 'r', encoding="utf-8") as f:
       sentencies = f.read().split('\n')
 
    for sentencia in sentencies:
@@ -169,16 +174,16 @@ def proces(escena):
          else:
             n = fragment_text_to_audio(sentencia, n, Narrador, "\n")
 
-   if not sencer: elimina_fragments(escena)
+   if not sencer and escena: elimina_fragments(escena)
 
-# ------------------------------
+# ---------
 # principal
-# ------------------------------
+# ---------
 if __name__ == "__main__":
    patt_person = "^(\w*?\s?)(:\s?)(.*$)"
    patt_narrador = "([^\(]*)(\(.*?\))(.*)"
 
-   if sencer:
+   if sencer or not escenes:
       proces()
    else:
       for escena in escenes:

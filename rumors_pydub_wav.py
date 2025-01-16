@@ -40,7 +40,7 @@ tmp3 = dirSortida + "temp.mp3"
 twav = dirSortida + "temp.wav"
 
 if sencer:
-   escenes = [""]
+   escenes = []
 elif len(sys.argv) > 1 and sys.argv[1] != "":
    escenes = [sys.argv[1]]
 else:

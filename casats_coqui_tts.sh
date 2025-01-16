@@ -11,13 +11,13 @@ source ~/bin/colors
 declare -a escenes=()
 
 if [ $sencer ]; then
-   echo -e "${BG_CYN}Es convertirà l'arxiu sencer${C_NONE}"
+   echo -e "${CB_YLW}Es convertirà l'arxiu sencer${C_NONE}"
 elif [ ${#1} -gt 0 ]; then
    escenes+=($1)
-   echo -e "${BG_CYN}Es convertiran les escenes indicades:${C_NONE}${CB_WHT} ${escenes[@]}${C_NONE}"
+   echo -e "${CB_YLW}Es convertiran les escenes indicades:${C_NONE}${CB_WHT} ${escenes[@]}${C_NONE}"
 else
-   escenes+=("106" "107" "108" "109" "111" "112" "201" "202" "203" "204" "205" "207")
-   echo -e "${BG_CYN}Es convertiran (per defecte) aquestes escenes:${C_NONE}${CB_WHT} ${escenes[@]}${C_NONE}"
+   escenes+=("101","102","103","201","202")
+   echo -e "${CB_YLW}Es convertiran (per defecte) aquestes escenes:${C_NONE}${CB_WHT} ${escenes[@]}${C_NONE}"
 fi
 
 # paràmetres TTS
