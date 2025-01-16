@@ -83,9 +83,9 @@ function nom_arxiu() {
    echo "${dirSortida}${FragmentVeu}_${num}.wav"
 }
 
-function prepara_echo() {
+function mostra_sentencia() {
    if [[ $(is_personatge "$1") == true ]]; then
-      if [[ "$1" == "Erni" ]]; then
+      if [[ "$1" == "Joan" ]]; then
          ini_color=$CB_YLW
       else
          ini_color=$CB_CYN
@@ -115,7 +115,7 @@ function fragment_text_to_audio() {
    #@type $3: string; id de veu
    #@type $4: string; caracter de finalització de echo
 
-   prepara_echo "$1" "$4";
+   mostra_sentencia "$1" "$4";
    ((n=$2+1));
 
    if [[ "$4" != "${CC}" ]]; then
