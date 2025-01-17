@@ -29,15 +29,15 @@ if not terminal:
    escenes = input("indica les escenes:").split()
 elif len(sys.argv) > 1 and sys.argv[1] != "":
    escenes = [sys.argv[1]]
-   print(c.CB_YLW+"Es convertiran les escenes indicades", escenes, c.C_NONE)
+   print(c.CB_GRN+"\nEs convertiran les escenes indicades", escenes, c.C_NONE, end='\n\n')
 else:
    escenes = ["101","102","103","201","202"]
-   print(c.CB_YLW+"Es convertiran (per defecte) aquestes escenes", escenes, c.C_NONE)
+   print(c.CB_GRN+"\nEs convertiran (per defecte) aquestes escenes", escenes, c.C_NONE, end='\n\n')
 
 sencer = True if (len(sys.argv) > 1 and sys.argv[1] == "sencer" or not escenes) else False
 if sencer:
    escenes = []
-   print(c.CB_YLW+"Es convertirà l'arxiu sencer" + c.C_NONE)
+   print(c.CB_GRN+"\nEs convertirà l'arxiu sencer" + c.C_NONE, end='\n\n')
 
 # Get device
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -64,7 +64,7 @@ Narrador='pep'
 
 
 def elimina_fragments(escena):
-   print(c.BG_CYN+"Fi de l\'escena "+escena+c.C_NONE+"\n")
+   print(c.BG_CYN+"Fi de l\'escena "+escena+c.C_NONE, end='\n\n')
    os.chdir(rutaArxiuWav)
    files = glob.glob("casats_[0-9]*.wav")
    for filename in files:

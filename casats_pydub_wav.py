@@ -34,15 +34,15 @@ if not terminal:
    escenes = input("indica les escenes:").split()
 elif len(sys.argv) > 1 and sys.argv[1] != "":
    escenes = [sys.argv[1]]
-   print(c.CB_YLW+"Es convertiran les escenes indicades", escenes, c.C_NONE)
+   print(c.CB_GRN+"\nEs convertiran les escenes indicades", escenes, c.C_NONE, end='\n\n')
 else:
    escenes = ["106","107","108","109","111","112","201","202","203","204","205","207"]
-   print(c.CB_YLW+"Es convertiran (per defecte) aquestes escenes", escenes, c.C_NONE)
+   print(c.CB_GRN+"\nEs convertiran (per defecte) aquestes escenes", escenes, c.C_NONE, end='\n\n')
 
 sencer = True if (len(sys.argv) > 1 and sys.argv[1] == "sencer" or not escenes) else False
 if sencer:
    escenes = []
-   print(c.CB_YLW+"Es convertirà l'arxiu sencer" + c.C_NONE)
+   print(c.CB_GRN+"\nEs convertirà l'arxiu sencer" + c.C_NONE, end='\n\n')
 
 # variables locals
 #
@@ -55,11 +55,11 @@ ArxiuWav = ""
 tmp3 = dirSortida + "temp.mp3"
 twav = dirSortida + "temp.wav"
 
-Personatges = {'Joan':   {'speed': 1.00, 'grave': 2.4, 'reduction': 0.6},
+Personatges = {'Joan':   {'speed': 1.10, 'grave': 2.8, 'reduction': 0.6},
                'Gisela': {'speed': 1.10, 'grave': 0.9, 'reduction': 1},
                'Mar':    {'speed': 1.20, 'grave': 0.8, 'reduction': 1},
                'Emma':   {'speed': 1.20, 'grave': 1.2, 'reduction': 1},
-               'Tina':   {'speed': 1.10, 'grave': 1.3, 'reduction': 1},
+               'Tina':   {'speed': 1.15, 'grave': 1.3, 'reduction': 0.9},
                'Justa':  {'speed': 1.20, 'grave': 1.3, 'reduction': 1},
                'Pompeu': {'speed': 1.30, 'grave': 1.9, 'reduction': 0.9},
                'Canut':  {'speed': 1.60, 'grave': 2.0, 'reduction': 0.8}}
@@ -67,7 +67,8 @@ Narrador = {'speed': 1.00, 'grave': 1.6, 'reduction': 0.7}
 
 
 def elimina_fragments(escena):
-   print(c.BG_CYN+"Fi de l\'escena "+escena+c.C_NONE+"\n")
+   t = c.BG_CYN+"Fi de l\'escena "+escena
+   print("\n", f"{t:<60}", c.C_NONE, end='\n\n')
    os.chdir(baseArxiuWav)
    files = glob.glob("casats_[0-9]*.wav")
    for filename in files:
@@ -99,17 +100,17 @@ def nom_arxiu(num):
 def mostra_sentencia(text, ends):
    ini_color = c.CB_CYN if text in Personatges else c.C_NONE
    ini_color = c.CB_YLW if text == "Joan" else ini_color
-   ini_color = c.BG_CYN if (text[:6] == "Casats" or
-                            text[:11] == "Acte Primer" or
-                            text[:10] == "Acte Segon" or
-                            text[:11] == "Acte Tercer" or
-                            text[:10] == "Acte Quart" or
-                            text[:12] == "Primera Part" or
-                            text[:11] == "Segona Part" or
-                            text[:6] == "Escena" or
-                            text[:4] == "Teló") \
-                        else ini_color
-   print(ini_color + text + c.C_NONE, end=ends)
+   text = f"{c.BG_CYN+text:<60}" if (text[:6] == "Casats" or
+                                     text[:11] == "Acte Primer" or
+                                     text[:10] == "Acte Segon" or
+                                     text[:11] == "Acte Tercer" or
+                                     text[:10] == "Acte Quart" or
+                                     text[:12] == "Primera Part" or
+                                     text[:11] == "Segona Part" or
+                                     text[:6] == "Escena" or
+                                     text[:4] == "Teló") \
+                                 else ini_color+text
+   print(text, c.C_NONE, end=ends)
 
 def text_to_audio(text, output_file, veu_params, ends):
    mostra_sentencia(text, ends)
