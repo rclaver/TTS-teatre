@@ -15,7 +15,7 @@ Justa: De res. És la meva obligació. Per això em paguen.
 Joan: És lògic!
 Justa: I no és per dir-ho, però tinc una bona remuneració... i que duri!
 Joan: Esperem que sigui així... pel be de tothom.
-Justa: Què vol dir?... Ui, quina cara que fa! Que passa alguna cosa, senyor Argiler?
+Justa: Què vol dir?... Ui, quina cara que fa! Què passa alguna cosa, senyor Argiler?
 Joan: No res, no res...
 Justa: Doncs no m'ho acabo de creure, sap? Altres vegades l'he vist més optimista. ¿No deuen pas haver baixat, les accions de la senyora Pont? Si s'abaixen, digui-m'ho, senyor Argiler, que jo en tinc dues i no voldria perdre diners. Me les vendria immediatament.
 Joan: Per les accions no s'ha de preocupar. Van a l'alça!
@@ -33,7 +33,7 @@ Justa: Hi era! Sortirà ara mateix. Quan li he dit que era vostè s'ha posat mol
 Gisela: Justa...
 Justa: Sí, ja ho sé. Jo no he de ser aquí... he de ser allà...
 (Assenyala la segona esquerra. Inicia el mutis. S'atura.)
-No vols pas res, Gisela?
+Justa: No vols pas res, Gisela?
 Gisela: Que ens deixis sols. Justa! Si no tens res a dir
 Justa:  Jo, ni piu
 Gisela: Molt bé! Doncs, què hi fas, aquí, plantada?
@@ -48,7 +48,7 @@ Joan: L'extracte dels vostres comptes corrents.
 Gisela: Males notícies?
 Joan: Desastroses! En una setmana, les factures s'han multiplicat d'una manera alarmant! Que no has posat la teva mare al corrent de la situació?
 Gisela: El mateix dia que vares donar-me el toc d'avís.
-Joan: Doncs que no ho ha entès? Ara fa més despeses que mai!
+Joan: Doncs què no ho ha entès? Ara fa més despeses que mai!
 Gisela: Es per dissimular, saps?
 Joan: O sigui que, en lloc d'estalviar, malgasta! Aneu caient en picat, Gisela.
 Gisela: Ja ho sé! Però la mare espera trobar un paracaigudes.

@@ -68,7 +68,7 @@ Canut: Es que el papà no éz jove. Té una pila d'anyz!
 Mar: Doncs no ho sembla!
 Emma: Em permets, Mar?
 (Agafa en Canut i el porta cap a la segona esquerra.)
-Tu i jo hem de parlar... (Mira, desafiadora, la Tina.) I sense testimonis.
+Emma: Tu i jo hem de parlar... (Mira, desafiadora, la Tina.) I sense testimonis.
 (Mutis de l'Emma i en Canut per la segona esquerra.)
 Canut: (En el mutis.) Éz un zecret?
 Tina: Però, on aneu?
@@ -224,7 +224,7 @@ Pompeu: De tota manera, fill meu, tu i jo hem de parlar detingudament. D'home a 
 Tina: Pobre xicot! Sermó a la vista.
 Pompeu: No sóc cap pare temible, Tina. A més, el noi és major d'edat i sap el que es fa. Però ha d'escoltar la veu de l'experiència. Els consells del pare sempre van bé.
 Tina: I els de la mare... Oi, nenes?
-Mar I Emma: (A l'una.)Sí, mami!
+Mar i Emma: (A l'una.) Sí, mami!
 Pompeu: Ja ho sents, Canut.
 Canut: Zí, papi!
 Tina: Sí, senyor! No hi ha res com parlar amb franquesa... i sense testimonis. Nenes, aquí sobrem!
@@ -235,7 +235,8 @@ Emma: Ostres! Ja ho havia oblidat!
 Tina: ES al despatx! (Li indica la primera esquerra.)Vés-hi, abans que no et tomi a fugir del cap.
 Emma: Som-hi.
 (Inicia el mutis per la primera esquerra, tot remugant.)
-I què diantre he de preguntar-li? (Mutis.)
+Emma: I què diantre he de preguntar-li?
+(Mutis.)
 Tina: Us deixem el camp lliure. Com si fóssiu a casa vostra. Anem, Mar?
 (Inicia el mutis per la segona esquerra.)
 Pompeu: Quanta molèstia...
@@ -244,7 +245,6 @@ Mar: Xxt!
 Tina: I tu, Canut, escolta el teu pare i fes-li cas.
 (Fa mutis.)
 Canut: Zóc innocent, papà! Jo zóc innocent.
-
 
 Pompeu: Tranquil•litza't...
 (Li fa una indicació perquè abaixi la veu i s'apropa a la segona esquerra, s'assegura que no hi ha ningú escoltant. Després, agafa en Canut pel braç i se l emporta a l'altre lateral.)
@@ -298,8 +298,7 @@ Pompeu: I què saps, tu!
 Canut: Pzicologia, papà.
 Pompeu: D'acord. Intentaré encaterinar la Tina... però tu t'has d'anar lligant l'Emma. Puc fallar, i no hem de marxar d'aquesta casa sense un trumfo a les mans.
 (Per la segona esquerra, entren la Tina i la Mar, portant tres botelles de cervesa, una d'aigua mineral i quatre gots. En Pompeu, en adonar-se'n, acaba.)
-Ho has entès bé, fill?
-
+Pompeu: Ho has entès bé, fill?
 Canut: Zí, papà! Et faré quedar bé!
 Tina: Ja n'hi ha prou, de secrets de família.
 Mar: Heu tingut temps per arranjar mig món. (Canvi.) La cervesa que et devíem, Pompeu.
@@ -323,13 +322,10 @@ Pompeu: La vida!
 (Va mirant la Tina, que dissimula, abaixant els ulls... Mirant al cel...)
 Tina: Hi, hi! La cervesa em puja al cap!
 (Es venta,... s'obre l'escot.)
-Quina calor!
+Tina: Quina calor!
 Pompeu: Te raó... Això es va caldejant.
-Mar: Potser és que aquí som massa gent... (S'aixeca.) Canut...
-T'agrada la música heavy?
+Mar: Potser és que aquí som massa gent... (S'aixeca.) Canut... T'agrada la música heavy?
 Canut: M'entuziazma!
-
-
 Mar: Doncs vine amb mi, que en tinc una bona col•lecció.
 (Li agafa el braç i se l'emporta a la primera dreta, iniciant el mutis.)
 Canut: Tindrem vetllada muzical.
@@ -340,7 +336,7 @@ Pompeu: Ei, ei! Que jo encara em sento jove... i vostè fa tant de goig com una 
 Tina: (Coqueta.) Fugi, fugi...
 Pompeu: No fujo, que m'apropo.
 (Va al costat de la Tina.)
-I és que vostè m'atrau... No puc fer-hi més!
+Pompeu: I és que vostè m'atrau... No puc fer-hi més!
 Tina: Freni, que un dia puc arribar a ser la seva sogra.
 Pompeu: Déu no ho vulgui!
 Tina: Que potser no li agrado com a sogra?

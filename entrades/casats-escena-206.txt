@@ -1,7 +1,7 @@
 Gisela: (En el mutis.) Camp lliure, Mar!
 Mar: Gràcies, aliats! Atacaré el flanc dèbil de la família Rius!
 (Comença a fer mutis per la primera dreta, però s'atura, ja que, per aquest lateral, entra en Canut amb les maletes.)
-Fill obedient! I amb quina rapidesa, noi!
+Mar: Fill obedient! I amb quina rapidesa, noi!
 Canut: Mira! Ez que encara no havia dezfet lez maletez del tot.
 Mar: I tornaràs a la vida d'hotel, a la monòtona vida d'hotel?
 Canut: Què hi farem!
@@ -21,13 +21,12 @@ Canut: Nena... (Intentant defugir-la.) No enz ezcalfem, no enz ezcalfem, que jo 
 Mar: Doncs jo, encara no del tot... (Li acaricia les orelles i comença a besar-lo.) Tu m'engresques... Ets el meu home...
 Canut: Zi tu ho diuz...
 (L'abraça. De sobte, reacciona i s'aparta.)
-
-Ui! Però, què fem?
+Canut: Ui! Però, què fem?
 Mar: Farem!... Que estem tots dos sols, papissot meu!
 (Li va fent carícies.)
 Canut: (Aixecant-se.) Frena! El papà pot entrar d'un moment a l'altre!
 Mar: (Agafant-lo i fent-lo seure una altra vegada.) Oblida't del papà!
-Canut: NO puc. Éz cl meu progenitor.
+Canut: No puc. Éz cl meu progenitor.
 Mar: I qui t'alimenta, és clar.
 (Ofesa, se n'aparta.)
 Canut: No t'ofenguiz, però éz així. Ell éz el meu únic banc, i no vull tancar el meu compte corrent.
@@ -66,7 +65,7 @@ Pompeu: Sóc jo. Però no alcis la veu, que no vull que ens sentin.
 Canut: Quin enzurt que m'haz donat!
 Pompeu: Em sap greu, fill.
 (Seu al seu costat.)
-Però havia de parlar amb tu, urgentment i sense testimonis.
+Pompeu: Però havia de parlar amb tu, urgentment i sense testimonis.
 Canut: I per això tant de mizteri? Caram! El cor encara em va a batzegadez.
 Pompeu: No sé com sortir-ne amb el cap alt. Ben dignament.
 Canut: Donz no zurtiz. Queda't!
@@ -93,7 +92,7 @@ Pompeu: I jo, què faig?
 Canut: No rez. Ezperar. Deixa eztar les maletez. Etz a caza teva.
 Pompeu: Esperaré! D'acord!
 (Indicant les maletes )
-I tu?
+Pompeu: I tu?
 (En Canut s'aixeca i agafa les maletes. )
 Canut: Zi tu marxavez, jo també! Zi tu et quedez, jo també!
 (Fa mutis amb les maletes, per la primera dreta.)
@@ -118,7 +117,7 @@ Justa: Jo, sí! Defallirà als seus braços.
 Pompeu: Tant de bo!
 Justa: Vostè ha d'evitar que la senyora porti la veu cantant. Ella entra i vostè, tan aviat com la veu, contraataca.
 (La Justa s'apropa a en Pompeu.)
-Amb el seu permís! (S'hi apropa més.)La mira intensament. Molt intensament. La travessa amb la mirada. (Ho fa.) I se l'emporta, hipnotitzada, al sofà.
+Justa: Amb el seu permís! (S'hi apropa més.) La mira intensament. Molt intensament. La travessa amb la mirada. (Ho fa.) I se l'emporta, hipnotitzada, al sofà.
 (Fa amb en Pompeu el que va dient.)
 Pompeu: La Tina m'esbroncarà.
 Justa: Faci-la callar tapant-li la boca amb una besada. (Mostra la intenció de besar-lo. però s'aparta.) Ha de ser una besada que no la deixi ni respirar. Eviti que la senyora porti la iniciativa.
@@ -156,8 +155,7 @@ Justa: Quina sort, senyora, que es quedi el senyor! Em cau tan be!
 (Per la primera dreta, entra en Canut.)
 Canut: Mamà Tina! Haz tomat!
 (En avançar cap a la Tina, ensopega amb en Pompeu.)
-Papà! Que hi faz, a terra?
-
+Canut: Papà! Que hi faz, a terra?
 Pompeu: El ridícul!
 (S'aixeca a poc a poc.)
 Tina: Pompeu! T'amagues de mi?
