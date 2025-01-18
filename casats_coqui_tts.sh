@@ -16,7 +16,7 @@ elif [ ${#1} -gt 0 ]; then
    escenes+=($1)
    echo -e "${CB_YLW}Es convertiran les escenes indicades:${C_NONE}${CB_WHT} ${escenes[@]}${C_NONE}"
 else
-   escenes+=("101","102","103","201","202")
+   escenes+=("101","102","103","104","105","106","201","202","203","204","205","206","207")
    echo -e "${CB_YLW}Es convertiran (per defecte) aquestes escenes:${C_NONE}${CB_WHT} ${escenes[@]}${C_NONE}"
 fi
 

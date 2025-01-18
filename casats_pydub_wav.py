@@ -36,7 +36,7 @@ elif len(sys.argv) > 1 and sys.argv[1] != "":
    escenes = [sys.argv[1]]
    print(c.CB_GRN+"\nEs convertiran les escenes indicades", escenes, c.C_NONE, end='\n\n')
 else:
-   escenes = ["106","107","108","109","111","112","201","202","203","204","205","207"]
+   escenes = ["101","102","103","104","105","106","201","202","203","204","205","206","207"]
    print(c.CB_GRN+"\nEs convertiran (per defecte) aquestes escenes", escenes, c.C_NONE, end='\n\n')
 
 sencer = True if (len(sys.argv) > 1 and sys.argv[1] == "sencer" or not escenes) else False
