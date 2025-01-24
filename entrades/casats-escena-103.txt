@@ -32,7 +32,7 @@ Mar: La Justa passa de la ratlla! Ja fa uns quants anys que és amb nosaltres i 
 Pompeu: Ja hi som! (Es treu el telèfon mòbil de la butxaca.) Em disculpes?... (El connecta i parla.)Sí... Què hi ha, Meritxell?... La reunió amb els japonesos?... Perfecte! La passarem a demà, a la mateixa hora... i trasllada també la que tinc amb els del futbol. Truca'ls i disculpa'm. Després, ja pots plegar... Sí, si, gràcies... Fins demà.
 (Desconnecta el mòbil i el desa.)
 Mar: Lliure?
-Pompeu: Per avui he tancat la barraca! L'avió que porta els japonesos ve amb retard. Per tant, he ajornat l'entrevista i ho he aprofitat per anul•lar totes les cites d'aquesta tarda.
+Pompeu: Per avui he tancat la barraca! L'avió que porta els japonesos ve amb retard. Per tant, he ajornat l'entrevista i ho he aprofitat per anul·lar totes les cites d'aquesta tarda.
 Mar: Per què?
 Pompeu: Perquè em trobo bé aquí, amb tu. M'hi trobo molt bé!
 Mar: Pompeu... M'afalagues...
@@ -49,11 +49,10 @@ Pompeu: La Meritxell va ser una imposició de la meva segona muller. Bé! La mev
 Mar: Ja ho sé! La premsa n'anava plena, de les vostres trifulgues.
 Pompeu: Ara visc més tranquil, sentimentalment.
 Mar: Jo tampoc no tinc cap relació en aquest moment... És una agradable coincidència...
-(Apropen les cares per besar-se. Sentim un soroll a la primera esquerra. Se separen bruscament.)
+(Apropen les cares per besar-se. Senten un soroll a la porta esquerra. Se separen bruscament.)
 Pompeu: No estem sols!
-
 Mar: Hi ha la Justa... La Gisela!
-(S'aixeca i va a la primera esquerra. Mira.)
+(S'aixeca i va a la porta esquerra. Mira.)
 Mar: Vaja i amb companyia!
 Pompeu: (Aixecant-se.) La Gisela?
 Mar: (Avançant cap a en Pompeu.) La meva germana i en Joanet! Està passant comptes amb el nostre administrador. Ens poden aigualir la festa!
@@ -64,7 +63,7 @@ Pompeu: On em portes?
 Mar: A les meves habitacions. Allí ningú no ens trencarà l'encanteri.
 Pompeu: Mar! Tu intentes seduir-me!
 Mar: No ho saps prou bé, capitalista!
-(L'atreu com una vampiressa. Mutis de la Mar i en Pompeu, per la primera dreta. Per la primera esquerra entra la Gisela i observa la cambra. Per la segona esquerra entra la Justa, amb una safata amb les begudes a les mans.)
+(L'atreu com una vampiressa. Mutis de la Mar i en Pompeu, per la porta dreta. Per la porta esquerra entra la Gisela i observa la cambra. Per la segona esquerra entra la Justa, amb una safata amb les begudes a les mans.)
 Justa: Les begudes, Mar.
 (Mira la Gisela, sorpresa.)
 Gisela: M'ha semblat sentir veus. Qui més hi ha a casa, Justa?
@@ -76,3 +75,4 @@ Justa: Anava sense casc! Vull dir que no sembla un cavador... Més aviat, dels q
 Gisela: Vell?
 Justa: Dona! Encara no ha arribat a la tercera edat, però ja fa anys que l'han deslletat. Deu tenir el seu encant, perquè la Mar hi estava molt engrescada.
 Gisela: M'imagino on té l'encant.
+Final de l'escena 103

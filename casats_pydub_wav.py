@@ -21,27 +21,30 @@ from pydub import AudioSegment
 
 # paràmetres
 #
-terminal = True if (sys.argv[0] == "./casats_pydub_wav.py") else False
-if terminal:
-   #Si se ejecuta desde una terminal
-   sys.path.append('../..')
-   import python.utilitats.colors as c
-else:
+is_linux = (os.name == 'posix')
+terminal = (is_linux and sys.argv[0] == "./casats_pydub_wav.py") or (not is_linux and sys.argv[0] == "casats_pydub_wav.py")
+if not terminal:
    #Si se ejecuta desde un IDE que ya incluye la referencia al directorio utilitats
    import colors as c
-
-if not terminal:
    escenes = input("indica les escenes:").split()
-elif len(sys.argv) > 1 and sys.argv[1] != "":
-   escenes = [sys.argv[1]]
-   print(c.CB_GRN+"\nEs convertiran les escenes indicades", escenes, c.C_NONE, end='\n\n')
 else:
-   escenes = ["101","102","103","104","105","106","201","202","203","204","205","206","207"]
-   print(c.CB_GRN+"\nEs convertiran (per defecte) aquestes escenes", escenes, c.C_NONE, end='\n\n')
+   if is_linux:
+      sys.path.append('../..')
+      import python.utilitats.colors as c
 
-sencer = True if (len(sys.argv) > 1 and sys.argv[1] == "sencer" or not escenes) else False
+   escenes = sys.argv[1] if len(sys.argv) > 1 else []
+   if escenes:
+      if escenes == "sencer":
+         escenes = []
+      else:
+         escenes = escenes.split()
+         print(c.CB_GRN+"\nEs convertiran les escenes indicades", escenes, c.C_NONE, end='\n\n')
+   else:
+      escenes = ["101","102","103","104","105","106","201","202","203","204","205","206","207"]
+      print(c.CB_GRN+"\nEs convertiran (per defecte) aquestes escenes", escenes, c.C_NONE, end='\n\n')
+
+sencer = not (escenes)
 if sencer:
-   escenes = []
    print(c.CB_GRN+"\nEs convertirà l'arxiu sencer" + c.C_NONE, end='\n\n')
 
 # variables locals
@@ -56,7 +59,7 @@ tmp3 = dirSortida + "temp.mp3"
 twav = dirSortida + "temp.wav"
 
 Personatges = {'Joan':   {'speed': 1.10, 'grave': 2.8, 'reduction': 0.6},
-               'Gisela': {'speed': 1.10, 'grave': 0.9, 'reduction': 1},
+               'Gisela': {'speed': 1.30, 'grave': 0.9, 'reduction': 1},
                'Mar':    {'speed': 1.20, 'grave': 0.8, 'reduction': 1},
                'Emma':   {'speed': 1.20, 'grave': 1.2, 'reduction': 1},
                'Tina':   {'speed': 1.15, 'grave': 1.3, 'reduction': 0.9},
@@ -66,7 +69,7 @@ Personatges = {'Joan':   {'speed': 1.10, 'grave': 2.8, 'reduction': 0.6},
 Narrador = {'speed': 1.00, 'grave': 1.6, 'reduction': 0.7}
 
 
-def elimina_fragments(escena):
+def elimina_fragments(escena=""):
    t = c.BG_CYN+"Fi de l\'escena "+escena
    print("\n", f"{t:<60}", c.C_NONE, end='\n\n')
    os.chdir(baseArxiuWav)
@@ -206,7 +209,7 @@ def proces(escena=None):
          else:
             n = fragments(sentencia, n, Narrador, "\n")
 
-   if not sencer: elimina_fragments(escena)
+   elimina_fragments(escena)
 
 
 # ---------

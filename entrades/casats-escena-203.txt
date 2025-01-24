@@ -1,7 +1,3 @@
-Tina: He! Aquest xicot és molt voluntariós!
-Gisela: Més del que et penses! Si no fos per ell, ja fa temps que estaríem a pa i aigua!
-(Fa mutis per la primera dreta.)
-Gisela: Us donaré un cop de mà.
 (En Canut observa estranyat, el mutis de la Gisela.)
 Canut: Quina mozca l'ha picat?
 Tina: No li'n facis cas! La Gisela sempre va a la seva. No sembla pas de la família.
@@ -26,7 +22,7 @@ Canut: Perdoneu! He dit el que no havia de dir, ja que, pel que zembla, el papà
 (Fa com si neteges una pissarra.)
 Tina: Canut! Vols aclarir-me el significat d'aquest enigma?
 Canut: Ezborrat! Tot ezborrat!
-(Per la primera esquerra, entra en Pompeu.)
+(Per la porta esquerra, entra en Pompeu.)
 Pompeu: Bé! Ja tinc els negocis encarrilats...
 (En veure'l, en Canut troba la salvació.)
 Canut: El papà! Ell zap parlar millor que jo.
@@ -35,9 +31,9 @@ Tina: No cal! Al teu fill, se l'hi entén mes del que diu!
 Pompeu: Mira que bé!
 Tina: Pompeu! Hem de parlar seriosament!
 Canut: Jo hi zobro. He d'ordenar lez cozez a la cambra.
-(Inicia el mutis per la primera dreta.)
+(Inicia el mutis per la porta dreta.)
 Pompeu: Quina cambra?
-Mar: La seva! El nen ha vingut a instal•lar-se aquí.
+Mar: La seva! El nen ha vingut a instal·lar-se aquí.
 Pompeu: (A la Tina.) No n'havíem parlat, d'això.
 Tina: Ni d'això, ni d'allò, ni del de més enllà.
 Mar: En Canut ha actuat com un autèntic "okupa".
@@ -45,15 +41,15 @@ Canut: No compariz! M'he permèz aquezta llibertat, perquè jo zabia que tindria
 Tina: El del teu pare, potser sí, però aquesta casa...
 Pompeu: La compartim, oi?
 
-(Fa mutis per la primera dreta.)
+(Fa mutis per la porta dreta.)
 Mar: T'acompanyo, trapella! M'has de desembullar algunes coses.
-(Fa mutis per la primera dreta.)
+(Fa mutis per la porta dreta.)
 Pompeu: He! Haurem de vigilar aquesta parella.
 Tina: No fugis d'estudi, Pompeu.
 Pompeu: Reina! Era un comentari intranscendent.
 Tina: Passem full! Explica'm com he de salvar-te de la crema, ninot meu.
 Pompeu: Eeeeeh?... Què...?
-Tina: Ho has entès bé. (Parla sil•labejant.) Sal-var-te de la cre-ma.
+Tina: Ho has entès bé. (Parla sil·labejant.) Sal-var-te de la cre-ma.
 Pompeu: D'on has tret aquesta idea?
 Tina: Del teu fill. Pel que sembla, tens una doble vida, que jo desconec. Som marit i muller, oi? Hem de tenir-nos confiança l'un a l'altre, oi?
 Pompeu: Tu la mereixes tota, estimada.
@@ -97,7 +93,6 @@ Pompeu: Doncs, no fa gaire... Cosa de mig any...
 Tina: Ho sabia! Casar-te amb mi va ser com especular a la borsa!
 Pompeu: No és exactament això, amor meu.
 Tina: Amor al capital! Interessat! No ets res més que un interessat! Tu no m'has estimat mai! Mai! Que desgraciada que sóc! (Somiqueja.)
-
 Pompeu: (Apropant-se-li) Que si, reina... T'estimo.
 Tina: (Apartant-lo.) Per conveniència! (Plora amb desesper.) Hiiii! Mal home! Hiiii! Has abusat de mi! Hiiii!! De la meva innocència! Hiiii!
 Pompeu: Calma't, amor...
@@ -125,7 +120,6 @@ Tina: No l'has perduda mai... tresor.
 Pompeu: La penyora, reina meva. (Bromejant.) Quina és la sentència de la meva jutgessa?
 Tina: Vint milions!
 Pompeu: Vint... de què?
-
 Tina: De què vols que sigui? Entrega'm vint milions de pessetes o el seu equivalent en euros.
 Pompeu: (Rient.) Bromeges... És una pena pecuniària.
 Tina: Pagues o no pagues?
@@ -137,7 +131,7 @@ Pompeu: Com tu vulguis, estrella dels meus ulls. Comptat i debatut, tot el que �
 (S'agenolla davant d'ella, obrint els braços en senyal de súplica.)
 Pompeu: I seré perdonat per sempre?
 Tina: (Somrient.) M'ho pensaré... M'ho pensaré...
-(Per la primera dreta entra la Justa.)
+(Per la porta dreta entra la Justa.)
 Justa: Una feina feta!
 (S'adona de l'escena.)
 Justa: Oidà! El Tenorio!
@@ -158,5 +152,5 @@ Tina: Calla! No ens atabalis!
 Pompeu: Ai! Quin mal! Ai, ai!
 Tina: Hem d'avisar el metge... Que vingui una ambulància...
 Pompeu: Que sigui aviat, ai!... Em trenco per tot arreu! Ai!
-(La Justa va cap a la primera dreta.)
+(La Justa va cap a la porta dreta.)
 Justa: Auxili, família, auxili! És un cas d'emergència!

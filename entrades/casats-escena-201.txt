@@ -38,7 +38,7 @@ Tina: (Intentant fer-lo seguir.)Demà, rei! Els teus negocis poden esperar fins 
 Pompeu: (Frenant-la.) Potser sí o potser no. A més, una petita pausa no ens aniria malament.
 Tina: Tu, el que vols és escapolir-te. Ja t'has cansat de mi.
 Pompeu: Cuca, no siguis criatura. (L'amoixa.)Contactaré amb l'oficina. Una trucada per saber com va tot i tornaré al teu costat.
-(Inicia el mutis cap a la primera esquerra.)
+(Inicia el mutis cap a la porta esquerra.)
 Tina: Per telefonar no cal que t'allunyis. Usa el mòbil.
 Pompeu: No el porto a sobre. Anit vas demanar-me que el desconnectés. Tu i jo sols, sense interferències. Així va ser, i el vaig deixar al despatx.
 (Torna a iniciar el mutis.)
@@ -48,12 +48,13 @@ Tina: Te n'adones? És la nostra primera separació, des que ens vàrem casar.
 Pompeu: (Al llindar, es gira.)Tornaré, colometa meva! T'ho prometo!
 (Li tira un petó, que la Tina recull.)
 Tina: T'esperaré, Ulisses!
-(En Pompeu somriu i fa mutis. La Tina sospira.) Ai! L'espera es farà llarga!
-(Per la primera dreta, entra la Mar, aplaudint.)
-Mar: Bravo, mami! Bravo! Una comèdia perfecta! Et dono un excel•lent!
-Tina: Mar! Que ens espiaves?
-Mar: M'he esperat abans d'entrar. No he volgut interrompre l'idil•li. Fingeixes molt be.
+(En Pompeu somriu i fa mutis. La Tina sospira.)
+Tina: Ai! L'espera es farà llarga!
 
+(Per la porta dreta, entra la Mar, aplaudint.)
+Mar: Bravo, mami! Bravo! Una comèdia perfecta! Et dono un excel·lent!
+Tina: Mar! Que ens espiaves?
+Mar: M'he esperat abans d'entrar. No he volgut interrompre l'idil·li. Fingeixes molt bé.
 Tina: De comèdia, gens. Aquest casament ha estat el més gran encert de la meva vida. I gràcies a tu, que vas fer de Cupido.
 Mar: Casats per amor... a la pasta!
 Tina: D'acord però ha estat una inversió molt afortunada. En tots els aspectes. Sóc feliç, Mar! Molt feliç! L'interès s'ha transformat en amor. M'estimo el meu marit com no t'ho pots imaginar.
@@ -68,3 +69,4 @@ Tina: Què?
 Mar: En Papitu espera treure profit del teu casament, mami. Ha ensumat que ara nedem en els diners.
 Tina: El Titànic, també. I es va enfonsar.
 Mar: Deu pensar que, al nostre vaixell, hi ha més barques de salvament.
+Final de l'escena 201
