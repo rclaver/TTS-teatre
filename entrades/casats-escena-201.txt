@@ -1,3 +1,6 @@
+Inici de l'escena 201
+pàgina 31
+
 Segona Part
 Acte Tercer
 
@@ -33,7 +36,7 @@ Tina: Som a casa meva! Bé! Ara, casa nostra!
 Pompeu: No estem sols. Hi ha les teves filles... i el servei.
 Tina: (Aixecant-se i agafant-li la mà.)Doncs tornem a la nostra cambra! La feina ben feta és satisfactòria.
 (El porta cap a la segona dreta.)
-Pompeu: (Aturant-se.) La feina! (Canvi.) Ho sento, amor meu. Però he de tomar a l'activitat.
+Pompeu: (Aturant-se.) La feina! Ho sento, amor meu. Però he de tomar a l'activitat.
 Tina: (Intentant fer-lo seguir.)Demà, rei! Els teus negocis poden esperar fins demà.
 Pompeu: (Frenant-la.) Potser sí o potser no. A més, una petita pausa no ens aniria malament.
 Tina: Tu, el que vols és escapolir-te. Ja t'has cansat de mi.
@@ -59,7 +62,7 @@ Tina: De comèdia, gens. Aquest casament ha estat el més gran encert de la meva
 Mar: Casats per amor... a la pasta!
 Tina: D'acord però ha estat una inversió molt afortunada. En tots els aspectes. Sóc feliç, Mar! Molt feliç! L'interès s'ha transformat en amor. M'estimo el meu marit com no t'ho pots imaginar.
 Mar: M'ho imagino. Ja en vaig fer el tast.
-Tina: Doncs no et faré babarotes. (Canvi.) I tu i en Canut, què?
+Tina: Doncs no et faré babarotes. I tu i en Canut, què?
 Mar: Bé. I més bé aniria si no hi hagués l'Emma pel mig.
 Tina: Què fa, aquesta ximpleta?
 Mar: Doncs, com que ara no té marit, en busca un altre que li escalfi el llit.
@@ -69,4 +72,5 @@ Tina: Què?
 Mar: En Papitu espera treure profit del teu casament, mami. Ha ensumat que ara nedem en els diners.
 Tina: El Titànic, també. I es va enfonsar.
 Mar: Deu pensar que, al nostre vaixell, hi ha més barques de salvament.
+
 Final de l'escena 201

@@ -1,3 +1,6 @@
+Inici de l'escena 206
+pàgina 51
+
 Gisela: (En el mutis.) Camp lliure, Mar!
 Mar: Gràcies, aliats! Atacaré el flanc dèbil de la família Rius!
 (Comença a fer mutis per la porta dreta, però s'atura, ja que, per aquest lateral, entra en Canut amb les maletes.)
@@ -160,7 +163,7 @@ Tina: Pompeu! T'amagues de mi?
 Pompeu: Jo... Mira... La sorpresa...
 Canut: No t'ezperàvem tan aviat.
 Pompeu: Això! Gràcies, fill!
-Tina: I entretenies l'espera... (Canvi.) Justa! Tu també hi eres, al sofà!
+Tina: I entretenies l'espera... Justa! Tu també hi eres, al sofà!
 Justa: SÍ,senyora. Traient la pols!
 Tina: Sense plomall! Pompeu! Ets un porc! T'estaves lligant la minyona!
 Justa: Ep! De minyona, res! Empleada de la llar, categoria majordoma.
@@ -171,3 +174,5 @@ Tina: Calla! Més tard, tu i jo tindrem una batussa laboral.
 Canut: Eztàz ofuzcada, mami Tina. El papà t'eztima...
 Tina: Paraules! Estima el seu ego!
 Pompeu: Tina! N'estàs fent un gra massa.
+
+Final de l'escena 206

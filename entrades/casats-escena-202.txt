@@ -1,4 +1,6 @@
 Inici de l'escena Joan-202
+pàgina 33
+
 (Pel fons, entren la Gisela i en Joan. En veure la Tina, la Gisela corre a abraçar-la.)
 Gisela: Mami! Com ha anat el viatge de noces?
 Tina: Fabulós, filla! Ha estat com un somni fet realitat.
@@ -24,7 +26,7 @@ Joan: Els creditors, també.
 Tina: Els direm que tomin un altre dia.
 Joan: I si presenten la factura al senyor Rius?
 Gisela: Això! No deus pas voler que s'assabenti de l'estat de la nostra economia per terceres persones!
-Tina: Mal aniríem! (Canvi.) No us preocupeu. N'hi parlaré a la primera oportunitat.
+Tina: Mal aniríem! No us preocupeu. N'hi parlaré a la primera oportunitat.
 (Sona el timbre del fons. La Tina s'alarma.)
 Tina: Ells! Ja els tenim aquí!
 Mar: Serenitat, mami! Ens hi enfrontarem.
@@ -79,4 +81,5 @@ Tina: He! Aquest xicot és molt voluntariós!
 Gisela: Més del que et penses! Si no fos per ell, ja fa temps que estaríem a pa i aigua!
 (Fa mutis per la porta dreta.)
 Gisela: Us donaré un cop de mà.
+
 Final de l'escena Joan-202

@@ -1,3 +1,6 @@
+Inici de l'escena 106
+pàgina 17
+
 Tina: Rellamp! Encara no havia acabat de sonar el timbre, i ja la teníem entrant a corre-cuita. Sí que era a prop!
 Canut: Enz eztava ezpiant.
 Tina: La xafardera! Em sentirà!
@@ -137,7 +140,7 @@ Tina: No hi ha cap misteri, Justa. En lloc de ser aquí, eren allà!
 Mar: Si haguessis mirat bé...
 Justa: Ho sento! Però, una altra vegada, no us mogueu del lloc o deixeu-me una nota.
 Tina: D'acord! I ara, ja pots emportar-te el servei.
-Justa: És que jo no sóc endevinaire, senyora! (Canvi.) Per cert, no voldrà "paz méz bombollez", el padelista?
+Justa: És que jo no sóc endevinaire, senyora! Per cert, no voldrà "paz méz bombollez", el padelista?
 Tina: Què t'empatolles, ara? Vés, vés!
 Justa: Jo ja m'entenc, jo ja m'entenc!
 (Agafa el servei i fa mutis per la segona esquerra. La Mar i la Tina es miren i dissimulen. En Pompeu. que era al llindar de la porta, fa una acció de sorpresa.)
@@ -287,7 +290,7 @@ Pompeu: D'acord. Intentaré encaterinar la Tina... però tu t'has d'anar lligant
 Pompeu: Ho has entès bé, fill?
 Canut: Zí, papà! Et faré quedar bé!
 Tina: Ja n'hi ha prou, de secrets de família.
-Mar: Heu tingut temps per arranjar mig món. (Canvi.) La cervesa que et devíem, Pompeu.
+Mar: Heu tingut temps per arranjar mig món. La cervesa que et devíem, Pompeu.
 Pompeu: No saps com us l'agraeixo. Tinc la boca seca.
 (Agafa una botella. La Tina li dóna un obridor. En Pompeu destapa l'ampolla.)
 Tina: La set no té espera! (Li ofereix un got.) Tingui!
@@ -331,7 +334,7 @@ Tina: Però, vostè i la Mar...
 Pompeu: Res de res... Un petit flirteig entre una noia jove i un home necessitat d'amor.
 Tina: Ai! L'amour, l'amour... (Sospira.)
 Pompeu: Però, quan ha entrat vostè... quan tu has entrat, Tina, el pols se m'ha accelerat i el cor ha estat a punt d'esclatar-me.
-Tina: No! Atacs de cor, no! Et necessito viu, Pompeu. (Canvi) Ai, que he dit?
+Tina: No! Atacs de cor, no! Et necessito viu, Pompeu. Ai!, que he dit?
 Pompeu: Unes paraules que t'han sortit de l'ànima. Paraules sinceres.
 Tina: Déu meu! Quina sufocació! (Fa la vergonyosa.)
 Pompeu: La nostra trobada ha estat cosa del destí... Estàvem predestinats, Tina.
@@ -345,3 +348,5 @@ Tina: T'estimo, capitalista!
 
 Teló
 Fi de la primera part
+
+Final de l'escena 106

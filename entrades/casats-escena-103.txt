@@ -1,3 +1,6 @@
+Inici de l'escena 103
+pàgina 10
+
 (Petita pausa. Pel fons, entre la Mar, amb vestit de carrer. Parla amb algú de l'exterior.)
 Mar: Endavant, Pompeu! Ets a casa teva.
 (Pel fons entre en Pompeu, d'uns cinquanta-cinc a seixanta anys. Fa la pinta d'un banquer o d'un ric comerciant. És un faroner. Mira detingudament el seu entorn i diu:)
@@ -15,7 +18,7 @@ Mar: Tothom et considera com un geni de les finances. I tens un gran atractiu.
 Pompeu: Oi que sí?
 (Ufaneja.)
 (Per la segona esquerra, entra la Justa.)
-Justa: M'has trucat, Gisela? (Canvi.) Ah! Però, si ets la Mar! Abans no hi eres.
+Justa: M'has trucat, Gisela? Ah! Però, si ets la Mar! Abans no hi eres.
 Mar: Acabem d'arribar. Porta'ns alguna cosa per beure, Justa.
 Justa: A tu, ja sé què t'agrada. I el senyor? Què voldrà, el senyor?
 Pompeu: No ho sé... Potser...
@@ -37,7 +40,7 @@ Mar: Per què?
 Pompeu: Perquè em trobo bé aquí, amb tu. M'hi trobo molt bé!
 Mar: Pompeu... M'afalagues...
 (Se li apropa, seductora.)
-Pompeu: HO he de confessar. La teva proximitat em rejoveneix, Mar.
+Pompeu: Ho he de confessar. La teva proximitat em rejoveneix, Mar.
 Mar: Ets jove, encara! No et posis més anys dels que tens.
 Pompeu: Jo sé els que tinc! Això no obstant, estic en plena forma.
 Mar: No cal que ho afirmis, seductor! Vés a saber els embolics que deus tenir...
@@ -75,4 +78,5 @@ Justa: Anava sense casc! Vull dir que no sembla un cavador... Més aviat, dels q
 Gisela: Vell?
 Justa: Dona! Encara no ha arribat a la tercera edat, però ja fa anys que l'han deslletat. Deu tenir el seu encant, perquè la Mar hi estava molt engrescada.
 Gisela: M'imagino on té l'encant.
+
 Final de l'escena 103
