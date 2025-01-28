@@ -58,15 +58,15 @@ ArxiuWav = ""
 tmp3 = dirSortida + "temp.mp3"
 twav = dirSortida + "temp.wav"
 
-Personatges = {'Joan':   {'speed': 1.20, 'grave': 2.8, 'reduction': 0.6},
-               'Gisela': {'speed': 1.30, 'grave': 0.9, 'reduction': 1},
-               'Mar':    {'speed': 1.40, 'grave': 0.6, 'reduction': 1},
-               'Emma':   {'speed': 1.40, 'grave': 0.7, 'reduction': 1},
+Personatges = {'Joan':   {'speed': 1.20, 'grave': 2.9, 'reduction': 0.6},
+               'Gisela': {'speed': 1.20, 'grave': 0.9, 'reduction': 1.0},
+               'Mar':    {'speed': 1.30, 'grave': 0.6, 'reduction': 1.0},
+               'Emma':   {'speed': 1.30, 'grave': 0.7, 'reduction': 1.0},
                'Tina':   {'speed': 1.25, 'grave': 1.1, 'reduction': 0.9},
-               'Justa':  {'speed': 1.30, 'grave': 1.3, 'reduction': 1},
-               'Pompeu': {'speed': 1.30, 'grave': 2.4, 'reduction': 0.8},
-               'Canut':  {'speed': 1.60, 'grave': 2.0, 'reduction': 0.8}}
-Narrador = {'speed': 1.50, 'grave': 1.6, 'reduction': 0.7}
+               'Justa':  {'speed': 1.30, 'grave': 1.2, 'reduction': 0.8},
+               'Pompeu': {'speed': 1.30, 'grave': 2.6, 'reduction': 0.7},
+               'Canut':  {'speed': 1.30, 'grave': 2.3, 'reduction': 0.8}}
+Narrador = {'speed': 1.22, 'grave': 1.6, 'reduction': 1.7}
 
 
 def elimina_fragments(escena=""):
