@@ -85,7 +85,7 @@ Canut: Com moltez parellez. Però de zeguida elz paza l'enrabiada.
 Pompeu: Ha estat un altercat vergonyós. Puta pela!
 Canut: Papà! No diguiz paraulctez!
 Pompeu: La Tina va abusar de la meva confiança. Va tocar-me el voraviu.
-Canut: TU tampoc no anavez de bona fe. Totz doz vàreu jugar al gat i la rata. Ezteu ben atrapatz.
+Canut: Tu tampoc no anavez de bona fe. Totz doz vàreu jugar al gat i la rata. Ezteu ben atrapatz.
 Pompeu: Be. I ara, què? La Tina ha desaparegut i, encara que ho vulgui, no puc intentar la reconciliació.
 Canut: Tomarà aviat! La Mar ez a buzcar-la. Tindreu ocazió de rectificar.
 Pompeu: La Mar? La Mar està de part nostra?
@@ -164,7 +164,7 @@ Pompeu: Jo... Mira... La sorpresa...
 Canut: No t'ezperàvem tan aviat.
 Pompeu: Això! Gràcies, fill!
 Tina: I entretenies l'espera... Justa! Tu també hi eres, al sofà!
-Justa: SÍ,senyora. Traient la pols!
+Justa: Sí,senyora. Traient la pols!
 Tina: Sense plomall! Pompeu! Ets un porc! T'estaves lligant la minyona!
 Justa: Ep! De minyona, res! Empleada de la llar, categoria majordoma.
 Pompeu: Tina, les aparences enganyen.

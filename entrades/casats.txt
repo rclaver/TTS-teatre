@@ -38,7 +38,7 @@ Gisela: Que no t'adones que només en surten i que no entren? A la nostra famíl
 Tina: No caldria sinó! El nostre nivell social no ens ho permet.
 Gisela: Desperta't, mare! Actualment els diners al banc donen poc interès. El capital s'ha de fer treballant.
 Tina: Què? Mira, petita, no m'atabalis més, que tinc moltes coses a fer! (Inicia el mutis pel fons.)
-Gisela: NO fugis d'estudi! Tenim un problema, mare!
+Gisela: No fugis d'estudi! Tenim un problema, mare!
 Tina: Diners? En tindrem, Gisela. Jugaré més fort a la "loto", a la "primi", al rasca, rasca... Alguna cosa encertaré!
 Gisela: Una possibilitat entre dues mil! I si no l'encertes?
 Tina: Hi tornaré. Tantes vegades com calgui, fins que em toqui.
@@ -46,7 +46,7 @@ Gisela: O fins que no et quedi ni una pela! Ens n'anem a fons, mare! I ara, no h
 Tina: Tampoc no em salvaria. No sabia nedar... (Es disposa a fer mutis.)
 Gisela: Haurem de canviar de vida! Estic pensant posar-me a treballar...
 Tina: (Tomant a entrar, furiosa.)Això si que no! Treu-t'ho del cap! Que diria, la gent?
-Gisela: NO res! Si, avui dia, fins les infantes treballen. Tot sigui per salvar l'economia familiar.
+Gisela: No res! Si, avui dia, fins les infantes treballen. Tot sigui per salvar l'economia familiar.
 Tina: Bé! Però que sigui una col·locació digna del nostre estatus.
 Gisela: Si la trobo, perquè, pel que sembla, és difícil trobar-ne. Conec amics meus amb carrera, que, mentre esperen una oportunitat, han de fer de cambrers.
 Tina: Gisela! Tu, fregar escales, no! Ho sents?
@@ -65,7 +65,7 @@ Gisela: No per gaire temps, mare!
 Mar: Mami! Qué diu, aquesta llunàtica?
 Gisela: Senzillament! Que som a un pas de la penúria! (Mostra els papers.)
 Mar: (Rient.) No fotis!
-Tina: ES veu que gastem massa, filla.
+Tina: Es veu que gastem massa, filla.
 Mar: Per això són, els diners! Per gastar-los!
 Gisela: No en tenim tants com sembla. Se'ns van acabant les peles, Mar.
 Mar: Doncs feu com jo. Tireu del compte corrent.
@@ -141,7 +141,7 @@ Gisela: Justa...
 Justa: Sí, ja ho sé. Jo no he de ser aquí... he de ser allà...
 (Assenyala la segona esquerra. Inicia el muris. S'atura.)
 No vols pas res, Gisela?
-Gisela: Que ens deixis sols. Justa! Si no ni cens res a dir.v Justa JO, ni piuí
+Gisela: Que ens deixis sols. Justa! Si no ni cens res a dir.v Justa Jo, ni piuí
 Gisela: Molt bé! Doncs, què hi fas, aquí, plantada?
 Justa: Ja sóc fora!
 (Fa mutis, a corre-cuita.)
@@ -222,7 +222,7 @@ Mar: Per què?
 Pompeu: Perquè em trobo bé aquí, amb tu. M'hi trobo molt bé!
 Mar: Pompeu... M'afalagues...
 (Se li apropa, seductora.)
-Pompeu: HO he de confessar. La teva proximitat em rejoveneix, Mar.
+Pompeu: Ho he de confessar. La teva proximitat em rejoveneix, Mar.
 Mar: Ets jove, encara! No et posis més anys dels que tens.
 Pompeu: Jo sé els que tinc! Això no obstant, estic en plena forma.
 Mar: No cal que ho afirmis, seductor! Vés a saber els embolics que deus tenir...
@@ -329,11 +329,11 @@ Canut: Zóc alegre, jo?
 Tina: Ets... ets divertit!
 Canut: Volz dir que faig riure, oi?
 Tina: I tant! És degui al teu sentit de l'humor...
-Canut: NO dizimuliz! Faig riure perquè zóc papizot.
+Canut: No dizimuliz! Faig riure perquè zóc papizot.
 Tina: I què hi fa, això?
 Canut: Zóc papizot!
 Tina: Una mica... però pronuncies molt bé.
-Canut: EZ que tu em mirez amb bonz ullz. Però, ho zóc!... De petit varen portar-me a un logopeda per corregir el defecte, zapz? Però noméz van zer doz diez, zapz? I éz que jo feia una rebequeria a cada vizita. I éz que elz meuz parez z'havien zeparat... Va zer com una mena de defenza, zapz? Això, m'ho ha dit el pziquiatre.
+Canut: Ez que tu em mirez amb bonz ullz. Però, ho zóc!... De petit varen portar-me a un logopeda per corregir el defecte, zapz? Però noméz van zer doz diez, zapz? I éz que jo feia una rebequeria a cada vizita. I éz que elz meuz parez z'havien zeparat... Va zer com una mena de defenza, zapz? Això, m'ho ha dit el pziquiatre.
 Tina: Vas al psiquiatre?
 Canut: Voldria curar-me, zapz? Però ez veu que zi aquezta anormalitat no ez cura de menut... etz papizot tota la vida!
 Tina: No diguis, aixo! A més, és un defecte petit... Si només se't nota quan parles!
@@ -351,7 +351,7 @@ Tina: Ah! al despatx hi ha la Gisela. De cara a l'ordinador, com sempre! Quina o
 Canut: Com totz elz nenz! I éz que hi ha unz jocz méz macoz...
 Tina: La Gisela té vint-i-un anys!
 Canut: Ui! De peuz a la galleda! Em penzava que parlàveu d'una filla teva.
-Tina: ES filla meva... Em vaig casar molt jove.
+Tina: És filla meva... Em vaig casar molt jove.
 Canut: Molt jove haviez de zer, per tenir una filla tan gran.
 Justa: La senyora encara fa molt de goig. Això s'ha de reconèixer.
 Tina: Justa! Encara ets aquí?
@@ -374,7 +374,7 @@ Justa: Han trucat i jo vaig a obrir, que és el que em pertoca!
 pàgina 17
 Tina: Rellamp! Encara no havia acabat de sonar el timbre, i ja la teníem entrant a corre-cuita. Si que era a prop!
 Canut: Enz eztava ezpiant.
-Tina: La xafardera! EMsentirà!
+Tina: La xafardera! Em sentirà!
 (Pel fons, entra l' Emma, la filla gran de la Tina. De bona presència, però una mica bleda.)
 Emma: Hola, mami!
 (Es queda al llindar.)
@@ -571,7 +571,7 @@ Pompeu: Aquí tens la teva estimada pala.
 Canut: Gràzies... Papà! Què hi faz, aquí?
 Pompeu: Això et pregunto jo.
 Canut: Que m'haz zeguit?
-Pompeu: NO, home! Ha estat una coincidència. Tinc una bona amistat amb els membres d'aquesta família.
+Pompeu: No, home! Ha estat una coincidència. Tinc una bona amistat amb els membres d'aquesta família.
 Canut: Ziiií?
 Tina: Es amic de la Mar. I tots els amics de les meves filles són amics meus.
 Pompeu: (Per l'Emma.) Una altra filla, suposo...
@@ -613,7 +613,7 @@ Pompeu: Hem estat de sort, Canut! Ens trobem a casa ce la família adequada i en
 Canut: Hem coinzidit per cazualitat.
 Pompeu: Fill meu! Sempre has tingut el que has volgut. T'has aprofitat del meu nom i els meus diners, i jo, mai per mai, no t'ho he retret.
 Canut: Ja ho ha dit la Tina. Zermó!
-Pompeu: ES transcendental, Canut! Ara és l'hora ce demostrar que ets un Rius, un Rius de cap a peus.
+Pompeu: És transcendental, Canut! Ara és l'hora ce demostrar que ets un Rius, un Rius de cap a peus.
 Canut: Què he de fer, jo?
 Pompeu: T'has de casar!
 Canut: No "fotiz"!
@@ -834,9 +834,9 @@ Joan: (A la Tina.) Ha d'aclarir aquesta situació com més aviat, millor.
 Gisela: Fes cas d'en Joan, mare.
 
 (La Justa entra pel fons.)
-Justa: ES el seu fill acabat de néixer.
+Justa: És el seu fill acabat de néixer.
 TOTS: Què?
-Justa: Bé, senyora. És el fill del senyor i ara, també seu. EI sobrevingut!
+Justa: Bé, senyora. És el fill del senyor i ara, també seu. El sobrevingut!
 Mar: En Canut!
 Tina: No l'has de fer esperar, Justa. Que passi! És de la família.
 Justa: Ja m'ho semblava, a mi, que en aquest cas no hi havia discriminació. Però, mai se sap.
@@ -1046,7 +1046,7 @@ Gisela: Trucaré a urgències.
 Joan: Espera't.
 (Molt serè, s'apropa a en Pompeu i el fa ajeure damunt el sofà.)
 Joan: Estiri's... i aguanti...
-Pompeu: No puc... AI!
+Pompeu: No puc... Ai!
 (Fa cas d'en Joan.)
 Gisela: Què penses fer, Joan?
 Pompeu: Deixeu-me sol. És un moment!
@@ -1087,7 +1087,7 @@ Pompeu: Tu ho has dit, futur gendre!
 Joan: He! L'important, per a la mútua felicitat, és que tot s'aclareixi en la intimitat de la parella.
 Pompeu: Noi! Ni que estiguessis al corrent dels nostres afers!
 Gisela: Ho ha d'estar. En Joan és un bon administrador.
-Pompeu: HO crec! Si no ho fos, una mare com la teva, que li agrada jugar fort, ja l'hauria despatxat.
+Pompeu: Ho crec! Si no ho fos, una mare com la teva, que li agrada jugar fort, ja l'hauria despatxat.
 Mar: (A la Gisela.) Li ho ha dit!
 Gisela: (A la Mar.) Sembla que no s'ho ha pres gens malament.
 Tina: Cap problema, nenes, cap problema!
@@ -1236,7 +1236,7 @@ Justa: S'ha volatilitzat!
 (La Justa fa mutis, ràpidament, pel fons.)
 Gisela: Això sí, que seria una bona noticia.
 Mar: Ens donaria més temps.
-Emma: NOsé de què va, noies! Sou molt complicades.
+Emma: No sé de què va, noies! Sou molt complicades.
 (La Justa entra pel fons.)
 Justa: Se n'ha anat! Es deu haver cansat d'esperar.
 Joan: O no! El seu objectiu és la Tina. La deu estar seguint.
@@ -1348,7 +1348,7 @@ Canut: (Aixecant-se, feliç.)Estem d'acord! Jo, també!
 Pompeu: Estimo la Tina; per que negar-ho? I, a més, no em fa gens de gràcia, embrancar-me en un altre divorci.
 Canut: Lez tevez paraulez em fan molt feliz, papà.
 Pompeu: Si ella ho pogués entendre... Tot funcionava a la perfecció fins que hem començat a parlar d'interessos.
-Canut: NO et prcocupiz. Diuen que doz no ez barallen, zi un no ho vol.
+Canut: No et prcocupiz. Diuen que doz no ez barallen, zi un no ho vol.
 Pompeu: El cas és que ens hem barallat.
 Canut: Renyinez d'enamoratz...
 Pompeu: Més que renyines. No ens hem tirat els plats pel cap, perquè no hi havia vaixella pel mig.
@@ -1356,7 +1356,7 @@ Canut: Com moltez parellez. Però de zeguida elz paza l'enrabiada.
 Pompeu: Ha estat un altercat vergonyós. Puta pela!
 Canut: Papà! No diguiz paraulctez!
 Pompeu: La Tina va abusar de la meva confiança. Va tocar-me el voraviu.
-Canut: TU tampoc no anavez de bona fe. Totz doz vàreu jugar al gat i la rata. Ezteu ben atrapatz.
+Canut: Tu tampoc no anavez de bona fe. Totz doz vàreu jugar al gat i la rata. Ezteu ben atrapatz.
 Pompeu: Be. I ara, què? La Tina ha desaparegut i, encara que ho vulgui, no puc intentar la reconciliació.
 Canut: Tomarà aviat! La Mar ez a buzcar-la. Tindreu ocazió de rectificar.
 Pompeu: La Mar? La Mar està de part nostra?
@@ -1476,7 +1476,7 @@ Pompeu: ÉSclar que ho vull, ximpleta.
 (L'Emma mira embadalida l'escena.)
 Emma: Oh! És una escena de pel·lícula.
 Gisela: No apte per a menors!
-Joan: TU ho has dit! Tothom fóra!
+Joan: Tu ho has dit! Tothom fora!
 (La Gisela i en Joan agafen el braç de l'Emma i la porten cap a la segona esquerra.)
 Emma: Espereu! Encara no és la fi! I si tornen a discutir?
 Gisela: (Per en Pompeu i la Tina, que s'amoixen tendrament.) Aquest és un final feliç, Emma! Cosa de dos! I ha de ser sense concurrència!
@@ -1512,10 +1512,10 @@ Mar: T'he estat buscant per tots els bingos del barri. On t'havies ficat?
 Tina: Al casino. O caixa o faixa!
 Pompeu: Has jugat?
 Tina: A la ruleta. Tenia la sort de cara. Era el meu dia. Acabava de barallar-me amb tu.
-Mar: Ja ho diu la dita. Desgraciada en amors afortunada EN el joc.
+Mar: Ja ho diu la dita. Desgraciada en amors afortunada en el joc.
 (En Canut entra per la porta dreta.)
 Canut: Per zi de caz, Mar, nozaltrez no jugarem.
-Mar: SÍ,Canut! A casa, amb cigrons!
+Mar: Sí,Canut! A casa, amb cigrons!
 Pompeu: (A la Tina.) I l'home del frac?
 Tina: M'ha seguit. La nostra entrada al casino ha estat sensacional. Quina desbandada! Hi ha molta gent que deu diners.
 Mar: I què? Has guanyat?
