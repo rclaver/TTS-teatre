@@ -69,7 +69,8 @@ Personatges = {'Joan':   {'speed': 1.20, 'grave': 2.9, 'reduction': 0.6},
 Narrador = {'speed': 1.22, 'grave': 1.6, 'reduction': 1.7}
 
 
-def elimina_fragments(escena=""):
+def elimina_fragments(escena=None):
+   if not escena: escena = " "
    t = c.BG_CYN+"Fi de l\'escena "+escena
    print("\n", f"{t:<60}", c.C_NONE, end='\n\n')
    os.chdir(baseArxiuWav)
