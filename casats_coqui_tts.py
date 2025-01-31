@@ -135,6 +135,11 @@ def fragment_text_to_audio(text, n, id_veu, ends):
 
    return n
 
+'''
+Lectura del text sencer o de l'escena seleccionada de l'obra
+Partició del text en sentències (una sentència correspón a una línia del text)
+Cada sentència pot pertanyer, bé al narrador, bé a un personatge
+'''
 def proces(escena=None):
    global ArxiuWav
    arxiu = baseArxiu + escena if escena else baseArxiu

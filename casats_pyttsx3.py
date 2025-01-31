@@ -126,6 +126,11 @@ def fragments(text, n, veu, ends):
    engine.runAndWait()
    return n
 
+'''
+Lectura del text sencer o de l'escena seleccionada de l'obra
+Partició del text en sentències (una sentència correspón a una línia del text)
+Cada sentència pot pertanyer, bé al narrador, bé a un personatge
+'''
 def proces(escena=None):
    global ArxiuWav
    arxiu = baseArxiu + escena if escena else baseArxiu
