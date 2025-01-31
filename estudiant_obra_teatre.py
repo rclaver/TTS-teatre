@@ -16,6 +16,10 @@ import pyworld as pw
 from gtts import gTTS
 from pydub import AudioSegment
 
+import pyaudio
+import wave
+import codecs
+
 # ----------
 # paràmetres
 #
@@ -129,6 +133,38 @@ def text_to_audio(text, output_file, veu_params, ends):
          os.remove(twav)
       elif os.path.isfile(twav):
          os.rename(twav, output_file)
+
+'''
+Grava un text a audio
+'''
+def grava_veu(text, file_name):
+   CHUNK = 1024
+   FORMAT = pyaudio.paInt16
+   CHANNELS = 1        # channels, must be one for forced alignment toolkit to work
+   RATE = 16000        # freqüència de mostreig (sample rate)
+   RECORD_SECONDS = 10 # nombre de segons de temps per poder dir la frase
+
+   print(f"{CB_WHT}Llegeix en veu alta:{CB_YLW}", end=" "); print("\'{}\' ".format(text)); print(C_NONE, end="")
+
+   p = pyaudio.PyAudio()
+   stream = p.open(format=FORMAT,channels=CHANNELS,rate=RATE,input=True,frames_per_buffer=CHUNK)
+
+   frames = []
+   for i in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
+      data = stream.read(CHUNK)
+      frames.append(data)
+
+   stream.stop_stream()
+   stream.close()
+   p.terminate()
+
+   wf = wave.open(file_name, 'wb')
+   wf.setnchannels(CHANNELS)
+   wf.setsampwidth(p.get_sample_size(FORMAT))
+   wf.setframerate(RATE)
+   wf.writeframes(b''.join(frames))
+   wf.close()
+
 
 '''
 Grava en viu la veu de l'actor, genera el text corresponent i el compara amb el text que li correspon
