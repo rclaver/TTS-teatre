@@ -11,16 +11,18 @@ pip install soundfile
 pip install pyworld
 pip install SpeechRecognition
 """
-import sys, os, re
+import sys, os, re, time
 import soundfile as sf
 import pyworld as pw
 from gtts import gTTS
 from pydub import AudioSegment
 
+import sounddevice
 import pyaudio
 import wave
 import codecs
 import speech_recognition as sr
+from pydub.playback import play
 
 # ----------
 # paràmetres
@@ -64,16 +66,17 @@ twav = dir_sortida + "temp.wav"
 
 seq_fragment = 0  #número seqüencial per a la generació del nom d'arxiu wav de sortida d'una sentència
 seq_actor = 0     #número seqüencial per a la generació del nom d'arxiu wav temporal de la veu de l'actor
+pendent_escolta = False  #indica si ha arribat el moment d'escoltar l'actor
 
-Personatges = {'Joan':   {'speed': 1.20, 'grave': 2.9, 'reduction': 0.6},
+Personatges = {'Joan':   {'speed': 1.18, 'grave': 3.2, 'reduction': 0.6},
                'Gisela': {'speed': 1.20, 'grave': 0.9, 'reduction': 1.0},
-               'Mar':    {'speed': 1.30, 'grave': 0.6, 'reduction': 1.0},
+               'Mar':    {'speed': 1.30, 'grave': 0.7, 'reduction': 1.0},
                'Emma':   {'speed': 1.30, 'grave': 0.7, 'reduction': 1.0},
                'Tina':   {'speed': 1.25, 'grave': 1.1, 'reduction': 0.9},
                'Justa':  {'speed': 1.30, 'grave': 1.2, 'reduction': 0.8},
-               'Pompeu': {'speed': 1.30, 'grave': 2.6, 'reduction': 0.7},
-               'Canut':  {'speed': 1.30, 'grave': 2.3, 'reduction': 0.8}}
-Narrador = {'speed': 1.22, 'grave': 1.6, 'reduction': 1.7}
+               'Pompeu': {'speed': 1.30, 'grave': 2.3, 'reduction': 0.7},
+               'Canut':  {'speed': 1.30, 'grave': 2.1, 'reduction': 0.8}}
+Narrador = {'speed': 1.26, 'grave': 1.6, 'reduction': 1.3}
 
 # --------
 # funcions
@@ -116,7 +119,7 @@ Genera l'arxiu d'audio corresponent al text
 @type ends: string; marca de final de la instrucció print
                     (": ") indica que el paràmetre text és el nom del personatge
 '''
-def TextToAudio(text, output_file, veu_params, ends):
+def TextToAudio(text, output_file, veu_params, ends, reprodueix=False):
    MostraSentencia(text, ends)
    # Si ends == ": " significa que text és el nom del personatge, per tant, no es genera audio
    if ends != ": ":
@@ -129,13 +132,15 @@ def TextToAudio(text, output_file, veu_params, ends):
 
       # Convertir l'arxiu mp3 a wav
       audio = AudioSegment.from_mp3(tmp3)
-      audio.export(twav, format="wav")
+      play(audio)
+      if not reprodueix:
+         audio.export(twav, format="wav")
 
-      # tractament de l'audio
-      x, fs = sf.read(twav)
-      f0, sp, ap = pw.wav2world(x, fs)
-      yy = pw.synthesize(f0/grave, sp/reduction, ap, fs/speed, pw.default_frame_period)
-      sf.write(output_file, yy, fs)
+         # tractament de l'audio
+         x, fs = sf.read(twav)
+         f0, sp, ap = pw.wav2world(x, fs)
+         yy = pw.synthesize(f0/grave, sp/reduction, ap, fs/speed, pw.default_frame_period)
+         sf.write(output_file, yy, fs)
 
       # elimina l'arxiu temporal
       if os.path.isfile(tmp3):
@@ -150,14 +155,14 @@ Grava un text a un arxiu d'audio
 @type text: string; text que es grava
 @type file_name: string; nom del fitxer wav on es grava la veu
 '''
-def GravaVeu(text, file_name):
+def GravaAudio(text, file_name):
    fragment = 1024
    format = pyaudio.paInt16
    canals = 1     # channels, must be one for forced alignment toolkit to work
    taxa = 16000   # freqüència de mostreig (sample rate)
    temps = 10     # nombre de segons de temps per poder dir la frase
 
-   print(f"{CB_WHT}Llegeix en veu alta:{CB_YLW}", end=" "); print("\'{}\' ".format(text)); print(C_NONE, end="")
+   print(f"{c.CB_WHT}Llegeix en veu alta:{c.CB_YLW}", end=" "); print("\'{}\' ".format(text)); print(c.C_NONE, end="")
 
    p = pyaudio.PyAudio()
    stream = p.open(format=format, channels=canals, rate=taxa, input=True, frames_per_buffer=fragment)
@@ -181,20 +186,14 @@ def GravaVeu(text, file_name):
 '''
 Converteix la veu captada pel micròfon en text
 '''
-def EscoltaMicrofon(text)
+def EscoltaMicrofon(text):
    r = sr.Recognizer()
    with sr.Microphone() as source:
-       print(text)
-       audio = r.listen(source)
+      print(text)
+      audio = r.listen(source)
 
-   # recognize speech using Sphinx
-   try:
-      text_reconegut = r.recognize_sphinx(audio)
-      print("Sphinx thinks you said " + text_reconegut)
-   except sr.UnknownValueError:
-      print("Sphinx could not understand audio")
-   except sr.RequestError as e:
-      print("Sphinx error; {0}".format(e))
+   time.sleep(3)
+   play(audio)
 
    # recognize speech using Google Speech Recognition
    try:
@@ -206,6 +205,28 @@ def EscoltaMicrofon(text)
       print("Google Speech Recognition could not understand audio")
    except sr.RequestError as e:
       print("Could not request results from Google Speech Recognition service; {0}".format(e))
+   time.sleep(3)
+
+   return text_reconegut
+
+'''
+Genera un arxiu de text a partir d'un arxiu d'audio
+@type warxiu: string; nom del fitxer wav del que es vol extraure el text
+'''
+def AudioToText(warxiu):
+   r = sr.Recognizer()
+   with sr.AudioFile(warxiu) as source:
+      audio = r.record(source)  # read the entire audio file
+
+   # recognize speech using Sphinx
+   try:
+      text_reconegut = r.recognize_sphinx(audio)
+      print("Sphinx thinks you said " + text_reconegut)
+   except sr.UnknownValueError:
+      print("Sphinx could not understand audio")
+   except sr.RequestError as e:
+      print("Sphinx error; {0}".format(e))
+   time.sleep(3)
 
    # recognize speech using whisper
    try:
@@ -215,16 +236,40 @@ def EscoltaMicrofon(text)
       print("Whisper could not understand audio")
    except sr.RequestError as e:
       print(f"Could not request results from Whisper; {e}")
+   time.sleep(3)
 
    return text_reconegut
 
 '''
-Genera un arxiu de text a partir d'un arxiu d'audio
-@type warxiu: string; nom del fitxer wav del que es vol extraure el text
+Compara 2 textos i indica el percentatge de semblances
 '''
-def AudioToText(warxiu):
-   text = ""
-   return text
+def ComparaSekuenciesDeText(text, nou_text):
+   replace = ".,!¡¿?()"
+   for r in replace:
+      text = text.replace(r, " ")
+   text = text.replace("  ", " ").replace("  ", " ")
+
+   a_text_1 = text.split()
+   a_text_2 = nou_text.split()
+   p1 = 0  #element actual de l'array 1
+   p2 = 0  #element actual de l'array 2
+   encert = 100
+   error = 0
+
+   for s1 in a_text_1:
+      for s2 in a_text_2:
+         p2 += 1
+         if s1 == s2:
+            error = 0
+            break
+         else:
+            encert -= 1
+            if error >= 3:
+               a_text_2 = a_text_2[p2:]
+               p2 = 0
+      p1 += 1
+
+   return encert
 
 '''
 Grava en viu la veu de l'actor, genera el text corresponent i el compara amb el text que li correspon
@@ -232,10 +277,14 @@ Grava en viu la veu de l'actor, genera el text corresponent i el compara amb el 
 @type warxiu: string; nom del fitxer wav on es gravarà la veu
 '''
 def EscoltaActor(text, warxiu):
-   #GravaVeu(text, warxiu)
-   #nou_text = AudioToText(warxiu)
+   GravaAudio(text, warxiu)
+   nou_text = AudioToText(warxiu)
    nou_text = EscoltaMicrofon(text)
-   ComparaSekuenciesDeText(text, nou_text)
+   encert = ComparaSekuenciesDeText(text, nou_text)
+   if encert < 90:
+      TextToAudio(text, f"{dir_sortida}repeticio.wav", Personatges[actor], "", True)
+
+   time.sleep(3)
 
 """
 Parteix la sentència en fragments que puguin ser processats per gTTs
@@ -244,6 +293,7 @@ Parteix la sentència en fragments que puguin ser processats per gTTs
 @type ends: string; caracter de finalització de la funció print
 """
 def Fragments(text, escena, to_veu, ends):
+   global seq_fragment, seq_actor, pendent_escolta
    long_text = len(text)
    ini = 0
    while ini < long_text:
@@ -256,12 +306,12 @@ def Fragments(text, escena, to_veu, ends):
 
       seq_fragment += 1
       if text == actor:
-         escoltaPendent = True
+         pendent_escolta = True
          MostraSentencia(text, ends)
-      elif escoltaPendent == True:
-         escoltaPendent == False
+      elif pendent_escolta == True:
+         pendent_escolta == False
          seq_actor += 1
-         EscoltaActor(text, NomArxiuWav(escena,True)))
+         EscoltaActor(text, NomArxiuWav(escena,True))
       else:
          TextToAudio(text, NomArxiuWav(escena), to_veu, ends)
 
