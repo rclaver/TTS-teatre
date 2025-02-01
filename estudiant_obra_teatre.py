@@ -9,6 +9,7 @@ pip install gTTS
 pip install pydub
 pip install soundfile
 pip install pyworld
+pip install SpeechRecognition
 """
 import sys, os, re
 import soundfile as sf
@@ -19,6 +20,7 @@ from pydub import AudioSegment
 import pyaudio
 import wave
 import codecs
+import speech_recognition as sr
 
 # ----------
 # paràmetres
@@ -54,10 +56,14 @@ if sencer:
 #
 titol = "casats"
 actor = "Joan"
-baseArxiuText = titol if sencer else f"{titol}-escena-"
-dirSortida = f"sortides/{titol}/estudi/"
-tmp3 = dirSortida + "temp.mp3"
-twav = dirSortida + "temp.wav"
+
+base_arxiu_text = titol if sencer else f"{titol}-escena-"
+dir_sortida = f"sortides/{titol}/estudi/"
+tmp3 = dir_sortida + "temp.mp3"
+twav = dir_sortida + "temp.wav"
+
+seq_fragment = 0  #número seqüencial per a la generació del nom d'arxiu wav de sortida d'una sentència
+seq_actor = 0     #número seqüencial per a la generació del nom d'arxiu wav temporal de la veu de l'actor
 
 Personatges = {'Joan':   {'speed': 1.20, 'grave': 2.9, 'reduction': 0.6},
                'Gisela': {'speed': 1.20, 'grave': 0.9, 'reduction': 1.0},
@@ -73,16 +79,21 @@ Narrador = {'speed': 1.22, 'grave': 1.6, 'reduction': 1.7}
 # funcions
 #
 '''
-Crea el nom de l'arxiu wav
+Crea un nom per l'arxiu wav
 '''
-def nom_arxiu_wav(escena, num):
-   return dirSortida + titol + escena + f'{num:{"0"}{">"}{4}}' + ".wav"
+def NomArxiuWav(escena, es_actor=False):
+   ret = dir_sortida + titol + escena
+   if es_actor:
+      ret += actor + f'{seq_actor:{"0"}{">"}{4}}' + ".wav"
+   else:
+      ret += f'{seq_fragment:{"0"}{">"}{4}}' + ".wav"
+   return ret
 
 '''
 Mostra, a la terminal, el text que s'està processant.
 Marca les escenes i realça el nom de l'actor
 '''
-def mostra_sentencia(text, ends):
+def MostraSentencia(text, ends):
    ini_color = c.CB_CYN if text in Personatges else c.C_NONE
    ini_color = c.CB_YLW if text==actor else ini_color
    text = f"{c.BG_CYN+text:<60}" if (text[:6] == "Casats" or
@@ -105,8 +116,8 @@ Genera l'arxiu d'audio corresponent al text
 @type ends: string; marca de final de la instrucció print
                     (": ") indica que el paràmetre text és el nom del personatge
 '''
-def text_to_audio(text, output_file, veu_params, ends):
-   mostra_sentencia(text, ends)
+def TextToAudio(text, output_file, veu_params, ends):
+   MostraSentencia(text, ends)
    # Si ends == ": " significa que text és el nom del personatge, per tant, no es genera audio
    if ends != ": ":
       # obtenir els parametres
@@ -135,23 +146,25 @@ def text_to_audio(text, output_file, veu_params, ends):
          os.rename(twav, output_file)
 
 '''
-Grava un text a audio
+Grava un text a un arxiu d'audio
+@type text: string; text que es grava
+@type file_name: string; nom del fitxer wav on es grava la veu
 '''
-def grava_veu(text, file_name):
-   CHUNK = 1024
-   FORMAT = pyaudio.paInt16
-   CHANNELS = 1        # channels, must be one for forced alignment toolkit to work
-   RATE = 16000        # freqüència de mostreig (sample rate)
-   RECORD_SECONDS = 10 # nombre de segons de temps per poder dir la frase
+def GravaVeu(text, file_name):
+   fragment = 1024
+   format = pyaudio.paInt16
+   canals = 1     # channels, must be one for forced alignment toolkit to work
+   taxa = 16000   # freqüència de mostreig (sample rate)
+   temps = 10     # nombre de segons de temps per poder dir la frase
 
    print(f"{CB_WHT}Llegeix en veu alta:{CB_YLW}", end=" "); print("\'{}\' ".format(text)); print(C_NONE, end="")
 
    p = pyaudio.PyAudio()
-   stream = p.open(format=FORMAT,channels=CHANNELS,rate=RATE,input=True,frames_per_buffer=CHUNK)
+   stream = p.open(format=format, channels=canals, rate=taxa, input=True, frames_per_buffer=fragment)
 
    frames = []
-   for i in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
-      data = stream.read(CHUNK)
+   for i in range(0, int(taxa / fragment * temps)):
+      data = stream.read(fragment)
       frames.append(data)
 
    stream.stop_stream()
@@ -159,89 +172,139 @@ def grava_veu(text, file_name):
    p.terminate()
 
    wf = wave.open(file_name, 'wb')
-   wf.setnchannels(CHANNELS)
-   wf.setsampwidth(p.get_sample_size(FORMAT))
-   wf.setframerate(RATE)
+   wf.setnchannels(canals)
+   wf.setsampwidth(p.get_sample_size(format))
+   wf.setframerate(taxa)
    wf.writeframes(b''.join(frames))
    wf.close()
 
+'''
+Converteix la veu captada pel micròfon en text
+'''
+def EscoltaMicrofon(text)
+   r = sr.Recognizer()
+   with sr.Microphone() as source:
+       print(text)
+       audio = r.listen(source)
+
+   # recognize speech using Sphinx
+   try:
+      text_reconegut = r.recognize_sphinx(audio)
+      print("Sphinx thinks you said " + text_reconegut)
+   except sr.UnknownValueError:
+      print("Sphinx could not understand audio")
+   except sr.RequestError as e:
+      print("Sphinx error; {0}".format(e))
+
+   # recognize speech using Google Speech Recognition
+   try:
+      # for testing purposes, we're just using the default API key
+      # to use another API key, use `r.recognize_google(audio, key="GOOGLE_SPEECH_RECOGNITION_API_KEY")`
+      text_reconegut = r.recognize_google(audio)
+      print("Google Speech Recognition thinks you said " + text_reconegut)
+   except sr.UnknownValueError:
+      print("Google Speech Recognition could not understand audio")
+   except sr.RequestError as e:
+      print("Could not request results from Google Speech Recognition service; {0}".format(e))
+
+   # recognize speech using whisper
+   try:
+      text_reconegut = r.recognize_whisper(audio, language="catalan")
+      print("Whisper thinks you said " + text_reconegut)
+   except sr.UnknownValueError:
+      print("Whisper could not understand audio")
+   except sr.RequestError as e:
+      print(f"Could not request results from Whisper; {e}")
+
+   return text_reconegut
+
+'''
+Genera un arxiu de text a partir d'un arxiu d'audio
+@type warxiu: string; nom del fitxer wav del que es vol extraure el text
+'''
+def AudioToText(warxiu):
+   text = ""
+   return text
 
 '''
 Grava en viu la veu de l'actor, genera el text corresponent i el compara amb el text que li correspon
+@type text: string; text que es vol gravar
+@type warxiu: string; nom del fitxer wav on es gravarà la veu
 '''
-def escolta_actor(text, warxiu):
-
+def EscoltaActor(text, warxiu):
+   #GravaVeu(text, warxiu)
+   #nou_text = AudioToText(warxiu)
+   nou_text = EscoltaMicrofon(text)
+   ComparaSekuenciesDeText(text, nou_text)
 
 """
 Parteix la sentència en fragments que puguin ser processats per gTTs
 @type text: string; text que es tracta
-@type n: int; número seqüencial per a la generació del nom d'arxiu de sortida
 @type to_veu: list; paràmetres de veu
 @type ends: string; caracter de finalització de la funció print
 """
-def fragments(text, escena, n, to_veu, ends):
-   ltext = len(text)
+def Fragments(text, escena, to_veu, ends):
+   long_text = len(text)
    ini = 0
-   while ini < ltext:
-      lmax = 600
-      if lmax < ltext:
-         lmax = text[ini:].find(" ", lmax)
-      if lmax == -1 or lmax > ltext:
-         lmax = ltext
-      text = text[ini:ini+lmax]
+   while ini < long_text:
+      long_max = 600
+      if long_max < long_text:
+         long_max = text[ini:].find(" ", long_max)
+      if long_max == -1 or long_max > long_text:
+         long_max = long_text
+      text = text[ini:ini+long_max]
 
-      n += 1
+      seq_fragment += 1
       if text == actor:
          escoltaPendent = True
-         mostra_sentencia(text, ends)
+         MostraSentencia(text, ends)
       elif escoltaPendent == True:
          escoltaPendent == False
-         escolta_actor(text, nom_arxiu_wav(escena, n))
+         seq_actor += 1
+         EscoltaActor(text, NomArxiuWav(escena,True)))
       else:
-         text_to_audio(text, nom_arxiu_wav(escena, n), to_veu, ends)
+         TextToAudio(text, NomArxiuWav(escena), to_veu, ends)
 
-      ini += lmax
-   return n
+      ini += long_max
 
 '''
 Lectura del text sencer o de l'escena seleccionada de l'obra
 Partició del text en sentències (una sentència correspón a una línia del text)
 Cada sentència pot pertanyer, bé al narrador, bé a un personatge
 '''
-def proces(escena=None):
-   arxiu = baseArxiuText + escena if escena else baseArxiuText
+def Proces(escena=None):
+   arxiu = base_arxiu_text + escena if escena else base_arxiu_text
    arxiu = f"entrades/{arxiu}.txt"
    escena = f"_{escena}_" if escena else "_"
 
    with open(arxiu, 'r', encoding="utf-8") as f:
       sentencies = f.read().split('\n')
 
-   n = 0
    for sentencia in sentencies:
       if sentencia:
          # extraer el personaje ma(1) y el texto ma(3)
          ma = re.match(pattern_person, sentencia)
          if ma:
             text = ma.group(1)
-            n = fragments(text, escena, n, Narrador, ": ")
+            Fragments(text, escena, Narrador, ": ")
             to_veu = Personatges[text] if text in Personatges else Narrador
             # extraure, del text ma(3), els comentaris del narrador
             mb = re.match(pattern_narrador, ma.group(3))
             if mb:
                if mb.group(1) and mb.group(2) and mb.group(3):
-                  n = fragments(mb.group(1), escena, n, to_veu, " ")
-                  n = fragments(mb.group(2), escena, n, Narrador, " ")
-                  n = fragments(mb.group(3), escena, n, to_veu, "\n")
+                  Fragments(mb.group(1), escena, to_veu, " ")
+                  Fragments(mb.group(2), escena, Narrador, " ")
+                  Fragments(mb.group(3), escena, to_veu, "\n")
                elif mb.group(1) and mb.group(2):
-                  n = fragments(mb.group(1), escena, n, to_veu, " ")
-                  n = fragments(mb.group(2), escena, n, Narrador, "\n")
+                  Fragments(mb.group(1), escena, to_veu, " ")
+                  Fragments(mb.group(2), escena, Narrador, "\n")
                elif mb.group(2) and mb.group(3):
-                  n = fragments(mb.group(2), escena, n, Narrador, " ")
-                  n = fragments(mb.group(3), escena, n, to_veu, "\n")
+                  Fragments(mb.group(2), escena, Narrador, " ")
+                  Fragments(mb.group(3), escena, to_veu, "\n")
             else:
-               n = fragments(ma.group(3), escena, n, to_veu, "\n")
+               Fragments(ma.group(3), escena, to_veu, "\n")
          else:
-            n = fragments(sentencia, escena, n, Narrador, "\n")
+            Fragments(sentencia, escena, Narrador, "\n")
 
 # ---------
 # principal
@@ -251,7 +314,7 @@ if __name__ == "__main__":
    pattern_narrador = "([^\(]*)(\(.*?\))(.*)"
 
    if sencer or not escenes:
-      proces()
+      Proces()
    else:
       for escena in escenes:
-         proces(escena)
+         Proces(escena)
