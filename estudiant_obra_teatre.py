@@ -32,7 +32,8 @@ terminal = (is_linux and sys.argv[0] == "./estudiant_obra_teatre.py") or (not is
 if not terminal:
    #Si se ejecuta desde un IDE que ya incluye la referencia al directorio utilitats
    import colors as c
-   escenes = input("indica les escenes:").split()
+   print(f"{c.CB_BLU}-----------------------------------\n Espai interactiu\n-----------------------------------{c.C_NONE}")
+   escenes = input("Indica les escenes que vols processar: ").split()
 else:
    if is_linux:
       sys.path.append('../..')
@@ -76,7 +77,7 @@ Personatges = {'Joan':   {'speed': 1.18, 'grave': 3.2, 'reduction': 0.6},
                'Justa':  {'speed': 1.30, 'grave': 1.2, 'reduction': 0.8},
                'Pompeu': {'speed': 1.30, 'grave': 2.3, 'reduction': 0.7},
                'Canut':  {'speed': 1.30, 'grave': 2.1, 'reduction': 0.8}}
-Narrador = {'speed': 1.26, 'grave': 1.6, 'reduction': 1.3}
+Narrador = {'speed': 1.40, 'grave': 1.8, 'reduction': 1.3}
 
 # --------
 # funcions
@@ -162,7 +163,7 @@ def GravaAudio(text, file_name):
    taxa = 16000   # freqüència de mostreig (sample rate)
    temps = 10     # nombre de segons de temps per poder dir la frase
 
-   print(f"{c.CB_WHT}Llegeix en veu alta:{c.CB_YLW}", end=" "); print("\'{}\' ".format(text)); print(c.C_NONE, end="")
+   #print(f"{c.CB_WHT}Llegeix en veu alta:{c.CB_YLW}", end=" "); print("\'{}\' ".format(text)); print(c.C_NONE, end="")
 
    p = pyaudio.PyAudio()
    stream = p.open(format=format, channels=canals, rate=taxa, input=True, frames_per_buffer=fragment)
@@ -187,13 +188,14 @@ def GravaAudio(text, file_name):
 Converteix la veu captada pel micròfon en text
 '''
 def EscoltaMicrofon(text):
+   text_reconegut = ""
    r = sr.Recognizer()
    with sr.Microphone() as source:
       print(text)
-      audio = r.listen(source)
+      audio = r.listen(source, timeout=2)
 
-   time.sleep(3)
    play(audio)
+   time.sleep(3)
 
    # recognize speech using Google Speech Recognition
    try:
@@ -214,10 +216,24 @@ Genera un arxiu de text a partir d'un arxiu d'audio
 @type warxiu: string; nom del fitxer wav del que es vol extraure el text
 '''
 def AudioToText(warxiu):
+   text_reconegut = ""
    r = sr.Recognizer()
    with sr.AudioFile(warxiu) as source:
       audio = r.record(source)  # read the entire audio file
 
+   # recognize speech using Google Speech Recognition
+   try:
+      # for testing purposes, we're just using the default API key
+      # to use another API key, use `r.recognize_google(audio, key="GOOGLE_SPEECH_RECOGNITION_API_KEY")`
+      text_reconegut = r.recognize_google(audio)
+      print("Google Speech Recognition thinks you said " + text_reconegut)
+   except sr.UnknownValueError:
+      print("Google Speech Recognition could not understand audio")
+   except sr.RequestError as e:
+      print("Could not request results from Google Speech Recognition service; {0}".format(e))
+   time.sleep(3)
+
+   '''
    # recognize speech using Sphinx
    try:
       text_reconegut = r.recognize_sphinx(audio)
@@ -237,6 +253,7 @@ def AudioToText(warxiu):
    except sr.RequestError as e:
       print(f"Could not request results from Whisper; {e}")
    time.sleep(3)
+   '''
 
    return text_reconegut
 
@@ -247,7 +264,7 @@ def ComparaSekuenciesDeText(text, nou_text):
    replace = ".,!¡¿?()"
    for r in replace:
       text = text.replace(r, " ")
-   text = text.replace("  ", " ").replace("  ", " ")
+   text = re.sub("\s+", " ", text)
 
    a_text_1 = text.split()
    a_text_2 = nou_text.split()
@@ -256,8 +273,8 @@ def ComparaSekuenciesDeText(text, nou_text):
    encert = 100
    error = 0
 
-   for s1 in a_text_1:
-      for s2 in a_text_2:
+   for i1, s1 in a_text_1:
+      for i2, s2 in a_text_2:
          p2 += 1
          if s1 == s2:
             error = 0
@@ -267,6 +284,7 @@ def ComparaSekuenciesDeText(text, nou_text):
             if error >= 3:
                a_text_2 = a_text_2[p2:]
                p2 = 0
+               break
       p1 += 1
 
    return encert
@@ -279,7 +297,7 @@ Grava en viu la veu de l'actor, genera el text corresponent i el compara amb el 
 def EscoltaActor(text, warxiu):
    GravaAudio(text, warxiu)
    nou_text = AudioToText(warxiu)
-   nou_text = EscoltaMicrofon(text)
+   #nou_text = EscoltaMicrofon(text)
    encert = ComparaSekuenciesDeText(text, nou_text)
    if encert < 90:
       TextToAudio(text, f"{dir_sortida}repeticio.wav", Personatges[actor], "", True)
