@@ -68,6 +68,7 @@ Personatges = {'Joan':   {'speed': 1.20, 'grave': 2.9, 'reduction': 0.6},
                'Pompeu': {'speed': 1.30, 'grave': 2.6, 'reduction': 0.7},
                'Canut':  {'speed': 1.30, 'grave': 2.3, 'reduction': 0.8}}
 Narrador = {'speed': 1.22, 'grave': 1.6, 'reduction': 1.7}
+Narrador = "narrador"
 
 
 def elimina_fragments(escena=None):
@@ -127,7 +128,8 @@ def mostra_sentencia(text, ends):
 def text_to_audio(text, output_file, veu_params, ends):
    mostra_sentencia(text, ends)
    # Si ends == ": " significa que text és el nom del personatge, per tant, no es genera audio
-   if ends != ": ":
+   # Si veu_params == "narrador" no es genera audio
+   if ends != ": " and veu_params != "narrador":
       # obtenir els parametres
       speed, grave, reduction = list(veu_params.values())
 
