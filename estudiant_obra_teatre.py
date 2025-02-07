@@ -13,6 +13,8 @@ pip install pyworld
 pip install SpeechRecognition
 """
 import sys, os, re
+import difflib
+
 import soundfile as sf
 import pyworld as pw
 from gtts import gTTS
@@ -47,14 +49,14 @@ else:
          escenes = []
       else:
          escenes = escenes.split()
-         print(c.CB_GRN+"\nEs convertiran les escenes indicades", escenes, c.C_NONE, end='\n\n')
+         print(f"\n{c.CB_GRN}Es convertiran les escenes indicades: {escenes}{c.C_NONE}", end='\n\n')
    else:
       escenes = ["101","102","103","104","105","106","201","202","203","204","205","206","207"]
-      print(c.CB_GRN+"\nEs convertiran (per defecte) aquestes escenes", escenes, c.C_NONE, end='\n\n')
+      print(f"\n{c.CB_GRN}Es convertiran (per defecte) les escenes: {escenes}{c.C_NONE}", end='\n\n')
 
 sencer = not (escenes)
 if sencer:
-   print(c.CB_GRN+"\nEs convertirà l'arxiu sencer" + c.C_NONE, end='\n\n')
+   print(f"\n{c.CB_GRN}Es convertirà l'arxiu sencer{c.C_NONE}", end='\n\n')
 
 # -----------------
 # variables globals
@@ -84,10 +86,24 @@ Narrador = {'speed': 1.40, 'grave': 1.8, 'reduction': 1.3}
 # --------
 # funcions
 #
+'''emite beep en Android '''
+def beepAndroid():
+   import androidhelper
+   droid=androidhelper.Android()
+   droid.generateDtmfTones('0',100)
+
+'''emite beep '''
+def beep():
+   plays.playsound("supplies/beep.wav")
+
+'''emite error '''
+def beep_error():
+   plays.playsound("supplies/laser.wav")
+
 '''
 Crea un nom per l'arxiu wav
 '''
-def NomArxiuWav(escena, es_actor=False):
+def GeneraNomArxiuWav(escena, es_actor=False):
    ret = dir_sortida + titol + escena
    if es_actor:
       ret += actor + f'{seq_actor:{"0"}{">"}{4}}' + ".wav"
@@ -117,37 +133,54 @@ def MostraSentencia(text, ends):
 '''
 Compara 2 textos i indica el percentatge de semblances
 '''
-def ComparaSekuenciesDeText(text, nou_text):
-   replace = ".,!¡¿?()"
-   for r in replace:
-      text = text.replace(r, " ")
-   text = re.sub("\s+", " ", text).lower()
+def ComparaSekuenciesDeText(text_1, text_2):
+   # normalitza el text original
+   replace = "[.,!¡¿?()]"
+   while re.search(replace, text_1):
+      for r in replace:
+         text_1 = text_1.replace(r, " ")
+   text_1 = re.sub("\s+", " ", text_1).lower()
+   #print(f"text_1: {text_1}\ntext_2: {text_2}")
+   '''
+   a_text_1 = text_1.split()
+   a_text_2 = text_2.split()
+   encert =_compara_per_desplacament(a_txt1, a_txt2)
+   max_error = _compara_per_posicio(a_text_1, a_text_2)
+   '''
+   encert = difflib.SequenceMatcher(None, text_1, text_2).ratio() * 100
+   return encert
 
-   a_text_1 = text.split()
-   a_text_2 = nou_text.split()
+def _compara_per_desplacament(a_txt1, a_txt2):
    p1 = 0  #element actual de l'array 1
    p2 = 0  #element actual de l'array 2
    encert = 100
    error = 0
-
-   for s1 in a_text_1:
+   for s1 in a_txt1:
       p2 = 0
-      for s2 in a_text_2:
+      for s2 in a_txt2:
          p2 += 1
          if s1 == s2:
             error = 0
             p1 += 1
-            a_text_1 = a_text_1[p1:]
+            a_txt1 = a_txt1[p1:]
             break
          else:
             encert -= 1
             if error >= 3:
-               a_text_2 = a_text_2[p2:]
+               a_txt2 = a_txt2[p2:]
                p2 = 0
                break
-
    return encert
 
+def _compara_per_posicio(txt1, txt2):
+   i = 0
+   error = 0
+   for s1 in txt1:
+      if s1 != txt2[i]:
+         error = error + 1
+      i = i+1
+
+   return error
 '''
 Grava un text a un arxiu d'audio
 @type text: string; text que es grava
@@ -158,9 +191,10 @@ def GravaAudio(text, file_name):
    format = pyaudio.paInt16
    canals = 1     # channels, must be one for forced alignment toolkit to work
    taxa = 16000   # freqüència de mostreig (sample rate)
-   temps = 10     # nombre de segons de temps per poder dir la frase
+   temps = 5      # nombre de segons de temps per poder dir la frase
 
-   #print(f"{c.CB_WHT}Llegeix en veu alta:{c.CB_YLW}", end=" "); print("\'{}\' ".format(text)); print(c.C_NONE, end="")
+   #print(f"{c.CB_WHT}Llegeix en veu alta: {c.CB_YLW}{text}{c.C_NONE}", end=" ")
+   beep()
 
    p = pyaudio.PyAudio()
    stream = p.open(format=format, channels=canals, rate=taxa, input=True, frames_per_buffer=fragment)
@@ -193,27 +227,12 @@ def ReconeixementDeAudio(audio, r):
       # for testing purposes, we're just using the default API key
       # to use another API key, use `r.recognize_google(audio, key="GOOGLE_SPEECH_RECOGNITION_API_KEY")`
       text_reconegut = r.recognize_google(audio, language="ca")
-      #print("Google Speech Recognition thinks you said: " + text_reconegut)
+      print(f"{c.C_YLW}- {text_reconegut}{c.C_NONE}")
    except sr.UnknownValueError:
       print("Google Speech Recognition could not understand audio")
    except sr.RequestError as e:
       print("Could not request results from Google Speech Recognition service; {0}".format(e))
 
-   return text_reconegut
-
-'''
-Genera un arxiu de text a partir de la veu captada pel micròfon
-@type text: string; text que es llegeiix davant del micròfon
-'''
-def EscoltaMicrofon(text):
-   print(text)
-   r = sr.Recognizer()
-   with sr.Microphone() as source:
-      #r.adjust_for_ambient_noise(source)
-      audio = r.listen(source)
-
-   text_reconegut = ReconeixementDeAudio(audio, r)
-   print(f"text_reconegut: {c.BG_YLW}{text_reconegut}{c.C_NONE}")
    return text_reconegut
 
 '''
@@ -225,8 +244,23 @@ def AudioToText(warxiu):
    with sr.AudioFile(warxiu) as source:
       audio = r.record(source)  # read the entire audio file
 
-   plays.playsound(warxiu)
    text_reconegut = ReconeixementDeAudio(audio, r)
+   return text_reconegut
+
+'''
+Genera un arxiu de text a partir de la veu captada pel micròfon
+@type text: string; text que es llegeiix davant del micròfon
+'''
+def EscoltaMicrofon(text):
+   r = sr.Recognizer()
+   print(text)
+   beep()
+   with sr.Microphone() as source:
+      #r.adjust_for_ambient_noise(source)
+      audio = r.listen(source)
+
+   text_reconegut = ReconeixementDeAudio(audio, r)
+   print(f"text_reconegut: {c.BG_YLW}{text_reconegut}{c.C_NONE}")
    return text_reconegut
 
 '''
@@ -236,14 +270,15 @@ Grava en viu la veu de l'actor, genera el text corresponent i el compara amb el 
 '''
 def EscoltaActor(text, warxiu):
    global actor
-   #GravaAudio(text, warxiu)
-   #nou_text = AudioToText(warxiu)
-   nou_text = EscoltaMicrofon(text)
+   GravaAudio(text, warxiu)
+   nou_text = AudioToText(warxiu)
+   #nou_text = EscoltaMicrofon(text)
    encert = 0
    if nou_text:
       encert = ComparaSekuenciesDeText(text, nou_text)
    if encert < 90:
-      print(f"encert: {c.BG_YLW}{encert}{c.C_NONE}")
+      beep_error()
+      print(f"encert: {c.BG_YLW}{encert}{c.C_NONE}", " ")
       TextToAudio(text, f"{dir_sortida}repeticio.wav", Personatges[actor], "\n", True)
 
 '''
@@ -311,10 +346,10 @@ def Fragments(text, escena, to_veu, ends):
       elif pendent_escolta == True:
          pendent_escolta = False
          seq_actor += 1
-         EscoltaActor(text, NomArxiuWav(escena,True))
+         EscoltaActor(text, GeneraNomArxiuWav(escena,True))
          break
       else:
-         TextToAudio(text, NomArxiuWav(escena), to_veu, ends)
+         TextToAudio(text, GeneraNomArxiuWav(escena), to_veu, ends)
 
       ini += long_max
 
@@ -333,12 +368,12 @@ def Proces(escena=None):
 
    for sentencia in sentencies:
       if sentencia:
-         # extraer el personaje ma(1) y el texto ma(3)
+         # extraure el personatje ma(1) i el text ma(3)
          ma = re.match(pattern_person, sentencia)
          if ma:
-            text = ma.group(1)
-            Fragments(text, escena, "narrador", ": ")
-            to_veu = Personatges[text] if text in Personatges else "narrador"
+            personatje = ma.group(1)
+            Fragments(personatje, escena, "narrador", ": ")
+            to_veu = Personatges[personatje] if personatje in Personatges else "narrador"
             # extraure, del text ma(3), els comentaris del narrador
             mb = re.match(pattern_narrador, ma.group(3))
             if mb:
@@ -361,6 +396,14 @@ def Proces(escena=None):
 # principal
 # ---------
 if __name__ == "__main__":
+   '''
+   1. llegeix un arxiu de text i crea una llista de sentències: les frases del text
+   2. cada frase es analitzada per separar els seus components: personatge, separador, text
+   3. cada fragment obtingut en el pas anterior s'envia per fer-ne un pre-procés
+      en el que s'identifica si la sentència corresón a una frase de l'actor seleccionat
+   4.1 si la frase no és de l'actor seleccionat, es genera l'audio corresponent
+   4.2 si la frase és de l'actor seleccionat, s'activa el micròfon per escoltar
+   '''
    pattern_person = "^(\w*?\s?)(:\s?)(.*$)"
    pattern_narrador = "([^\(]*)(\(.*?\))(.*)"
 

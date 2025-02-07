@@ -36,6 +36,9 @@ else:
    if escenes:
       if escenes == "sencer":
          escenes = []
+      elif escenes == "joan":
+         escenes = ["102","104","202","204","205","207"]
+         print(f"\n{c.CB_GRN}Es convertiran les escenes de'n Joan: {escenes}{c.C_NONE}", end='\n\n')
       else:
          escenes = escenes.split()
          print(c.CB_GRN+"\nEs convertiran les escenes indicades", escenes, c.C_NONE, end='\n\n')
@@ -45,7 +48,7 @@ else:
 
 sencer = not (escenes)
 if sencer:
-   print(c.CB_GRN+"\nEs convertirà l'arxiu sencer" + c.C_NONE, end='\n\n')
+   print(f"\n{c.CB_GRN}Es convertirà l'arxiu sencer{c.C_NONE}", end='\n\n')
 
 # variables locals
 #
@@ -59,14 +62,14 @@ ArxiuWav = ""     #nom definitiu de l'arxiu wav corresponent a cada escena o al 
 tmp3 = dirSortida + "temp.mp3"
 twav = dirSortida + "temp.wav"
 
-Personatges = {'Joan':   {'speed': 1.20, 'grave': 2.9, 'reduction': 0.6},
-               'Gisela': {'speed': 1.20, 'grave': 0.9, 'reduction': 1.0},
-               'Mar':    {'speed': 1.30, 'grave': 0.6, 'reduction': 1.0},
-               'Emma':   {'speed': 1.30, 'grave': 0.7, 'reduction': 1.0},
-               'Tina':   {'speed': 1.25, 'grave': 1.1, 'reduction': 0.9},
-               'Justa':  {'speed': 1.30, 'grave': 1.2, 'reduction': 0.8},
-               'Pompeu': {'speed': 1.30, 'grave': 2.6, 'reduction': 0.7},
-               'Canut':  {'speed': 1.30, 'grave': 2.3, 'reduction': 0.8}}
+Personatges = {'Joan':   {'speed': 1.10, 'grave': 3.9, 'reduction': 0.6},
+               'Gisela': {'speed': 1.30, 'grave': 0.9, 'reduction': 1.7},
+               'Mar':    {'speed': 1.40, 'grave': 0.6, 'reduction': 1.4},
+               'Emma':   {'speed': 1.40, 'grave': 0.7, 'reduction': 1.0},
+               'Tina':   {'speed': 1.25, 'grave': 1.1, 'reduction': 1.0},
+               'Justa':  {'speed': 1.30, 'grave': 1.8, 'reduction': 0.9},
+               'Pompeu': {'speed': 1.30, 'grave': 2.6, 'reduction': 0.8},
+               'Canut':  {'speed': 1.50, 'grave': 2.0, 'reduction': 0.8}}
 Narrador = {'speed': 1.22, 'grave': 1.6, 'reduction': 1.7}
 Narrador = "narrador"
 
@@ -129,23 +132,27 @@ def text_to_audio(text, output_file, veu_params, ends):
    mostra_sentencia(text, ends)
    # Si ends == ": " significa que text és el nom del personatge, per tant, no es genera audio
    # Si veu_params == "narrador" no es genera audio
-   if ends != ": " and veu_params != "narrador":
-      # obtenir els parametres
-      speed, grave, reduction = list(veu_params.values())
+   if ends != ": ":
+      if veu_params != "narrador":
+         # obtenir els parametres
+         speed, grave, reduction = list(veu_params.values())
 
-      # Generar un arxiu d'audio temporal amb gTTS
-      tts = gTTS(text, lang='ca')
-      tts.save(tmp3)
+         # Generar un arxiu d'audio temporal amb gTTS
+         tts = gTTS(text, lang='ca')
+         tts.save(tmp3)
 
-      # Convertir l'arxiu mp3 a wav
-      audio = AudioSegment.from_mp3(tmp3)
-      audio.export(twav, format="wav")
+         # Convertir l'arxiu mp3 a wav
+         audio = AudioSegment.from_mp3(tmp3)
+         audio.export(twav, format="wav")
 
-      # tractament de l'audio
-      x, fs = sf.read(twav)
-      f0, sp, ap = pw.wav2world(x, fs)
-      yy = pw.synthesize(f0/grave, sp/reduction, ap, fs/speed, pw.default_frame_period)
-      sf.write(output_file, yy, fs)
+         # tractament de l'audio
+         x, fs = sf.read(twav)
+         f0, sp, ap = pw.wav2world(x, fs)
+         yy = pw.synthesize(f0/grave, sp/reduction, ap, fs/speed, pw.default_frame_period)
+         sf.write(output_file, yy, fs)
+      else:
+         one_sec_segment = AudioSegment.silent(duration=2000)
+         one_sec_segment.export(output_file, format="wav")
 
       # va creant un arxiu únic afegint cada fragment
       concatena_wavs(output_file)
@@ -153,7 +160,7 @@ def text_to_audio(text, output_file, veu_params, ends):
       # eliminar l'arxiu temporal
       if os.path.isfile(tmp3):
          os.remove(tmp3)
-      if os.path.isfile(output_file):
+      if os.path.isfile(output_file) and os.path.isfile(twav):
          os.remove(twav)
       elif os.path.isfile(twav):
          os.rename(twav, output_file)
@@ -196,15 +203,13 @@ def proces(escena=None):
 
    n = 0
    for sentencia in sentencies:
-      if n > 0 and n % 300 == 0:
-         time.sleep(2)
       if sentencia:
          # extraer el personaje ma(1) y el texto ma(3)
          ma = re.match(patt_person, sentencia)
          if ma:
-            text = ma.group(1)
-            n = fragments(text, n, Narrador, ": ")
-            to_veu = Personatges[text] if text in Personatges else Narrador
+            personatge = ma.group(1)
+            n = fragments(personatge, n, Narrador, ": ")
+            to_veu = Personatges[personatge] if personatge in Personatges else Narrador
             # extraer, del texto ma(3), los comentarios del narrador
             mb = re.match(patt_narrador, ma.group(3))
             if mb:
