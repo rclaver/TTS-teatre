@@ -11,7 +11,7 @@ pip install soundfile
 pip install pyworld
 pip install wave
 """
-import os, re, glob, time, shutil
+import os, re, glob, shutil
 import sys
 import soundfile as sf
 import pyworld as pw
@@ -61,13 +61,14 @@ baseArxiuWav = baseDir + "/" + dirSortida
 ArxiuWav = ""     #nom definitiu de l'arxiu wav corresponent a cada escena o al text sencer
 tmp3 = dirSortida + "temp.mp3"
 twav = dirSortida + "temp.wav"
+silenci = "supplies/silenci2s.wav"
 
-Personatges = {'Joan':   {'speed': 1.10, 'grave': 3.9, 'reduction': 0.6},
+Personatges = {'Joan':   {'speed': 1.20, 'grave': 3.5, 'reduction': 0.6},
                'Gisela': {'speed': 1.30, 'grave': 0.9, 'reduction': 1.7},
                'Mar':    {'speed': 1.40, 'grave': 0.6, 'reduction': 1.4},
                'Emma':   {'speed': 1.40, 'grave': 0.7, 'reduction': 1.0},
-               'Tina':   {'speed': 1.25, 'grave': 1.1, 'reduction': 1.0},
-               'Justa':  {'speed': 1.30, 'grave': 1.8, 'reduction': 0.9},
+               'Tina':   {'speed': 1.30, 'grave': 1.1, 'reduction': 1.0},
+               'Justa':  {'speed': 1.40, 'grave': 1.8, 'reduction': 0.9},
                'Pompeu': {'speed': 1.30, 'grave': 2.6, 'reduction': 0.8},
                'Canut':  {'speed': 1.50, 'grave': 2.0, 'reduction': 0.8}}
 Narrador = {'speed': 1.22, 'grave': 1.6, 'reduction': 1.7}
@@ -110,12 +111,8 @@ def mostra_sentencia(text, ends):
    ini_color = c.CB_CYN if text in Personatges else c.C_NONE
    ini_color = c.CB_YLW if text == actor else ini_color
    text = f"{c.BG_CYN+text:<60}" if (text[:6] == "Casats" or
-                                     text[:11] == "Acte Primer" or
-                                     text[:10] == "Acte Segon" or
-                                     text[:11] == "Acte Tercer" or
-                                     text[:10] == "Acte Quart" or
-                                     text[:12] == "Primera Part" or
-                                     text[:11] == "Segona Part" or
+                                     text[:5] == "Acte " or
+                                     text[:5] == " Part" or
                                      text[:6] == "Escena" or
                                      text[:4] == "Teló") \
                                  else ini_color+text
@@ -150,20 +147,24 @@ def text_to_audio(text, output_file, veu_params, ends):
          f0, sp, ap = pw.wav2world(x, fs)
          yy = pw.synthesize(f0/grave, sp/reduction, ap, fs/speed, pw.default_frame_period)
          sf.write(output_file, yy, fs)
+
+         # va creant un arxiu únic afegint cada fragment
+         concatena_wavs(output_file)
+
+         # eliminar l'arxiu temporal
+         if os.path.isfile(tmp3):
+            os.remove(tmp3)
+         if os.path.isfile(output_file) and os.path.isfile(twav):
+            os.remove(twav)
+         elif os.path.isfile(twav):
+            os.rename(twav, output_file)
       else:
-         one_sec_segment = AudioSegment.silent(duration=2000)
-         one_sec_segment.export(output_file, format="wav")
-
-      # va creant un arxiu únic afegint cada fragment
-      concatena_wavs(output_file)
-
-      # eliminar l'arxiu temporal
-      if os.path.isfile(tmp3):
-         os.remove(tmp3)
-      if os.path.isfile(output_file) and os.path.isfile(twav):
-         os.remove(twav)
-      elif os.path.isfile(twav):
-         os.rename(twav, output_file)
+         #one_sec_segment = AudioSegment.silent(duration=2000, frame_rate=22000)
+         #one_sec_segment.export(f"{silenci}.wav", format="wav")
+         #one_sec_segment.export(f"{silenci}.mp3", format="mp3")
+         #audio = AudioSegment.from_mp3(f"{silenci}.mp3")
+         #audio.export(f"{silenci}.wav", format="wav")
+         concatena_wavs(silenci)
 
 """
 Parteix la sentència en fragments que puguin ser processats per gTTs
