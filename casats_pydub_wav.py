@@ -61,7 +61,8 @@ baseArxiuWav = baseDir + "/" + dirSortida
 ArxiuWav = ""     #nom definitiu de l'arxiu wav corresponent a cada escena o al text sencer
 tmp3 = dirSortida + "temp.mp3"
 twav = dirSortida + "temp.wav"
-silenci = "supplies/silenci2s.wav"
+silenci = "supplies/silenci.wav"
+
 
 Personatges = {'Joan':   {'speed': 1.20, 'grave': 3.5, 'reduction': 0.6},
                'Gisela': {'speed': 1.30, 'grave': 0.9, 'reduction': 1.7},
@@ -159,7 +160,7 @@ def text_to_audio(text, output_file, veu_params, ends):
          elif os.path.isfile(twav):
             os.rename(twav, output_file)
       else:
-         #one_sec_segment = AudioSegment.silent(duration=2000, frame_rate=22000)
+         #one_sec_segment = AudioSegment.silent(duration=1000, frame_rate=23000)
          #one_sec_segment.export(f"{silenci}.wav", format="wav")
          #one_sec_segment.export(f"{silenci}.mp3", format="mp3")
          #audio = AudioSegment.from_mp3(f"{silenci}.mp3")
