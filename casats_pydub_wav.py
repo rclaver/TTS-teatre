@@ -31,20 +31,20 @@ else:
    if is_linux:
       sys.path.append('../..')
       import python.utilitats.colors as c
-
    escenes = sys.argv[1].lower() if len(sys.argv) > 1 else []
-   if escenes:
-      if escenes == "sencer":
-         escenes = []
-      elif escenes == "joan":
-         escenes = ["102","104","202","204","205","207"]
-         print(f"\n{c.CB_GRN}Es convertiran les escenes de'n Joan: {escenes}{c.C_NONE}", end='\n\n')
-      else:
-         escenes = escenes.split()
-         print(c.CB_GRN+"\nEs convertiran les escenes indicades", escenes, c.C_NONE, end='\n\n')
+
+if escenes:
+   if escenes == "sencer":
+      escenes = []
+   elif escenes == "joan":
+      escenes = ["102","104","202","204","205","207"]
+      print(f"\n{c.CB_GRN}Es convertiran les escenes de'n Joan: {escenes}{c.C_NONE}", end='\n\n')
    else:
-      escenes = ["101","102","103","104","105","106","201","202","203","204","205","206","207"]
-      print(c.CB_GRN+"\nEs convertiran (per defecte) aquestes escenes", escenes, c.C_NONE, end='\n\n')
+      escenes = escenes.split()
+      print(c.CB_GRN+"\nEs convertiran les escenes indicades", escenes, c.C_NONE, end='\n\n')
+else:
+   escenes = ["101","102","103","104","105","106","201","202","203","204","205","206","207"]
+   print(c.CB_GRN+"\nEs convertiran (per defecte) aquestes escenes", escenes, c.C_NONE, end='\n\n')
 
 sencer = not (escenes)
 if sencer:

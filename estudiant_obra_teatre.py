@@ -36,23 +36,26 @@ if not terminal:
    # si s'executa des d'un IDE que ja inclou la referència al directori utilitats
    import colors as c
    print(f"{c.CB_BLU}-----------------------------------\n Espai interactiu\n-----------------------------------{c.C_NONE}")
-   escenes = input("Indica les escenes que vols processar: ").split()
+   escenes = input("Indica les escenes que vols processar: ").lower().split()
 else:
    if is_linux:
       sys.path.append('../..')
       import python.utilitats.colors as c
       print(f"{c.C_CYN}NOTA: es convenient redirigir la sortida d'errors: {c.C_YLW}{sys.argv[0]} 2>/dev/null{c.C_NONE}\n")
+   escenes = sys.argv[1].lower() if len(sys.argv) > 1 else []
 
-   escenes = sys.argv[1] if len(sys.argv) > 1 else []
-   if escenes:
-      if escenes == "sencer":
-         escenes = []
-      else:
-         escenes = escenes.split()
-         print(f"\n{c.CB_GRN}Es convertiran les escenes indicades: {escenes}{c.C_NONE}", end='\n\n')
+if escenes:
+   if escenes == "sencer":
+      escenes = []
+   elif escenes == "joan":
+      escenes = ["102","104","202","204","205","207"]
+      print(f"\n{c.CB_GRN}Es convertiran les escenes de'n Joan: {escenes}{c.C_NONE}", end='\n\n')
    else:
-      escenes = ["101","102","103","104","105","106","201","202","203","204","205","206","207"]
-      print(f"\n{c.CB_GRN}Es convertiran (per defecte) les escenes: {escenes}{c.C_NONE}", end='\n\n')
+      escenes = escenes.split()
+      print(f"\n{c.CB_GRN}Es convertiran les escenes indicades: {escenes}{c.C_NONE}", end='\n\n')
+else:
+   escenes = ["101","102","103","104","105","106","201","202","203","204","205","206","207"]
+   print(f"\n{c.CB_GRN}Es convertiran (per defecte) les escenes: {escenes}{c.C_NONE}", end='\n\n')
 
 sencer = not (escenes)
 if sencer:
