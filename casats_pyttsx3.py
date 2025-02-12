@@ -12,24 +12,25 @@ import pyttsx3
 
 # paràmetres
 #
-#is_linux = True if os.name == 'posix' else False
-#terminal = True if (is_linux and sys.argv[0] == "./casats_pyttsx3.py") or (not is_linux and sys.argv[0] == "casats_pyttsx3.py") else False
 is_linux = (os.name == 'posix')
 terminal = (is_linux and sys.argv[0] == "./casats_pyttsx3.py") or (not is_linux and sys.argv[0] == "casats_pyttsx3.py")
 
 if not terminal:
    #Si se ejecuta desde un IDE que ya incluye la referencia al directorio utilitats
    import colors as c
-   escenes = input("indica les escenes:").split()
+   escenes = input("indica les escenes:").lower().split()
 else:
    if is_linux:
       sys.path.append('../..')
       import python.utilitats.colors as c
 
-   escenes = sys.argv[1] if len(sys.argv) > 1 else []
+   escenes = sys.argv[1].lower() if len(sys.argv) > 1 else []
    if escenes:
       if escenes == "sencer":
          escenes = []
+      elif escenes == "joan":
+         escenes = ["102","104","202","204","205","207"]
+         print(f"\n{c.CB_GRN}Es convertiran les escenes de'n Joan: {escenes}{c.C_NONE}", end='\n\n')
       else:
          escenes = escenes.split()
          print(c.CB_GRN+"\nEs convertiran les escenes indicades", escenes, c.C_NONE, end='\n\n')
@@ -43,10 +44,11 @@ if sencer:
 
 # variables locals
 #
-FragmentVeu = "casats"
+titol = "casats"
+actor = "Joan"
 baseDir = os.getcwd()
-baseArxiu = "casats" if sencer else "casats-escena-"
-dirSortida = "sortides/casats/mp3/"
+baseArxiu = titol if sencer else f"{titol}-escena-"
+dirSortida = f"sortides/{titol}/mp3/"
 baseArxiuWav = baseDir + "/" + dirSortida
 ArxiuWav = ""
 
@@ -78,24 +80,20 @@ def elimina_fragments(escena=""):
    t = c.BG_CYN+"Fi de l\'escena "+escena
    print("\n", f"{t:<60}", c.C_NONE, end='\n\n')
    os.chdir(baseArxiuWav)
-   files = glob.glob("casats_[0-9]*.mp3")
+   files = glob.glob(f"{titol}_[0-9]*.mp3")
    for filename in files:
       os.remove(filename)
    os.chdir(baseDir)
 
 def nom_arxiu(num):
-   return dirSortida + FragmentVeu + "_" + f'{num:{"0"}{">"}{4}}' + ".mp3"
+   return dirSortida + titol + "_" + f'{num:{"0"}{">"}{4}}' + ".mp3"
 
 def mostra_sentencia(text, ends):
    ini_color = c.CB_CYN if text in Personatges else c.C_NONE
-   ini_color = c.CB_YLW if text == "Joan" else ini_color
+   ini_color = c.CB_YLW if text == actor else ini_color
    text = f"{c.BG_CYN+text:<60}" if (text[:6] == "Casats" or
-                                     text[:11] == "Acte Primer" or
-                                     text[:10] == "Acte Segon" or
-                                     text[:11] == "Acte Tercer" or
-                                     text[:10] == "Acte Quart" or
-                                     text[:12] == "Primera Part" or
-                                     text[:11] == "Segona Part" or
+                                     text[:5] == "Acte " or
+                                     text[:5] == " Part" or
                                      text[:6] == "Escena" or
                                      text[:4] == "Teló") \
                                  else ini_color+text

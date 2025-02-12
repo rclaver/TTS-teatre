@@ -26,13 +26,13 @@ terminal = (is_linux and sys.argv[0] == "./casats_pydub_wav.py") or (not is_linu
 if not terminal:
    #Si se ejecuta desde un IDE que ya incluye la referencia al directorio utilitats
    import colors as c
-   escenes = input("indica les escenes:").split()
+   escenes = input("indica les escenes:").lower().split()
 else:
    if is_linux:
       sys.path.append('../..')
       import python.utilitats.colors as c
 
-   escenes = sys.argv[1] if len(sys.argv) > 1 else []
+   escenes = sys.argv[1].lower() if len(sys.argv) > 1 else []
    if escenes:
       if escenes == "sencer":
          escenes = []
@@ -55,7 +55,7 @@ if sencer:
 titol = "casats"
 actor = "Joan"
 baseDir = os.getcwd()
-baseArxiu = "casats" if sencer else f"{titol}-escena-"
+baseArxiu = titol if sencer else f"{titol}-escena-"
 dirSortida = f"sortides/{titol}/wav/"
 baseArxiuWav = baseDir + "/" + dirSortida
 ArxiuWav = ""     #nom definitiu de l'arxiu wav corresponent a cada escena o al text sencer
@@ -64,14 +64,14 @@ twav = dirSortida + "temp.wav"
 silenci = "supplies/silenci.wav"
 
 
-Personatges = {'Joan':   {'speed': 1.20, 'grave': 3.5, 'reduction': 0.6},
+Personatges = {'Joan':   {'speed': 1.20, 'grave': 3.6, 'reduction': 0.6},
                'Gisela': {'speed': 1.30, 'grave': 0.9, 'reduction': 1.7},
                'Mar':    {'speed': 1.40, 'grave': 0.6, 'reduction': 1.4},
                'Emma':   {'speed': 1.40, 'grave': 0.7, 'reduction': 1.0},
                'Tina':   {'speed': 1.30, 'grave': 1.1, 'reduction': 1.0},
                'Justa':  {'speed': 1.40, 'grave': 1.8, 'reduction': 0.9},
-               'Pompeu': {'speed': 1.30, 'grave': 2.6, 'reduction': 0.8},
-               'Canut':  {'speed': 1.50, 'grave': 2.0, 'reduction': 0.8}}
+               'Pompeu': {'speed': 1.40, 'grave': 2.2, 'reduction': 0.9},
+               'Canut':  {'speed': 1.50, 'grave': 2.0, 'reduction': 1.0}}
 Narrador = {'speed': 1.22, 'grave': 1.6, 'reduction': 1.7}
 Narrador = "narrador"
 
@@ -81,7 +81,7 @@ def elimina_fragments(escena=None):
    t = c.BG_CYN+"Fi de l\'escena "+escena
    print("\n", f"{t:<60}", c.C_NONE, end='\n\n')
    os.chdir(baseArxiuWav)
-   files = glob.glob("casats_[0-9]*.wav")
+   files = glob.glob(f"{titol}_[0-9]*.wav")
    for filename in files:
       os.remove(filename)
    os.chdir(baseDir)
