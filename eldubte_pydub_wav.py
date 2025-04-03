@@ -53,9 +53,9 @@ silenci = "supplies/silenci.wav"
 
 
 Personatges = {'Pare_Flynn':       {'speed': 1.20, 'grave': 3.0, 'reduction': 0.6},
-               'Germana_Aloysius': {'speed': 1.30, 'grave': 1.8, 'reduction': 0.9},
-               'Germana_James':    {'speed': 1.40, 'grave': 0.8, 'reduction': 1.4},
-               'Sra_Muller':       {'speed': 1.40, 'grave': 0.6, 'reduction': 1.0}}
+               'Germana_Aloysius': {'speed': 1.25, 'grave': 1.8, 'reduction': 0.9},
+               'Germana_James':    {'speed': 1.30, 'grave': 1.0, 'reduction': 1.4},
+               'Sra_Muller':       {'speed': 1.30, 'grave': 0.8, 'reduction': 1.0}}
 Narrador = {'speed': 1.22, 'grave': 1.6, 'reduction': 1.7}
 Narrador = "narrador"
 
