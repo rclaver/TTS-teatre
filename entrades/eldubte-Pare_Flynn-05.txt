@@ -1,0 +1,122 @@
+Pare_Flynn: Puc entrar?
+Germana_Aloysius: Necessitem una tercera persona.
+Pare_Flynn: Què feia aquí la mare d’en Donald?
+Germana_Aloysius: Estàvem xerrant.
+Pare_Flynn: Sobre què?
+Germana_Aloysius: De veritat necessitem una tercera persona, Pare.
+Pare_Flynn: No Germana. Cap tercer. Vostè i jo tenim pendent una conversa. (Ell entra donant un cop de porta. Queden enfrontats.) Ha d’aturar aquesta campanya de desprestigi en contra meu!
+Germana_Aloysius: Vostè pot aturar-la en qualsevol moment.
+Pare_Flynn: De quina manera?
+Germana_Aloysius: Confessi i renunciï!
+
+Pare_Flynn:  Vostè està intentant destruir la meva reputació! Però el resultat de tot això serà la seva destitució i no la meva!
+Germana_Aloysius: Què està fent en aquesta escola?
+Pare_Flynn: Intento ajudar a la gent!
+Germana_Aloysius: Anem al gra, què hi fa vostè al clergat?
+Pare_Flynn: Vostè, sola, sense cap ajuda, està aturant aquesta escola i aquesta parròquia! Impedeix que s’imparteixi una educació progressista i que hi hagi una Església que aculli amb calidesa la seva congregació.
+Germana_Aloysius: Vostè no em pot distreure, Pare Flynn. No es tracta del meu comportament, sinó del seu.
+Pare_Flynn: Es tracta de sospites infundades.
+Germana_Aloysius: Això mateix. Tinc sospites.
+Pare_Flynn: Sap què és el que segueixo sense entendre de tot això? Per què sospita de mi? Què vaig fer?
+Germana_Aloysius: Vostè va donar-li vi al noi perquè begués. I va permetre que el culpessin.
+Pare_Flynn: Això és totalment fals! No va parlar amb el Sr. McGuinn?
+Germana_Aloysius: L’únic que sap el Sr. McGuinn és que el noi va beure vi. Ell no sap com va arribar a beure’l.
+Pare_Flynn: La mare del noi ha pogut afegir alguna cosa al respecte?
+Germana_Aloysius: No.
+Pare_Flynn: Ja ho veu. No té res.
+Germana_Aloysius: Jo no estic satisfeta.
+Pare_Flynn: Bé, si no està satisfeta, pregunti-li al noi!
+Germana_Aloysius: No, ell el protegiria. Això és el que noi ha estat fent.
+Pare_Flynn: Ah, i per què ho hauria de fer?
+Germana_Aloysius: Perquè vostè el va seduir.
+Pare_Flynn: Està boja! Se li ha ficat al cap que he corromput aquest noi després de donar-li vi i res del que digui ho podrà canviarà.
+Germana_Aloysius: Això mateix.
+Pare_Flynn: A veure, corregeixi’m si estic equivocat. Això no té res a veure amb el vi, és clar que no! Abans d’aquest incident vostè ja em tenia desconfiança! Va ser vostè la que va advertir a la Germana James que estigués vigilant, no és cert?
+Germana_Aloysius: És cert.
+Pare_Flynn: Aleshores ho admet!
+
+Germana_Aloysius: Per descomptat.
+Pare_Flynn: Per què?
+Germana_Aloysius: Jo conec a les persones.
+Pare_Flynn: Això no és suficient!
+Germana_Aloysius: No necessita ser-ho.
+Pare_Flynn: Com?
+Germana_Aloysius: Vostè m’explicarà el què va fer.
+Pare_Flynn: Ah sí?
+Germana_Aloysius: Sí.
+Pare_Flynn: A mi no em pot esporuguir... jo no sóc un dels seus alumnes indisciplinats. La Germana James està convençuda que sóc innocent.
+Germana_Aloysius: Així que ha parlat amb la Germana James? Sí, clar que va parlar amb la Germana James.
+Pare_Flynn: Vostè sap que el pare d’en Donald el pega?
+Germana_Aloysius: Sí.
+Pare_Flynn: I això no podria influir en el comportament estrany que la Germana James va notar en el noi?
+Germana_Aloysius: Podria.
+Pare_Flynn: Aleshores què és? Què? Què va escoltar? Què va veure que la va convèncer d’una manera tant absoluta?
+Germana_Aloysius: Quina importància té?
+Pare_Flynn: Vull saber-ho.
+Germana_Aloysius: El primer dia del curs, vaig veure com vostè tocava el braç a en William London. I també vaig veure la manera com ell el retirava.
+Pare_Flynn: Això va ser tot?
+Germana_Aloysius: Això va ser tot.
+Pare_Flynn: Però això no va ser res.
+(Ell escriu a la seva llibreta.)
+Germana_Aloysius: I ara què apunta?
+Pare_Flynn: No em deixa una altra opció. Jo apunto el què diu. Tendeixo a atordir-me en una conversa tant pertorbadora com per recordar-me dels detalls; i això pot ser important per quan parli amb Monsenyor i li expliqui perquè vostè ha de ser destituïda com a directora d’aquesta escola.
+
+Germana_Aloysius: Aquest matí, abans de parlar amb la Sra. Muller he tingut la precaució de trucar a la darrera parròquia a la que va estar destinat.
+Pare_Flynn: I què li ha dit?
+Germana_Aloysius: Qui?
+Pare_Flynn: El rector.
+Germana_Aloysius: No he parlat amb el rector. He parlat amb una de les monges.
+Pare_Flynn: Hauria d’haver parlat amb el rector.
+Germana_Aloysius: He parlat amb una monja.
+Pare_Flynn: Aquest no és el camí adequat a seguir, Germana! L’Església és molt clara. S’espera que vostè parli a través del rector.
+Germana_Aloysius: Per què? Vostè i ell tenen un conveni? Pare Flynn, vostè té una història.
+Pare_Flynn: No té cap dret a furgar en el meu passat!
+Germana_Aloysius: Aquesta és la seva tercera parròquia en cinc anys.
+Pare_Flynn: Truqui al rector i pregunti-li perquè me’n vaig anar! Va ser quelcom perfectament innocent.
+Germana_Aloysius: No trucaré al rector.
+Pare_Flynn: Jo sóc un bon sacerdot! I no hi ha res en els meus antecedents que suggereixin el contrari.
+Germana_Aloysius: Vostè anirà al darrera d’altres nois, fins el que el detinguin.
+Pare_Flynn: Amb quina monja ha parlat?
+Germana_Aloysius: No li ho penso dir.
+Pare_Flynn: Jo no he tocat cap noi.
+Germana_Aloysius: Sí, ho va fer.
+Pare_Flynn: Vostè no té ni la més mínima prova de res.
+Germana_Aloysius: Però en tinc la total convicció i aniré a la seva última parròquia i si és necessari a l’anterior. Trobaré algun pare d’algun noi, Pare Flynn! Cregui’m que ho faré. Un pare que possiblement no sap que vostè ENCARA SEGUEIX TREBALLANT AMB NOIS! I quan ho faci, quedarà al descobert. Fins i tot pot ser que l’ataquin, metafòricament o d’una altra manera.
+Pare_Flynn: No té dret a actuar per la seva banda! Vostè pertany a una ordre religiosa. Vostè va prendre un vots, un dels quals és l’obediència! Vostè respon davant de nosaltres! No té cap dret a actuar fora de l’Església!
+Germana_Aloysius: Si el que es necessita fer és actuar fora de l’Església ho faré, encara que la porta es tanqui darrera meu! Faré el que sigui necessari, Pare, tot i que signifiqui que em condemnin a l’infern! Hauria d’entendre-ho, així no es confondrà amb mi. Ara digui’m, vostè li va fer beure vi a en Donald Muller?
+Pare_Flynn: Vostè no ha fet mai res dolent?
+Germana_Aloysius: Sí, vaig fer-ho.
+Pare_Flynn: Un pecat mortal?
+Germana_Aloysius: Sí.
+Pare_Flynn: I?
+Germana_Aloysius: El vaig confessar! Li va fer beure vi a en Donald Muller?
+Pare_Flynn: Sigui el que sigui el que jo hagi fet, ho he deixat a les mans del meu confessor. Com va fer vostè! Som iguals!
+Germana_Aloysius: No som iguals! Un gos que mossega és un gos que mossega! Jo no justifico el que faig malament i ho segueixo fent. Jo ho admeto, desisteixo i hi poso remei. Li va fer beure vi a en Donald Muller?
+Pare_Flynn: No.
+Germana_Aloysius: Menteix. Molt bé, aleshores si vostè no surt de la meva oficina, en sortiré jo. I una vegada en surti, no pararé.
+(Ella va cap a la porta. De sobte, un nou to apareix a la seva veu.)
+Pare_Flynn: Esperi!
+Germana_Aloysius: Demanarà el seu trasllat d’aquesta parròquia. Es prendrà una excedència fins que li sigui atorgat.
+Pare_Flynn: Per a fer què, per l’amor de Déu? La meva vida està aquí.
+Germana_Aloysius: No faci això.
+Pare_Flynn: Si us plau! Que no som persones? Jo no sóc una persona de carn i ossos com vostè? O només som idees i conviccions? Jo no he tocat cap noi! Jo no ho puc dir tot. M’entén? Hi ha coses que no puc dir. I encara que vostè no es pugui imaginar l’explicació, Germana, recordi que hi ha circumstàncies que van més enllà del seu coneixement. Encara que vostè tingui una certesa, és una emoció i no un fet. Per l’amor de Déu, li ho suplico. En nom de la feina de la meva vida. Ha d’actuar amb responsabilitat. Em poso a les seves mans.
+Germana_Aloysius: Jo no ho vull.
+Pare_Flynn: Està en joc la meva reputació.
+Germana_Aloysius: Vostè pot preservar la seva reputació.
+Pare_Flynn: Si vostè diu aquestes coses, no podré realitzar la meva feina a la comunitat.
+Germana_Aloysius: La seva feina a la comunitat ha de ser interrompuda.
+Pare_Flynn: Em deixarà sense res.
+Germana_Aloysius: Això no és veritat. És en Donald Muller qui no té res, i vostè se n’ha aprofitat.
+Pare_Flynn: No he fet res dolent. Em preocupo molt per aquest noi.
+Germana_Aloysius: Perquè li somriu i li expressa simpatia i parla amb ell com si els dos fossin iguals?
+Pare_Flynn: Aquest noi necessitava un amic!
+Germana_Aloysius: Vostè és un frau. El sentiment càlid que va experimentar quan el noi el va mirar dipositant-li tota la seva confiança no va ser una sensació impregnada en la virtut. Va ser com la que experimenta un borratxo davant la seva ampolla de rom. Vostè és una desgràcia per el clergat. L’únic motiu pel que no va ser expulsat de l’Església és la disminució de les vocacions.
+Pare_Flynn: Puc lluitar en contra seu.
+Germana_Aloysius: Perdrà.
+Pare_Flynn: Això no ho pot saber.
+Germana_Aloysius: Ho sé.
+Pare_Flynn: On està la seva compassió?
+Germana_Aloysius: A cap lloc on vostè pugui arribar. Quedi’s aquí. Calmi’s. Utilitzi el telèfon si ho desitja. Bon dia Pare. No sento compassió per vostè. Jo sé que es invulnerable a un vertader penediment. (Comença a marxar. Pausa.) I talli’s les ungles!
+(Surt, tancant la porta darrera seu. Després d’un moment, ell agafa el telèfon i truca.)
+Pare_Flynn: Sí, sóc el Pare Flynn de la parròquia de Sant Nicolas. Necessito concertar una cita per veure al Bisbe.
+(Els llums baixen sobre el PARE FLYNN i es comença a menjar les ungles.)

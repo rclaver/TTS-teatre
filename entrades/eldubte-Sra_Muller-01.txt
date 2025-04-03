@@ -1,0 +1,134 @@
+ESCENA 8
+Llums en l’oficina de la directora. La GERMANA ALOYSIUS està asseguda, mirant per la finestra, molt quieta. S’escolta un cop a la porta. Ella no reacciona. Un segon cop, més fort. Es treu un petit audiòfon de l’orella i corre cap a la porta. L’obra. Hi ha la SRA. MULLER, una dona amb aspecte d’anar a l’església, d’uns 48 anys. Va vestida amb les seves millors robes de diumenge i està molt vigilant.
+Germana_Aloysius: Sra. Muller?... jo creia que...
+Sra_Muller: El meu marit és negre...
+Germana_Aloysius: Perdoni, jo no pensava res al... endavant. (La GERMANA ALOYSIUS tanca la porta.) Segui si us plau.
+Sra_Muller: Com que no contestava als meu cops a la porta he pensat que potser m’havia confós de dia.
+Germana_Aloysius: Entre nosaltres, estava escoltant aquest transistor amb un audiòfon. (Li ensenya una ràdio petita.) Miri que petits que els fan avui dia. El vaig confiscar a un dels alumnes i ara no puc deixar d’utilitzar-lo.
+Sra_Muller: Li agrada la música?
+Germana_Aloysius:En realitat, no. Les notícies, sí. Fa anys acostumava a escoltar-les perquè el meu marit era a Itàlia, per la guerra. Quan aquesta ràdio va caure a les meves mans, em vaig trobar fent-ho novament. Malgrat que no hi hagi guerra i que les veus siguin diferents.
+Sra_Muller: Va estar casada?
+Germana_Aloysius: Sí. Però el van matar. Ve el seu marit?
+Sra_Muller: No ha pogut faltar a la feina.
+Germana_Aloysius: Ja ho veig. Evidentment. Era massa demanar.
+Sra_Muller: Com li va a en Donald?
+Germana_Aloysius: Està aprovant les assignatures. Té una mitjana correcta.
+Sra_Muller: Ah. Bé. Està molt trist per què no el deixen ser escolanet.
+Germana_Aloysius: Li ha explicat el per què?
+Sra_Muller: El meu fill diu que el van enxampar bevent vi.
+Germana_Aloysius: Aquest va ser el motiu...
+Sra_Muller: Bé. Això em sembla just. Però ell és un bon noi, Germana. Es va confondre, però és un bon noi, molt obedient. I sap l’oportunitat que té aquí. Crec que tot l’assumpte va ser massa fort per ell.
+Germana_Aloysius: Què vol dir amb tot l’assumpte?
+Sra_Muller: És l’únic noi de color de l’escola. Això és massa per un noi.
+Germana_Aloysius: Suposo que sí. Però, igualment, ha de fer la seva feina.
+
+Sra_Muller: I ho està fent, no és així?
+Germana_Aloysius: Sí. I ho està aconseguint. Està aprovant-ho tot. Com li va a casa?
+Sra_Muller: El seu pare gairebé el mata a cops per això del vi.
+Germana_Aloysius: No hauria de fer-ho.
+Sra_Muller: Al meu marit no se li diu què ha de fer. Un només fa un pas enrere. Ell no volia que en Donald vingués a aquesta escola.
+Germana_Aloysius:  Per què no?
+Sra_Muller: Va pensar que tindria molts problemes amb els altres nois. Però això no ha succeït pel que jo sé.
+Germana_Aloysius: No, de moment no ha succeït.
+Sra_Muller: El sacerdot, el Pare Flynn, l’ha estat protegint.
+Germana_Aloysius: Sí. Vostè coneix el Pare Flynn?
+Sra_Muller:  No exactament, no. El vaig veure a l’altar, però no el conec en persona. Només, ja sap, he sentit a parlar del Pare Flynn a través d’en Donald.
+Germana_Aloysius: I què va explicar-li?
+Sra_Muller: Ja sap: el Pare Flynn això, el Pare Flynn allò... ell el respecta. Aquest home li dedica el seu temps, que és el que el noi necessita. Ell necessita això.
+Germana_Aloysius: Sra. Muller, podríem tenir un problema.
+Sra_Muller: Bé, vaig pensar que havia d’haver un motiu perquè em demanés que vingués a veure-la. Ser la directora de l’escola és una feina important i si em fa un forat a la seva agenda, que ha d’estar molt plena, per xerrar amb mi, deu passar alguna cosa. No obstant, vull dir-li, que és només fins el mes de juny.
+Germana_Aloysius: Com diu?
+Sra_Muller: Sigui quin sigui el problema, en Donald ha de continuar aquí fins al juny. Després ja anirà a secundària.
+Germana_Aloysius: És cert.
+Sra_Muller: Si en Donald es pot graduar aquí, tindrà una millor oportunitat per entrar en una bona escola secundària. I això significaria una oportunitat a la Universitat. Jo crec que és un noi intel•ligent. I a més, ho vol.
+Germana_Aloysius: No hi ha res que li impedeixi graduar-se amb els de la seva classe.
+Sra_Muller: Bé, això és tot el que m’importa. Tota la resta em sembla bé.
+Germana_Aloysius: Això ho dubto.
+Sra_Muller: A veure, expliqui’s.
+Germana_Aloysius: Estic preocupada per la relació entre el Pare Flynn i el seu fill.
+Sra_Muller: No em digui. Preocupada? Què significa preocupada?
+Germana_Aloysius: Que pot no ser l’apropiada.
+Sra_Muller: Ah. Bé, tothom té alguna cosa dolenta, no és així? S’ha de saber perdonar.
+Germana_Aloysius: Per ser-li sincera, estic preocupada perquè el Pare Flynn podria haver tingut comportaments inadequats cap al seu fill.
+Sra_Muller: Podria haver-ho fet?
+Germana_Aloysius: No puc estar-ne segura.
+Sra_Muller: No hi ha evidències?
+Germana_Aloysius: No.
+Sra_Muller: Aleshores, potser no és cert?
+Germana_Aloysius: Jo crec que és cert.
+Sra_Muller: Bé, si no li importa jo preferiria no veure les coses d’aquesta manera.
+Germana_Aloysius: Comprenc que és una cosa difícil d’acceptar. Crec que el Pare Flynn va donar-li a en Donald el vi de missa.
+Sra_Muller: Per què hauria fer una cosa com aquesta?
+Germana_Aloysius: No ho sé, però ho sospito! A veure, en Donald ha estat comportant-se d’una manera estranya?
+Sra_Muller: No.
+Germana_Aloysius: Res fora del normal?
+Sra_Muller: Es comporta com sempre.
+Germana_Aloysius: Està bé, està bé!
+Sra_Muller: Miri, Germana, no vull problemes i de cap manera penso que vostè estigui buscant-los.
+Germana_Aloysius: Em sembla que no comprèn la situació.
+Sra_Muller: Crec entendre sobre què parla. Però no vull ficar-m’hi.
+Germana_Aloysius: Com?
+Sra_Muller: No vull discutir amb vostè, però si parlem sobre si hi ha alguna cosa impròpia surant al voltant del sacerdot i del meu fill... no és culpa del meu fill.
+Germana_Aloysius: Jo no estic suggerint que sigui així.
+Sra_Muller: Només és un noi.
+Germana_Aloysius: Ja ho sé.
+Sra_Muller: Té dotze anys. Si s’hagués de culpar a algú per alguna cosa, hauria de ser a l’home, no al noi.
+Germana_Aloysius: Estic totalment d’acord.
+
+Sra_Muller: Vostè està d’acord amb mi però jo estic aquí, asseguda a l’oficina de la directora, parlant del meu fill. Per què no hi és el sacerdot assegut a l’oficina de la directora?... Sap molt bé el que vull dir oi?. I disculpi que ho tregui a col•lació.
+Germana_Aloysius: Vostè és aquí perquè estic preocupada pel benestar d’en Donald.
+Sra_Muller: I creu que jo no ho estic?
+Germana_Aloysius: És clar que ho està.
+Sra_Muller: Permeti’m preguntar-li una cosa. Amb honestedat, vostè creu que aquest sacerdot va fer-li beure vi a en Donald?
+Germana_Aloysius: Sí, ho crec.
+Sra_Muller: I aleshores per què van fer fora al meu fill com a escolanet si va ser aquest home qui li va donar el vi?
+Germana_Aloysius: Al noi el van enxampar, a l’home no.
+Sra_Muller: Com pot ser que no hagin fet fora el sacerdot del clergat?
+Germana_Aloysius: És un home madur, educat. I sap el que està en joc. No és tant fàcil fer caure a algú com ell.
+Sra_Muller: Clar, aleshores li donen tota la culpa al meu fill. No passa res si el meu fill és culpat i castigat. Això és fàcil. Sap per què passa això?
+Germana_Aloysius: Potser hauria de deixar-me parlar. Em sembla que s’està posant nerviosa.
+Sra_Muller: Perquè així són les coses, vostè està descobrint coses sobre aquest assumpte, però així són les coses i així ho han estat sempre, Germana. Una no va en contra d’un HOME amb SOTANA i ell sempre guanyarà, Germana. Ell té el poder.
+Germana_Aloysius: I ell té al seu fill.
+Sra_Muller: Aleshores deixi que el tingui.
+Germana_Aloysius: Com?
+Sra_Muller: És només fins al mes de juny.
+Germana_Aloysius: Sap el què està dient?
+Sra_Muller: En sé més que vostè d’això.
+Germana_Aloysius: Crec que aquest home està engendrant o ja ha materialitzat una relació impròpia amb el seu fill.
+Sra_Muller: No ho sé.
+Germana_Aloysius: N’estic ben segura.
+Sra_Muller: Per què necessita saber amb seguretat una cosa com aquesta si no està segura? Si us plau, Germana. Vostè lliura una mena de creuada virtuosa en contra d’aquest sacerdot i ara vol que hi arrossegui al meu fill. El meu fill no necessita tenir dificultats addicionals. Deixi que ell rebi el més bo i que deixi la resta en aquest lloc quan marxi al juny. Ell sap com fer-ho. Jo vaig ensenyar-li a fer-ho.
+Germana_Aloysius: Quin tipus de mare és vostè?
+Sra_Muller: Disculpi, però vostè no coneix res de la vida per dir una cosa com aquesta, Germana.
+Germana_Aloysius: Ho conec suficientment.
+Sra_Muller: Potser coneix les normes, però això no ho cobreix tot.
+Germana_Aloysius: Conec molt bé quines coses no penso acceptar!
+Sra_Muller: Un accepta el que ha d’acceptar i s’arregla amb això. Aquesta és la veritat que conec. Lamento profundament si sóc tant incisiva, però vostè està aquí, en aquest despatx...
+Germana_Aloysius: Aquest home és a la meva escola.
+Sra_Muller: Bé, ell ha d’estar en algun lloc i potser, ell també estigui fent algun bé. Mai se li ha ocorregut això?
+Germana_Aloysius: Ell va al darrera dels nois.
+Sra_Muller: Bé, potser alguns nois volen deixar-se agafar. Potser el que vostè no sap és que el meu fill és... d’aquesta manera. És per això que el seu pare el pega. No per culpa del vi. L’apallissa per ser com és.
+Germana_Aloysius: Què m’està dient?
+Sra_Muller: Jo sóc la seva mare. Ara estic parlant de la seva naturalesa, no de quelcom que ell hagi fet o no. Però no podem fer responsable a un noi pel mode en que Déu l’ha fet.
+Germana_Aloysius: Sra. Muller, escolti’m amb atenció. Jo només estic interessada en els fets. No té sentit discutir sobre la possible inclinació d’un noi. Ja em resulta bastant difícil provar els actes d’un home. Això no tracta del que podria ser el noi, sinó del què és l’home. Es tracta de l’home.
+Sra_Muller: Però hi ha la natura del noi!
+Germana_Aloysius: Deixem això de banda.
+Sra_Muller: Aleshores oblidi-ho. Vostè és la que força a les persones perquè diguin coses en veu alta. Les coses estan a l’aire i si un pot les deixa en pau. Això és el que sé. El meu fill va venir a aquesta escola perquè en una escola pública l’haguessin matat. Així que vam ser afortunats en poder inscriure’l aquí el seu últim any. Molt bé. El seu pare no l’estima. Ell ve aquí, i els nois no el volen. Un home és bo amb ell: aquest sacerdot. Li ofereix la seva mà. Aquest home té els seus motius? Sí. Tots tenim els nostres motius. VOSTÈ té els seus motius. Però jo li pregunto a l’home per què és bo amb el meu fill? No. No m’importa el perquè. El meu fill necessita que algun home es preocupi per ell i l’ajudi a arribar on ell vulgui anar. I gràcies a Déu, aquest home, amb una mica de bondat dins seu, vol fer justament això.
+Germana_Aloysius: Això no donarà resultat.
+Sra_Muller: És només fins al mes de juny. De vegades les coses no són blanques o negres.
+
+Germana_Aloysius: I de vegades sí que ho són. Jo no faré fora al seu fill de l’escola, no es confongui.
+Sra_Muller: I per què ho hauria de fer... si no ho va començar ell?
+Germana_Aloysius: Perquè penso aturar això sigui quina sigui la manera en que ho hagi de fer.
+Sra_Muller: Faria mal al meu fill per sortir-se amb la seva?
+Germana_Aloysius: No acabarà amb el seu fill. N’hi haurà d’altres, si és que no n’hi ha ja.
+Sra_Muller: Aleshores faci fora al sacerdot.
+Germana_Aloysius: Això mateix estic intentant.
+Sra_Muller: Què vol que faci?
+(Pausa.)
+Germana_Aloysius:Res. Tenia esperances que sabés alguna cosa que em pogués ajudar, però sembla que no sap res.
+Sra_Muller: Si us plau, deixi el meu fill fora d’això. El meu marit el mataria per una cosa com aquesta.
+Germana_Aloysius: Ho intentaré.
+(La Sra_Muller s’atura.)
+Sra_Muller: No sé Germana. Vostè pot pensar que fa un bé, però el món és un lloc dur. No crec que vostè i jo estiguem en el mateix bàndol. Jo estaré al costat del meu fill i al d’aquells que són bons amb el meu fill. M’agradaria veure-la allà. Ha estat molt agradable parlar amb vostè, Germana. Bon dia.
+(Ella se’n va, deixant la porta oberta darrera d’ella. La GERMANA ALOYSIUS està desconcertada. Al cap d’uns segons, apareix el PARE FLYNN. Ell controla la seva fúria.)

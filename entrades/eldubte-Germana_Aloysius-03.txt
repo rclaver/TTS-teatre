@@ -1,0 +1,185 @@
+ESCENA 5
+Sona un telèfon. L’oficina de la Directora apareix. La GERMANA ALOYSIUS reapareix amb una tetera i sense xal, camina ràpidament per contestar el telèfon.
+Germana_Aloysius: Hola, Escola Sant Nicolas. Ah sí, Sr. Mc Ginn. Gràcies per tornar-me la trucada. Quina tempesta de vent hem tingut aquesta nit. No, no sabia que n’hi va haver una a Irlanda fa moltíssims anys i que vostè va ser-hi present. És fascinant. Sí. Em preguntava si seria tant amable de treure la branca d’un arbre que ha caigut al pati de l’Església. Aquest matí, la Germana Verònica ha ensopegat amb ella i s’ha colpejat la cara en caure. Crec que està bé. No es preocupi Sr. McGuinn. Gràcies, Sr. McGuin. (Penja el telèfon i mira el seu rellotge, una mica ansiosa. Se sent un cop a la porta.) Endavant.
+(S’obre la porta. El PARE FLYNN porta la seva sotana negra. No entra.)
+Pare_Flynn: Bon dia Germana Aloysius! Com es troba avui?
+Germana_Aloysius: Bon dia, Pare Flynn. Molt bé, gràcies. És molt amable per haver vingut.
+Pare_Flynn: Estem llestos per la reunió?
+Germana_Aloysius: Només falta la Germana James. Ha sentit quina ventada aquesta nit?
+Pare_Flynn: És clar que sí. Imagini’s com deuria haver estat als inicis, en el nostre país, per un home solitari que dins del bosc s’assegués al costat del foc amb els seus calçons de pell girada i escoltés un soroll com aquest. Imagini’s la soledat! Aquesta immensa foscor atrapant-lo! Deuria ser esgarrifant!
+Germana_Aloysius: Suposo que pot haver estat aterridor si no es té fe en la protecció de Déu.
+Pare_Flynn: M’han dit que la Germana Verònica ha tingut un accident...
+Germana_Aloysius: Sí, la Germana Verònica ha ensopegat amb un tronc aquest matí i per poc no es mata.
+Pare_Flynn: Està bé?
+Germana_Aloysius: Ah sí, està molt bé.
+Pare_Flynn: No hi veu gaire bé, oi?
+Germana_Aloysius: La seva visió és molt bona. No sé si sap que les monges cauen.
+Pare_Flynn: No, no ho sabia.
+Germana_Aloysius: És l’hàbit. Se’ns enrosca sovint. Vestides de blanc i negre i tant propenses a les caigudes, semblem peces d’un dominó.
+(La GERMANA JAMES apareix a la porta, sense alè.)
+Germana_James: Arribo tard?
+Pare_Flynn: De cap manera. La Germana Aloysius i jo manteníem una conversa agradable.
+
+Germana_James: Bon dia, Pare Flynn. Bon dia, Germana. Sento haver-me retardat. El Sr. McGuinn ha tancat el pati per arreglar-lo, així que he hagut de tornar al convent i sortir per la porta lateral i aleshores m’he trobat amb la Germana Verònica.
+Pare_Flynn: Com està?
+Germana_James: Té el nas una mica ensangonat.
+Germana_Aloysius: Començo a creure que vostè dóna cops de puny a la gent.
+Germana_James: Com diu, Germana?
+Germana_Aloysius: Després de l’incident amb... bé, és igual, no té importància. Passin, si us plau. Seguin. (Entren i s’asseuen.) He dut una tetera amb te calent. (Tanca la porta però la deixa entreoberta.) I tanco la porta, encara que no del tot, per formalisme. Desitja una tassa de te, Pare?
+Pare_Flynn: Em ve mot de gust una tassa de te.
+Germana_Aloysius: Podria servir-li, Germana?
+Germana_James: És clar.
+Germana_Aloysius: I serveixi’s vostè, per descomptat.
+Germana_James: Vol una mica de te, Germana Aloysius?
+Germana_Aloysius: Ja n’he pres una, gràcies.
+Pare_Flynn: Té una mica de sucre?
+Germana_Aloysius: Sucre? Sí! (Rebusca dins l’escriptori.) El tinc per aquí, en algun calaix. El vaig guardar l’any passat per Quaresma i no m’he recordat de treure’l.
+Pare_Flynn: Aleshores no deu ser res important per renunciar-hi.
+Germana_Aloysius: No, té raó. Aquí està. El serveixo, encara que per falta de pràctica, estic... (maldestre.) (Ella va cap a ell amb la sucrera. Està inclinada sobre ell amb unes pinces i el sucre.) Les seves ungles.
+Pare_Flynn: Les porto una mica llargues. El sucre?
+Germana_Aloysius: Ah sí. Un?
+Pare_Flynn: Tres.
+Germana_Aloysius: Tres?!? (Ella està sorpresa però intenta no demostrar-ho.)
+Pare_Flynn: Sóc llaminer.
+Germana_Aloysius: Un, dos, tres. Sucre, Germana? (La GERMANA ALOYSIUS mira a la GERMANA JAMES.)
+Germana_James: Mai. I no és que pensi que el sucre tingui alguna cosa dolenta. Gràcies.
+(La GERMANA ALOYSIUS torna a guardar el sucre al seu escriptori.)
+Germana_Aloysius: Bé, gràcies Pare, per brindar-nos una mica del seu temps. No sabem què fer.
+
+Pare_Flynn: Em sembla una idea excel•lent re definir la representació teatral de Nadal. L’esforç de l’any passat va ser una mica desencisador.
+Germana_James: No! Em va encantar! (es torna a cohibir.) Però m’encanten totes les representacions nadalenques. M’encanta la Nativitat, el naixement del Redemptor. I per descomptat els himnes com “El petit poble de Betlem”
+Germana_Aloysius: Gràcies, Germana. Aquest any la Germana James co-dirigirà la representació amb la Sra. Shields. Què li sembla Pare Flynn? Hi ha alguna cosa nova que puguem fer?
+Pare_Flynn: Bé, a tots ens agraden els himnes nadalencs, però seria agradable incloure una cançó laica.
+Germana_Aloysius: Laica?
+Pare_Flynn: Sí. “S’acosta el Nadal”. Alguna cosa semblant.
+Germana_Aloysius: I quin sentit tindria una cançó laica?
+Pare_Flynn: Divertir-se.
+Germana_James: O sinó: “Gebrat, el ninot de neu”
+Pare_Flynn: Aquesta és molt bona. Podem fer que un dels nois el vesteixi de ninot de neu i que balli al voltant.
+Germana_Aloysius: Quin noi?
+Pare_Flynn: Faríem proves d’aptituds.
+Germana_Aloysius: “Gebrat, el ninot de neu”, conté una creença pagana sobre la màgia. El ninot de neu recobra vida quan se li posa al cap un barret màgic. Si la música no fos tan festiva, la gent s’adonaria que les imatges són inquietants i la cançó herètica.
+(La GERMANA JAMES i el PARE FLYNN intercanvien una mirada.)
+Germana_James: Mai havia pensat en “Gebrat , el ninot de neu” d’aquesta manera.
+Germana_Aloysius: Hauria d’estar prohibida a la ràdio.
+Pare_Flynn: Aleshores res de “Gebrat, el ninot de neu”.
+(El PARE FLYNN escriu alguna cosa en una llibreta.)
+Germana_Aloysius: Crec que no. Suposo que “S’acosta el Nadal” estarà bé. Als pares els pot agradar. Li puc preguntar què ha escrit amb aquest bolígraf?
+Pare_Flynn: Ah, res. Una idea per un sermó.
+Germana_Aloysius: Se n’hi ha ocorregut una en aquest precís moment?
+Pare_Flynn: Se m’acudeixen a cada moment.
+Germana_Aloysius: Què afortunat!
+Pare_Flynn: I com que me n’oblido, les apunto.
+Germana_Aloysius: Quina és la idea?
+
+Pare_Flynn: La intolerància.... Crec que un missatge del Segon Concili Ecumènic va ser que l’Església necessitava adoptar un aspecte més familiar. Reflectir la comunitat local. Hauríem de cantar una cançó de la ràdio de tant en tant. Portar als nois a menjar un gelat.
+Germana_Aloysius: Gelat.
+Pare_Flynn: O potser dur-los de campament. Hauríem de ser més amistosos, més propers. Els nois i els seus pares ens haurien de veure més com a membres de la seva família que com a emissaris de Roma. Crec que la representació hauria de ser encantadora, com un teatre de la comunitat fent un show.
+Germana_Aloysius: Però nosaltres no som membres de la seva família. Nosaltres com diferents.
+Pare_Flynn: Per què? Degut als nostres vots?
+Germana_Aloysius: Precisament.
+Pare_Flynn: Jo no crec que siguem tant diferents. Sap, Germana, prendria una mica més de te. Gràcies.
+Germana_Aloysius: I ells saben que som diferents. La gent de la classe treballadora d’aquesta parròquia confia en nosaltres perquè som diferents.
+Pare_Flynn: Em sembla que ens estem desviant del tema.
+Germana_Aloysius: Sí, té raó, tornem al tema. La representació de Nadal. Hem de ser curosos en la manera en que s’utilitza a en Donald Muller en la representació.
+(La GERMANA JAMES tremola mentre serveix el te.)
+Pare_Flynn: Amb compte, Germana, que no esquitxi.
+Germana_James: Ah, eh, sí, Pare.
+Pare_Flynn: Què passa amb en Donald Muller?
+Germana_Aloysius: Hem de ser curosos en la representació amb en Donald Muller, no hem d’amagar-lo però tampoc posar-lo en primer pla.
+Pare_Flynn: Pel color de la seva pell.
+Germana_Aloysius: Això mateix.
+Pare_Flynn: Per què?
+Germana_Aloysius: Va, Pare. No sigui sorneguer.
+Pare_Flynn: Crec que hauria de ser tractat com qualsevol altre noi.
+Germana_Aloysius: Va ser vostè qui el va distingir donant-li una atenció especial. Vostè i ell van tenir una trobada privada a la Rectoria. (Es gira cap a la GERMANA JAMES.) Va ser la setmana passada?
+Germana_James:  Sí.
+(Ell s’adona que passa alguna cosa.)
+
+Pare_Flynn: De què estem parlant?
+Germana_James: D’en Donald Muller?
+Germana_Aloysius: El noi va actuar d’una manera estranya quan va tornar a l’aula.
+(El Sacerdot es tomba cap a la GERMANA JAMES.)
+Pare_Flynn: Ho va fer?
+Germana_James: Quan va tornar de la Rectoria. Una mica estrany, sí.
+Germana_Aloysius: Expliqui’ns perquè!
+Pare_Flynn: Per què actuava d’una manera estranya?
+Germana_James: No estic segura de com explicar-ho. Va recolzar el seu cap sobre el pupitre...
+Pare_Flynn: Vol dir que va cridar-li l’atenció?
+Germana_James: Sí.
+Pare_Flynn: I com que venia de la Rectoria vostè m’està preguntant si sé alguna cosa al respecte?
+Germana_Aloysius: Això mateix.
+Pare_Flynn: Humm. Vostè volia parlar sobre la representació, és per això que estic aquí, o era això el que volia discutir?
+Germana_Aloysius: Això.
+Pare_Flynn: Bé. Em sento una mica incòmode.
+Germana_Aloysius: Per què?
+Pare_Flynn: Per què creu? Hi ha alguna cosa en el seu to de veu...
+Germana_Aloysius: Preferiria discutir dels fets més que dels tons.
+Pare_Flynn: Bé. Si jo hagués jutjat que la meva conversa amb Donald Muller li concernís a vostè, Germana, m’hagués assegut a parlar amb vostè al respecte. Però no vaig jutjar que li concernís.
+Germana_Aloysius:Pot ser que estigui equivocat sobre el que em concerneix. El noi està a la meva escola i el seu benestar és la meva responsabilitat.
+Pare_Flynn: El benestar d’ell no està en discussió.
+Germana_Aloysius: No m’acabo de creure que això sigui veritat. Ell estava pertorbat quan va tornar a classe.
+Pare_Flynn: Va dir alguna cosa?
+Germana_James: No.
+Germana_Aloysius: Què va passar a la Rectoria?
+Pare_Flynn: Què va passar? No va passar res. Vaig tenir una conversa amb el noi.
+
+Germana_Aloysius: Sobre què?
+Pare_Flynn: Era un assumpte privat.
+Germana_Aloysius: Té dotze anys. Què pot ser privat?
+Pare_Flynn: Li ho torno a repetir, Germana. Desaprovo el seu to.
+Germana_Aloysius: No parlem del meu to o del seu, Pare Flynn. Parlem sobre com arribar a la veritat.
+Pare_Flynn: Sobre què?
+Germana_Aloysius: Vostè sap sobre què estic parlant. No és així? En aquest instant està controlant l’expressió del seu rostre. No és cert?
+Pare_Flynn: El meu rostre? Vostè va dir que volia parlar de la representació, Germana. És per això que estic aquí. He d’entendre que m’ha fet venir a la seva oficina per confrontar-me d’alguna manera? És ultratjant. Jo no responc davant de vostè. A veure, exactament, de què m’acusa?
+Germana_Aloysius: Jo no l’acuso de res, Pare Flynn. Li estic demanant que em digui què va passar a la Rectoria
+(El PARE FLYNN es para.)
+Pare_Flynn: Jo no desitjo que aquesta conversa continuï. I si no està satisfeta amb això, li suggereixo que parli amb Monsenyor Benedict. Només puc imaginar que el seu comportament desafortunat d’aquest matí es degui a un excés de feina. Potser necessita una excedència. Jo puc suggerir-la. Que tingui un bon matí. (A la GERMANA JAMES.) Germana.
+Germana_James:  Bon dia, Pare.
+(Les paraules que diu la GERMANA ALOYSIUS el detenen.)
+Germana_Aloysius: L’alè del noi pudia a alcohol. (Ell es gira.) Quan va tornar de l’entrevista amb vostè.
+(Ell torna i s’asseu. Es frega els ulls.)
+Pare_Flynn: Alcohol.
+Germana_James: Sí, me’n vaig adonar i em va sobtar.
+Germana_Aloysius: Aleshores?
+Pare_Flynn: No pot deixar passar això?
+Germana_Aloysius: No.
+Pare_Flynn: Ja veig que no hi ha manera de sortir d’aquesta situació... Hauria de deixar-ho passar.
+Germana_Aloysius: No és possible.
+Pare_Flynn: En Donald Muller va fer d’escolanet al matí. Després de la missa, el Sr. McGuinn el va enxampar a la sagristia bevent el vi de l’altar. Quan ho vaig descobrir, el vaig fer cridar. Van haver-hi llàgrimes. Em va suplicar que volia seguir sent escolanet. I em vaig compadir d’ell. Li vaig dir que si ningú més ho descobria, li permetria quedar-se.
+(La GERMANA JAMES desborda alegria. La GERMANA ALOYSIUS està impassible.)
+Germana_James: Ah, quin alleujament! Això ho explica tot. Gràcies a Déu. Ah, Germana! Veu, tot va ser una confusió.
+Germana_Aloysius: I si parlo amb el Sr. McGuinn?
+Pare_Flynn: Endavant, parli amb el Sr. McGuinn. Però ara que el secret del noi ha sortit a la llum, no podré seguir tenint-lo entre els escolanets, el que crec que és una llàstima. Era això precisament el que intentava evitar.
+Germana_James: Vostè intentava protegir al noi!
+Pare_Flynn: Això mateix.
+Germana_James: Jo podria haver fet el mateix! (A la GERMANA ALOYSIUS.) Hi ha alguna manera per a que en Donald continuï d’escolanet?
+Germana_Aloysius: No. Si el noi va beure vi de l’altar no pot continuar com a escolanet.
+Pare_Flynn: Evidentment té raó. Jo no sóc tant disciplinat com vostè, Germana. I ell és l’únic negre a l’escola. Això va afectar la meva manera de jutjar l’assumpte. Comentaran que ell no participa en cap missa. És un assumpte públic. Certs elements ignorants de la parròquia confirmaran les seves creences i prejudicis.
+Germana_Aloysius: Ha de ser tractat amb les mateixes normes que els altres.
+Pare_Flynn: Per descomptat. Seguirem xerrant sobre la representació o era només això...?
+Germana_Aloysius: No, aquesta era la qüestió.
+Pare_Flynn: Ha quedat satisfeta?
+Germana_Aloysius: Sí.
+Pare_Flynn: Aleshores me’n vaig. He de fer unes anotacions.
+Germana_Aloysius: Sobre la intolerància.
+Pare_Flynn: Això mateix. (En marxar s’atura a la porta.) No estic d’acord en la manera que ha gestionat aquest assumpte, Germana. Li suggereixo que la pròxima vegada que estigui preocupada per idees fosques parli amb Monsenyor.
+(Ell surt. Després d’un moment, la GERMANA JAMES es llança a l’optimisme.)
+Germana_James: Bé, quin alleujament! Ja ho ha aclarit tot!
+Germana_Aloysius: L’ha cregut?
+Germana_James: És clar!
+Germana_Aloysius: O potser és més fàcil creure’l?
+Germana_James: Però podem comprovar la seva història amb el Sr. McGuinn!
+
+Germana_Aloysius: Sí. Aquest tipus de persones són hàbils. No se les destrueix amb facilitat.
+Germana_James: Bé, jo n’estic convençuda!
+Germana_Aloysius: Jo no. Vostè vol que l’assumpte es resolgui per a poder tornar a la seva comoditat.
+Germana_James: No vull seguir prenent partit en això.
+Germana_Aloysius: He d’enderrocar-lo. Amb o sense la seva ajuda.
+Germana_James: Com pot estar tant segura que ell està mentint?
+Germana_Aloysius: Per experiència.
+Germana_James: És només perquè a vostè no li agrada! No li agrada que escrigui amb bolígraf. No li agrada que es posi tres terrossos de sucre al te. No li agrada que a ell li agradi “Gebrat, el ninot de neu”! I permet que això la convenci d’una cosa terrible, sí, terrible! Bé, a mi m’agrada “Gebrat, el ninot de neu”! I seria molt agradable que aquesta escola no fos dirigida com una presó! I considero que és quelcom molt bo que m’agradi ensenyar Història i que potser pugui inspirar als meus alumnes a que a ells també els agradi. I si per això vostè em jutja com que no estic capacitada per ser mestra, que així sigui!
+Germana_Aloysius: SEGUI! (La GERMANA JAMES ho fa.) A l’antiga Esparta, els assumptes importants eren decidits pels qui cridaven més fort. Afortunadament, no estem a l’Antiga Esparta. Però a veure: amb honestedat, troba que els alumnes d’aquesta escola són tractats com reclusos en una presó?
+Germana_James: (Reculant.) No, no. Realment, d’una manera general, ells semblen estar bastant satisfets. Però tots, sense excepció, li tenen pànic a vostè!
+Germana_Aloysius: Sí, així és com funciona. I ara, escolti. (La GERMANA ALOYSIUS mira en una agenda, agafa el telèfon i truca.): Hola! Sóc la Germana Aloysius Beauvier, la directora del Sant Nicolas. Parlo amb la Sra. Muller? Truco per un assumpte relacionat amb el seu fill Donald. Agrairia molt que vostè i el seu marit vinguessin a l’escola per tenir una conversa amb vostès. Quan els aniria bé?
+(Els llums s’abaixen.)
