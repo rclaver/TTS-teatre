@@ -1,6 +1,3 @@
-Inici de l'escena Joan-104
-pàgina 13
-
 (En Joan entra per la porta esquerra.)
 Joan: Què passa, Gisela?
 Gisela: No res, un ligue de la Mar.
@@ -27,7 +24,6 @@ Gisela: Per fi, Joan!
 Joan: Creia que tu ja ho donaves per fet.
 Gisela: Si, però m'agrada sentir-ho dels teus llavis.
 Joan: T'estimo, Gisela! T'estimo!
-
 Gisela: Jo també t'estimo!
 (Es besen)
 Joan: Ja fa temps que volia dir-t'ho...
@@ -35,7 +31,7 @@ Gisela: Jo, també!
 (Tornen a besar-se.)
 Joan: Gràcies, Justa!
 (Per la segona esquerra.)
-Gisela: (Rient.)Té vocació de matrimoniera!
+Gisela: (Rient.) Té vocació de matrimoniera!
 Joan: Et desagrada?
 Gisela: De cap manera!
 (L'abraça, feliç. Truquen insistentment a la porta exterior. Sobresalt d'en Joan i la Gisela.)
@@ -45,5 +41,3 @@ Gisela: No del tot!
 Gisela: Seguirem fent pràctiques amb l'ordinador.
 
 (Riuen, tot fent mutis)
-
-Final de l'escena Joan-104

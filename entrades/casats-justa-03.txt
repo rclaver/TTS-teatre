@@ -1,5 +1,5 @@
-Inici de l'escena 105
-pàgina 14
+Gisela: Seguirem fent pràctiques amb l'ordinador.
+(Riuen, tot fent mutis)
 
 (Entra la Justa per la segona esquerra.)
 Justa: Això és una casa de bojos! Entren, surten, apareixen, desapareixen, vénen, se'n van, tornen...
@@ -11,7 +11,7 @@ Canut: Zi! Ni un zegon! Jo també eztic molt canzat, zapz?
 Justa: (Baix) I jo, dempeus tot el sant dia i m'he d'aguantar.
 Tina: Què remugues?
 Justa: Coses meves, senyora. Que vol res?
-Tina: Ara que ho dius, porta'm una copa de pippermint. (A en Canut.) I tu, Canut?
+Tina: Ara que ho dius, porta'm una copa de Pippermint. (A en Canut.) I tu, Canut?
 Justa: Una cerveseta...?
 Canut: No! Rez d'alcohol! Aigua... aigua amb bombollez.
 Tina: Aigua de Vichy, Justa.
@@ -27,7 +27,7 @@ Canut: No dizimuliz! Faig riure perquè zóc papizot.
 Tina: I què hi fa, això?
 Canut: Zóc papizot!
 Tina: Una mica... però pronuncies molt bé.
-Canut: Éz que tu em mirez amb bonz ullz. Però, ho zóc!... De petit varen portar-me a un logopeda per corregir el defecte, zapz? Però noméz van zer doz diez, zapz? I éz que jo feia una rebequeria a cada vizita. I éz que elz meuz parez z'havien zeparat... Va zer com una mena de defenza, zapz? Això, m'ho ha dit el pziquiatre.
+Canut: Ez que tu em mirez amb bonz ullz. Però, ho zóc!... De petit varen portar-me a un logopeda per corregir el defecte, zapz? Però noméz van zer doz diez, zapz? I éz que jo feia una rebequeria a cada vizita. I éz que elz meuz parez z'havien zeparat... Va zer com una mena de defenza, zapz? Això, m'ho ha dit el pziquiatre.
 Tina: Vas al psiquiatre?
 Canut: Voldria curar-me, zapz? Però ez veu que zi aquezta anormalitat no ez cura de menut... etz papizot tota la vida!
 Tina: No diguis, això! A més, és un defecte petit... Si només se't nota quan parles!
@@ -39,8 +39,8 @@ Tina: Gràcies, Justa!
 Justa: Mana alguna cosa més, senyora?
 Tina: Per ara, res més! Ja pots retirar-te.
 Justa: M'esfumo!
-(Inicia el mutis per la segona esquerra. S'atura.)
 
+(Inicia el mutis per la segona esquerra. S'atura.)
 Tina: Ah! al despatx hi ha la Gisela. De cara a l'ordinador, com sempre! Quina obsessió, la d'aquesta criatura!
 Canut: Com totz elz nenz! I éz que hi ha unz jocz méz macoz...
 Tina: La Gisela té vint-i-un anys!
@@ -65,4 +65,19 @@ Tina: Ets un pillastre!
 Justa: Han trucat i jo vaig a obrir, que és el que em pertoca!
 (Mutis, fons.)
 
-Final de l'escena 105
+Tina: Rellamp! Encara no havia acabat de sonar el timbre, i ja la teníem entrant a corre-cuita. Si que era a prop!
+Canut: Enz eztava ezpiant.
+Tina: La xafardera! Em sentirà!
+(Pel fons, entra l' Emma, la filla gran de la Tina. De bona presència, però una mica bleda.)
+Emma: Hola, mami!
+(Es queda al llindar.)
+Tina: Emma! Quina sorpresa! Feia temps que no ens vèiem.
+Emma: (Avançant, mentre riu forçadament.) Hi, hi, hi! No gaire mami. Aquest mati hem anat a comprar, tu i jo. No te'n recordes?
+Tina: Ui, si! Quin cap!
+(Pel fons, entra la Justa.)
+Emma: I tu, què hi fas, a casa? Que no hi ha bingo, avui?
+Tina: He canviat de plans. M'he apropat al club i allí he ensopegat amb ell.
+(Indicant en Canut, que s'aixeca.)
+Justa: El rei d'oros!
+(Es posa la mà a la boca, com espantada del que acaba de dir, i fa mutis ràpid per la segona esquerra.)
+Tina: Cada dia és més descarada!

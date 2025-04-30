@@ -224,6 +224,7 @@ if __name__ == "__main__":
       proces()
    else:
       escenes = glob.glob(f"{dir_dades}/{base_arxiu_text}-{actor}-*")
+      escenes.sort()
       for escena in escenes:
          es = re.match(f"^{dir_dades}/({base_arxiu_text}-{actor}-[0-9]+).*", escena)
          proces(es.group(1))

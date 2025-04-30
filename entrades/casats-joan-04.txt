@@ -1,6 +1,3 @@
-Inici de l'escena Joan-204
-pàgina 42
-
 (Per aquest mateix lateral, entren, esverats, la Gisela, la Mar, en Canut i en Joan.)
 Mar: Què coi passa?
 Gisela: Qui s'ha fet mal?
@@ -68,7 +65,7 @@ Gisela: És emocionant!
 (Abraça en Pompeu.)
 Gisela: T'estimem, papà!
 Pompeu: Gràcies!
-(Li toma l'abraçada, mentre mira la Tina.)
+(Li torna l'abraçada, mentre mira la Tina.)
 Pompeu: Jo també us estimo.
 Tina: Be, família! Us recordo que en Pompeu i jo som els qui ens trobem en plena lluna de mel.
 (Agafant en Pompeu amorosament.)
@@ -154,4 +151,3 @@ Canut: Ui! Quin galliner!
 Justa: Els diners, Canut! La mare dels ous!
 
 Teló
-Final de l'escena Joan-204

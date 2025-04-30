@@ -1,6 +1,3 @@
-Inici de l'escena Joan-202
-pàgina 33
-
 (Pel fons, entren la Gisela i en Joan. En veure la Tina, la Gisela corre a abraçar-la.)
 Gisela: Mami! Com ha anat el viatge de noces?
 Tina: Fabulós, filla! Ha estat com un somni fet realitat.
@@ -23,14 +20,16 @@ Mar: I es pagaran. La mami té el seu maridet ficat a la butxaca.
 Gisela: Valdrà més que ella es fiqui a la d'ell. I que en tregui diners per tapar forats.
 Tina: Nenes! No sigueu tan interessades. Tot vindrà.
 Joan: Els creditors, també.
-Tina: Els direm que tomin un altre dia.
+Tina: Els direm que tornin un altre dia.
 Joan: I si presenten les factures al senyor Rius?
 Gisela: Això! No deus pas voler que s'assabenti de l'estat de la nostra economia per terceres persones!
 Tina: Mal aniríem! No us preocupeu. N'hi parlaré a la primera oportunitat.
+
 (Sona el timbre del fons. La Tina s'alarma.)
 Tina: Ells! Ja els tenim aquí!
 Mar: Serenitat, mami! Ens hi enfrontarem.
 Gisela: Amb compte! S'ha d'evitar l'escàndol.
+
 (Per la segona esquerra entra la Justa, que va cap al fons. Mira l'escena i s'atura.)
 Justa: Caram! Reunió familiar!
 Tina: Justa! Segons qui sigui, no hi som.
@@ -38,6 +37,7 @@ Justa: I com faig la discriminació? Com sabré jo qui pot entrar i qui no?
 Gisela: Dissimula... Digues allò de... "No sé si hi són... Ho miraré"...
 Justa: Sempre em toca a mi, fer el paperot.
 (La Justa fa mutis pel fons.)
+
 Joan: (A la Tina.) Ha d'aclarir aquesta situació com més aviat, millor.
 Gisela: Fes cas d'en Joan, mare.
 
@@ -81,5 +81,3 @@ Tina: He! Aquest xicot és molt voluntariós!
 Gisela: Més del que et penses! Si no fos per ell, ja fa temps que estaríem a pa i aigua!
 (Fa mutis per la porta dreta.)
 Gisela: Us donaré un cop de mà.
-
-Final de l'escena Joan-202
