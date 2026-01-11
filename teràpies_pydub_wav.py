@@ -5,12 +5,15 @@ Creat: 16-01-2025
 @author: rafael
 @description: Convierte archivos de texto a audio
 
-pip install gTTS
-pip install pydub
-pip install soundfile
-pip install pyworld
-pip install wave
+pip install --no-cache-dir gTTS
+pip install --no-cache-dir pydub
+pip install --no-cache-dir soundfile
+pip install --no-cache-dir pyworld
+pip install --no-cache-dir wave
 """
+import warnings
+warnings.filterwarnings("ignore", message="pkg_resources is deprecated")
+
 import os, re, glob, shutil
 import sys
 import soundfile as sf
@@ -22,7 +25,7 @@ from pydub import AudioSegment
 # paràmetres
 #
 is_linux = (os.name == 'posix')
-terminal = (is_linux and sys.argv[0] == "./casats_pydub_wav.py") or (not is_linux and sys.argv[0] == "casats_pydub_wav.py")
+terminal = (sys.argv[0] == "teràpies_pydub_wav.py")
 if not terminal:
    #Si se ejecuta desde un IDE que ya incluye la referencia al directorio utilitats
    import colors as c
@@ -34,15 +37,15 @@ else:
    actor = sys.argv[1].lower() if len(sys.argv) > 1 else ""
 
 if actor == "":
-   actor = "Joan"
+   actor = "teo"
 
 print(f"\n{c.CB_GRN}Es convertiran les escenes de: {actor}{c.C_NONE}", end='\n\n')
 
 # variables locals
 #
-titol = "casats"
+titol = "teràpies"
 baseDir = os.getcwd()
-dir_dades = "entrades/{titol}"
+dir_dades = f"entrades/{titol}"
 base_arxiu_text = titol
 dirSortida = f"sortides/{titol}/wav/"
 baseArxiuWav = baseDir + "/" + dirSortida
@@ -51,14 +54,12 @@ tmp3 = dirSortida + "temp.mp3"
 twav = dirSortida + "temp.wav"
 silenci = "supplies/silenci.wav"
 
-Personatges = {'Joan':   {'speed': 1.20, 'grave': 3.6, 'reduction': 0.6},
-               'Gisela': {'speed': 1.30, 'grave': 0.9, 'reduction': 1.7},
-               'Mar':    {'speed': 1.40, 'grave': 0.6, 'reduction': 1.4},
-               'Emma':   {'speed': 1.40, 'grave': 0.7, 'reduction': 1.0},
-               'Tina':   {'speed': 1.30, 'grave': 1.1, 'reduction': 1.0},
-               'Justa':  {'speed': 1.40, 'grave': 1.8, 'reduction': 0.9},
-               'Pompeu': {'speed': 1.00, 'grave': 3.0, 'reduction': 0.8},
-               'Canut':  {'speed': 1.50, 'grave': 2.8, 'reduction': 1.0}}
+Personatges = {'Teo':    {'speed': 1.20, 'grave': 3.6, 'reduction': 0.6},
+               'Pruden': {'speed': 1.30, 'grave': 0.9, 'reduction': 1.7},
+               'Stef':   {'speed': 1.40, 'grave': 0.6, 'reduction': 1.4},
+               'Berta':  {'speed': 1.40, 'grave': 1.0, 'reduction': 0.9},
+               'Oscar':  {'speed': 1.00, 'grave': 3.0, 'reduction': 0.8},
+               'Andy':   {'speed': 1.50, 'grave': 2.8, 'reduction': 1.0}}
 Narrador = {'speed': 1.22, 'grave': 1.6, 'reduction': 1.7}
 Narrador = "narrador"
 
@@ -98,7 +99,7 @@ def nom_arxiu(num):
 def mostra_sentencia(text, ends):
    ini_color = c.CB_CYN if text in Personatges else c.C_NONE
    ini_color = c.CB_YLW if text == actor.capitalize() else ini_color
-   text = f"{c.BG_CYN+text:<60}" if (text[:6] == "Casats" or
+   text = f"{c.BG_CYN+text:<60}" if (text[:6] == "Teràpies" or
                                      text[:5] == "Acte " or
                                      text[:5] == " Part" or
                                      text[:6] == "Escena" or

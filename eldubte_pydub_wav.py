@@ -42,7 +42,7 @@ print(f"\n{c.CB_GRN}Es convertiran les escenes de: {actor}{c.C_NONE}", end='\n\n
 #
 titol = "eldubte"
 baseDir = os.getcwd()
-dir_dades = "entrades"
+dir_dades = "entrades/{titol}"
 base_arxiu_text = titol
 dirSortida = f"sortides/{titol}/wav/"
 baseArxiuWav = baseDir + "/" + dirSortida

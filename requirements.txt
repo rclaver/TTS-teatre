@@ -1,0 +1,5 @@
+soundfile
+pyworld
+gtts
+pydub
+wave
