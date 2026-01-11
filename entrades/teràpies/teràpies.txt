@@ -1,5 +1,5 @@
 ESCENA 1
-Un restaurant. l'Oscar assegut mirant el rellotge. Té de 30 a 34 anys, d’aspecte agradable, i probablement porta una camisa oberta i una americana. Entra Pruden, de 29 a 32 anys, arreglada però no massa, amb un vestit o brusa i faldilla. Després de dubtar un moment va cap a l'Oscar.
+Un restaurant. L'Oscar assegut mirant el rellotge. Té de 30 a 34 anys, d’aspecte agradable, i probablement porta una camisa oberta i una americana. Entra Pruden, de 29 a 32 anys, arreglada però no massa, amb un vestit o brusa i faldilla. Després de dubtar un moment va cap a l'Oscar.
 Pruden: Hola.
 Oscar: Hola.
 Pruden: Ets l’home blanc, entre 30 i 35 anys, d’un metre vuitanta, ulls blaus, a qui li agrada la música, el cinema, passejar i les vetllades tranquil·les a casa?
@@ -54,7 +54,7 @@ Oscar: Crec que vaig a plorar.
 Pruden: Per què?
 Oscar: No t’agrado suficientment. Crec que t’agrada més el cambrer.
 Pruden: El cambrer?
-(l'Oscar plora.)
+(L'Oscar plora.)
 Pruden: Fes el favor de no plorar, fes-me el favor. No ploris. No puc suportar-ho.
 Oscar: (Deixa de plorar un moment.) Ja estic millor. Tens una boca preciosa.
 Pruden: Gràcies.
@@ -74,7 +74,7 @@ Oscar: Ja ho saps.
 Pruden: Ah.
 Oscar: Em sembla que t’estic posant nerviosa.
 Pruden: No. Només és que és difícil conèixer algú. I el cambrer encara no ha vingut i m’agradaria demanar alguna cosa.
-Oscar: Tornem a començar. Hola em diuen l'Oscar.
+Oscar: Tornem a començar. Hola em diuen Oscar.
 Pruden: Hola.
 Oscar: Pruden. Quin nom més maco.
 Pruden: Gràcies.
@@ -190,7 +190,7 @@ Pruden: No parlis tu tampoc.
 ESCENA 3
 Oficina de Berta Bornikoff. Segurament pèl-roja, amb roba de colors vius. Té una Peggy damunt l’escriptori. Si hi hagués parets estarien plenes de dibuixos infantils.
 Berta: (Per l’interfon.) Pot fer entrar el següent pacient, Marcela.
-(Entra l'Oscar i s’asseu. Berta no veu ningú.)
+(Entra l'Oscar i s’asseu. La Berta no veu ningú.)
 Berta: (Per l’interfon.) Marcela, fes passar el següent pacient, sisplau.
 (Veu l'Oscar.)
 Berta: Hola.
@@ -254,16 +254,16 @@ Oscar: Moltíssimes gràcies, doctora Bornikoff. A veure si hi ha sort. Ah, no h
 Berta: Qui és en Teo?
 Oscar: El noi que viu amb mi des de fa un any.
 Berta: Ui, durant tota la sessió he pensat que eres un altre pacient. Tu no ets Thomas Norton?
-Oscar: No, sóc l'Oscar Blanc. l'Oscar. Oscar i Teo.
+Oscar: No, sóc Oscar Blanc. Oscar. Oscar i Teo.
 Berta: Oh, clar. Oscar i Teo. Ara ho recordo. Ho sento. En qualsevol cas és un bon perfil.
-(l'Oscar surt..)
+(L'Oscar surt..)
 Berta: Demana-li cita al meu dirigible per a la setmana que ve. Sí, ja sé... secretària. Crec que hauria de mirar-me el sucre. Adéu.
 (La doctora Bornikoff parla per l’intèrfon.)
 Berta: Marcela, fes passar el següent propòsit. Espera, no vull dir propòsit, vull dir peniquès, poney, parquet, penis, no, tampoc. Ho sento, Marcela, quan ho recordi t’ho diré.
 (Mou els llavis intentant recordar.)
 
 ESCENA 4
-El restaurant. l'Oscar espera mirant el rellotge. Després d’un moment entra la Pruden.
+El restaurant. L'Oscar espera mirant el rellotge. Després d’un moment entra la Pruden.
 Pruden: (Quan veu l'Oscar.) Oh.
 Oscar: Hola de nou.
 Pruden: Hola.
@@ -665,7 +665,7 @@ Oscar: (A la Pruden.) Està totalment boja.
 Teo: Mami, sóc jo. Ja pots deixar de cantar. Està bé, acaba l’estrofa.
 Pruden: On és el pare de Teo?
 Oscar: Ella el va assassinar.
-Teo: No fa gràcia, l'Oscar. Sí, mami, deixa de cantar. Sí, estic bé. Si, els ho diré. (Cap als dos.) Diu que sou uns immadurs. (Al telèfon.) Sí, jo també crec que és lesbiana.
+Teo: No fa gràcia, Oscar. Sí, mami, deixa de cantar. Sí, estic bé. Si, els ho diré. (Cap als dos.) Diu que sou uns immadurs. (Al telèfon.) Sí, jo també crec que és lesbiana.
 Pruden: Me’n vaig.
 Pruden: Me’n vaig.
 Oscar: No, no, no. Ara ho arreglaré. (A Teo.) Acaba de parlar per telèfon des de l’altra habitació, i després, te’n vas. Així la Pruden i jo podrem sopar tranquils. Havíem quedat així.
@@ -675,7 +675,7 @@ Oscar: No vull parlar més, Teo. Vés a parlar amb la teva mare a l’altra habi
 Teo: “La Mamma Morta”, de Donizetti
 Pruden: No, no és d’ell.
 Oscar: Continua cantant, Marga. Teo va a l’altre telèfon. M’alegro de parlar amb tu.
-Teo: No entenc el teu comportament, l'Oscar. No t’entenc.
+Teo: No entenc el teu comportament, Oscar. No t’entenc.
 (Teo se’n va.)
 Pruden: Oscar, no pots imaginar-te com estic. Me n’haig d’anar o vosaltres hauríeu d’anar a un psiquiatre matrimonial o una cosa així.
 Oscar: Ho sento. Hauria d’haver evitat tot això.
@@ -690,7 +690,7 @@ Oscar: No tinguis por dels sentiments.
 Pruden: Deixa-ho estar.
 Oscar: Em trobo tan a prop teu.
 (Entra Teo amb una maleta. Sona el telèfon.)
-Teo: No l’agafis. És la meva mare una altra vegada. Li he dit que anava a un hotel a llençar- me per una finestra. No tinc motius per continuar viu. (A la Pruden. Sincer.) Espero que sigueu molt feliços. De debò.
+Teo: No l’agafis. És la meva mare una altra vegada. Li he dit que anava a un hotel a llençar-me per una finestra. No tinc motius per continuar viu. (A la Pruden. Sincer.) Espero que sigueu molt feliços. De debò.
 Pruden: (Confosa.) Gràcies.
 Oscar: Teo, vine aquí. (Agafa el telèfon.) Marga, ja et trucarem. (Penja.) Teo.
 Teo: No, comenceu a sopar. No vull interposar-me en el vostre camí.
@@ -750,7 +750,6 @@ Oscar: Què vol dir que et vas anar al llit amb la teva psiquiatre?
 Pruden: No sé, jo...
 Oscar: (A Teo, que continua cantant.) Txx! (Al telèfon.) Doctora Bornikoff? Hola, sóc l'Oscar. Tenim una petita emergència i em preguntava si ens podria ajudar? La veritat és que estem desesperadament necessitats de teràpia.
 
-
 ESCENA 7
 El despatx de la Doctora Bornikoff, vint minuts més tard després del final de l’escena anterior. La Doctora Bornikoff està en escena.
 Berta: Hola.
@@ -799,7 +798,7 @@ Teo: El cas és que aquest és el meu problema.
 Berta: Si l'Oscar se’n va, pots trobar un altre company de pis. No hi ha cap problema. Hi ha gent que busca pis per compartir. El meu fill, de fet, n’està buscant. No es porta bé amb el meu marit. Potser podries compartir-lo amb ell.
 Teo: Crec que no m’estàs entenent.
 Berta: Què?
-Teo: Que crec que no m’estàs entenent. l'Oscar i jo no som companys de pis únicament. Ja saps... vull dir... no t’ha parlat de mi a les seves sessions?
+Teo: Que crec que no m’estàs entenent. L'Oscar i jo no som companys de pis únicament. Ja saps... vull dir... no t’ha parlat de mi a les seves sessions?
 Berta: Deixa’m mirar la fitxa.
 (Berta busca en els Kleenex. Li semblar distingir-hi alguns noms: Oscar Wilde, Oscar Jaenada, Oscar Mayer...)
 Berta: No, no el trobo. Potser la meva dirigible sàpiga on està. (A l’intèrfon.) Marcela? Oh, que tonta, Marcela no hi és a aquestes hores a l’oficina. (A l’intèrfon.) Deixa-ho, no et preocupis. Hauré de recordar-ho.
@@ -950,7 +949,7 @@ Berta: Hola a tots.
 Stef: I aquests qui són?
 Berta: Teo, parla.
 Teo: Ara us diré com m’heu fet sentir. Estic molt enfadat.
-(Treu la pistola. l'Oscar, la Pruden i Stef aterrats. Dispara sis o set vegades. Tots estan impressionats. Tracten de veure si estan ferits. Entra un jove cambrer.)
+(Treu la pistola. L'Oscar, la Pruden i l'Stef aterrats. Dispara sis o set vegades. Tots estan impressionats. Tracten de veure si estan ferits. Entra un jove cambrer.)
 Andy: Ho sento però haig d’obligar-los a abandonar el local.
 Oscar: Però encara no hem vist el menú.
 Andy: Ho sento però no es permet disparar dintre el restaurant.
@@ -983,7 +982,7 @@ Berta: Això és el teu problema. Tots hem d’acceptar la responsabilitat de le
 Stef: Crec que ets una psiquiatra pèssima.
 Berta: Sembla que estiguis gelosa.
 Pruden: (A Stef.) És millor que no parlis de psiquiatres pèssims.
-Berta: (A l'Oscar.) Oh, és tan directa. És fantàstica. Enhorabona, l'Oscar.
+Berta: (A l'Oscar.) Oh, és tan directa. És fantàstica. Enhorabona, Oscar.
 Pruden: Per què li dónes l’enhorabona?
 Berta: No aneu a casar-vos?
 OSCAR / la Pruden: Sí / No.
@@ -1024,7 +1023,7 @@ Pruden: No em casaré amb cap dels dos. Esteu bojos. Em casaré amb algú sensat
 Teo: Aquest dec ser jo.
 Pruden: No. Em casaré amb el cambrer.
 Berta: Oh, en realitat no el coneixes.
-Pruden: És igual. l'Oscar diu que és millor no conèixer algú quan vas a casar-te amb ell.
+Pruden: És igual. L'Oscar diu que és millor no conèixer algú quan vas a casar-te amb ell.
 Oscar: Ho deia perquè et casessis amb mi.
 Pruden: Però ara ja sé massa de tu i res del cambrer. Cambrer!
 (El cambrer entra.)
@@ -1160,7 +1159,7 @@ Pruden: De blanc. Volia dir de blanc.
 Oscar: No, has dit de blau. I ha d’haver una raó per a triar aquest color.
 Pruden: No, per favor. No podem prendre les decisions així.
 Oscar: Hi ha tonalitats de blau que quedarien molt bé.
-Pruden: Per favor... em dóna igual de quin color pintem la casa. l'Oscar, per què vols casar- te amb mi? Contesta sense pensar.
+Pruden: Per favor... em dóna igual de quin color pintem la casa. Oscar, per què vols casar-te amb mi? Contesta sense pensar.
 Oscar: He escrit això. (Treu un paper i llegeix.) “Vull casar-me amb la Pruden perquè tota la meva vida he estat fluctuant entre ser tradicional o no ser-ho. Per exemple, quan em vaig casar amb Marta intentava ser tradicional i em vaig anar al llit amb l’home del gas. O un dia em vaig despullar a la consulta del dentista. Però no estic feliç en els extrems. Aquí és on apareix la Pruden. Sento que ella és tradicional però té imaginació. Tot i que també és inestable. Per això penso que podrem ser feliços. Ho entens?
 Pruden: No entenc allò de la consulta del dentista.
 Oscar: Bé... havia d’arreglar-me un queixal...
@@ -1169,7 +1168,7 @@ Oscar: Però t’ho he llegit de manera espontània.
 Pruden: Com haig de casar-me amb algú que es despulla perquè li arreglin un queixal?
 Oscar: Només ho he fet una vegada.
 Pruden: (Enfadada.) Estic boja.
-Oscar: Has canviat d’idea. (Plora. la Pruden s’asseu, calmada. Plora també. l'Oscar deixa de plorar i la mira.) la Pruden, estàs plorant. No ploris. Què et passa?
+Oscar: Has canviat d’idea. (Plora. La Pruden s’asseu, calmada. Plora també. L'Oscar deixa de plorar i la mira.) Pruden, estàs plorant. No ploris. Què et passa?
 Pruden: No ho sé... és que això de despullar-se davant del dentista és de bojos. Estàs boig. Bé, no ho sé, potser no estàs boig... però tot això és una bogeria i jo... m’estic tornant boja.
 Oscar: Sí, estic boig.
 Pruden: Sí, estàs molt boig. No crec que pugui suportar-ho.

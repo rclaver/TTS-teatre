@@ -1,7 +1,7 @@
 ESCENA 3
 Oficina de Berta Bornikoff. Segurament pèl-roja, amb roba de colors vius. Té una Peggy damunt l’escriptori. Si hi hagués parets estarien plenes de dibuixos infantils.
 BERTA: (Per l’interfon.) Pot fer entrar el següent pacient, Marcela.
-(Entra l'Oscar i s’asseu. Berta no veu ningú.)
+(Entra l'Oscar i s’asseu. La Berta no veu ningú.)
 BERTA: (Per l’interfon.) Marcela, fes passar el següent pacient, sisplau.
 (Veu l'Oscar.)
 BERTA: Hola.
@@ -67,9 +67,9 @@ OSCAR: Moltíssimes gràcies, doctora Bornikoff. A veure si hi ha sort. Ah, no h
 BERTA: Qui és en Teo?
 OSCAR: El noi que viu amb mi des de fa un any.
 BERTA: Ui, durant tota la sessió he pensat que eres un altre pacient. Tu no ets Thomas Norton?
-OSCAR: No, sóc l'Oscar Blanc. l'Oscar. Oscar i Teo.
+OSCAR: No, sóc Oscar Blanc. Oscar. Oscar i Teo.
 BERTA: Oh, clar. Oscar i Teo. Ara ho recordo. Ho sento. En qualsevol cas és un bon perfil.
-(l'Oscar surt..)
+(L'Oscar surt..)
 BERTA: Demana-li cita al meu dirigible per a la setmana que ve. Sí, ja sé... secretària. Crec que hauria de mirar-me el sucre. Adéu.
 (La doctora Bornikoff parla per l’intèrfon.)
 BERTA: Marcela, fes passar el següent propòsit. Espera, no vull dir propòsit, vull dir peniquès, poney, parquet, penis, no, tampoc. Ho sento, Marcela, quan ho recordi t’ho diré.

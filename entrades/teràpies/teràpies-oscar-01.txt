@@ -1,5 +1,5 @@
 ESCENA 1
-Un restaurant. l'Oscar assegut mirant el rellotge. Té de 30 a 34 anys, d’aspecte agradable, i probablement porta una camisa oberta i una americana. Entra Pruden, de 29 a 32 anys, arreglada però no massa, amb un vestit o brusa i faldilla. Després de dubtar un moment va cap a l'Oscar.
+Un restaurant. L'Oscar assegut mirant el rellotge. Té de 30 a 34 anys, d’aspecte agradable, i probablement porta una camisa oberta i una americana. Entra Pruden, de 29 a 32 anys, arreglada però no massa, amb un vestit o brusa i faldilla. Després de dubtar un moment va cap a l'Oscar.
 PRUDEN: Hola.
 OSCAR: Hola.
 PRUDEN: Ets l’home blanc, entre 30 i 35 anys, d’un metre vuitanta, ulls blaus, a qui li agrada la música, el cinema, passejar i les vetllades tranquil·les a casa?
@@ -54,7 +54,7 @@ OSCAR: Crec que vaig a plorar.
 PRUDEN: Per què?
 OSCAR: No t’agrado suficientment. Crec que t’agrada més el cambrer.
 PRUDEN: El cambrer?
-(l'Oscar plora.)
+(L'Oscar plora.)
 PRUDEN: Fes el favor de no plorar, fes-me el favor. No ploris. No puc suportar-ho.
 OSCAR: (Deixa de plorar un moment.) Ja estic millor. Tens una boca preciosa.
 PRUDEN: Gràcies.
@@ -74,7 +74,7 @@ OSCAR: Ja ho saps.
 PRUDEN: Ah.
 OSCAR: Em sembla que t’estic posant nerviosa.
 PRUDEN: No. Només és que és difícil conèixer algú. I el cambrer encara no ha vingut i m’agradaria demanar alguna cosa.
-OSCAR: Tornem a començar. Hola em diuen l'Oscar.
+OSCAR: Tornem a començar. Hola em diuen Oscar.
 PRUDEN: Hola.
 OSCAR: Pruden. Quin nom més maco.
 PRUDEN: Gràcies.
