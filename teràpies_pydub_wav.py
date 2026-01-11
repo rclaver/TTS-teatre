@@ -57,9 +57,9 @@ silenci = "supplies/silenci.wav"
 Personatges = {'Teo':    {'speed': 1.20, 'grave': 3.6, 'reduction': 0.6},
                'Pruden': {'speed': 1.30, 'grave': 0.9, 'reduction': 1.7},
                'Stef':   {'speed': 1.40, 'grave': 0.6, 'reduction': 1.4},
-               'Berta':  {'speed': 1.40, 'grave': 1.0, 'reduction': 0.9},
-               'Oscar':  {'speed': 1.00, 'grave': 3.0, 'reduction': 0.8},
-               'Andy':   {'speed': 1.50, 'grave': 2.8, 'reduction': 1.0}}
+               'Berta':  {'speed': 1.40, 'grave': 1.0, 'reduction': 1.2},
+               'Oscar':  {'speed': 1.30, 'grave': 2.0, 'reduction': 0.8},
+               'Andy':   {'speed': 1.50, 'grave': 2.4, 'reduction': 1.0}}
 Narrador = {'speed': 1.22, 'grave': 1.6, 'reduction': 1.7}
 Narrador = "narrador"
 
