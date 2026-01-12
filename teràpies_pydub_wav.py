@@ -14,8 +14,7 @@ pip install --no-cache-dir wave
 import warnings
 warnings.filterwarnings("ignore", message="pkg_resources is deprecated")
 
-import os, re, glob, shutil
-import sys
+import sys, os, re, glob, shutil
 import soundfile as sf
 import pyworld as pw
 import wave

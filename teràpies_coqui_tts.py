@@ -8,6 +8,9 @@ Creat: 08-01-2025
 pip install --no-cache-dir torch
 pip install --no-cache-dir TTS
 """
+import warnings
+warnings.filterwarnings("ignore", message="pkg_resources is deprecated")
+
 import sys, os, re, glob, time, shutil
 import torch
 from TTS.api import TTS
@@ -47,8 +50,8 @@ baseDir = os.getcwd()
 dir_dades = f"entrades/{titol}"
 base_arxiu_text = titol
 dir_sortida = f"sortides/{titol}/wav_tts/"
-rutaArxiuWav = baseDir + "/" + dir_sortida
-ArxiuWav = ""
+ruta_arxiu_wav = baseDir + "/" + dir_sortida
+arxiu_wav = ""
 
 Personatges={'Teo':  '02689',
              'Oscar':'01591',
@@ -56,12 +59,12 @@ Personatges={'Teo':  '02689',
              'Pruden': 'mar',
              'Stef':  '00762',
              'Berta':  'ona'}
-Narrador='pep'
+Narrador='narrador'
 
 
 def elimina_fragments(escena):
    print(c.BG_CYN+"Fi de l\'escena "+escena+c.C_NONE, end='\n\n')
-   os.chdir(rutaArxiuWav)
+   os.chdir(ruta_arxiu_wav)
    files = glob.glob(f"{titol}_[0-9]*.wav")
    for filename in files:
       os.remove(filename)
@@ -71,8 +74,8 @@ def nom_arxiu(num):
    return dir_sortida + titol + "_" + f'{num:{"0"}{">"}{4}}' + ".wav"
 
 def concatena_wavs(wfile):
-   if os.path.isfile(ArxiuWav):
-      infiles = [ArxiuWav, wfile]
+   if os.path.isfile(arxiu_wav):
+      infiles = [arxiu_wav, wfile]
 
       data = []
       for infile in infiles:
@@ -81,13 +84,13 @@ def concatena_wavs(wfile):
          data.append([w.getparams(), w.readframes(w.getnframes())])
          w.close()
 
-      output = wave.open(ArxiuWav, 'wb')
+      output = wave.open(arxiu_wav, 'wb')
       output.setparams(data[0][0])
       for i in range(len(data)):
          output.writeframes(data[i][1])
       output.close()
    else:
-      shutil.copyfile(wfile, ArxiuWav)
+      shutil.copyfile(wfile, arxiu_wav)
 
 def mostra_sentencia(text, ends):
    ini_color = c.CB_CYN if text in Personatges else c.C_NONE
@@ -133,10 +136,10 @@ Partició del text en sentències (una sentència correspón a una línia del te
 Cada sentència pot pertanyer, bé al narrador, bé a un personatge
 '''
 def proces(escena=None):
-   global ArxiuWav
+   global arxiu_wav
    arxiu = escena if escena else base_arxiu_text
-   ArxiuWav = rutaArxiuWav + arxiu + ".wav"
-   if os.path.isfile(ArxiuWav): os.remove(ArxiuWav)
+   arxiu_wav = ruta_arxiu_wav + arxiu + ".wav"
+   if os.path.isfile(arxiu_wav): os.remove(arxiu_wav)
    arxiu = f"{dir_dades}/{arxiu}.txt"
 
    with open(arxiu, 'r', encoding="utf-8") as f:
