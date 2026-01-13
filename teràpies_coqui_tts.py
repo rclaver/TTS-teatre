@@ -17,7 +17,6 @@ from TTS.api import TTS
 import wave
 
 # paràmetres
-#
 is_linux = (os.name == 'posix')
 terminal = (sys.argv[0] == "teràpies_coqui_tts.py")
 if not terminal:
@@ -30,8 +29,7 @@ else:
       import python.utilitats.colors as c
    actor = sys.argv[1].lower() if len(sys.argv) > 1 else ""
 
-if actor == "":
-   actor = "teo"
+if actor == "": actor = "teo"
 print(f"\n{c.CB_GRN}Es convertiran les escenes de: {actor}{c.C_NONE}", end='\n\n')
 
 sencer = (len(sys.argv) > 1 and sys.argv[1] == "sencer")
@@ -42,9 +40,10 @@ if sencer:
 # Get device
 device = "cuda" if torch.cuda.is_available() else "cpu"
 tts = TTS("tts_models/ca/custom/vits", progress_bar=False).to(device)
+#for x in tts.speakers: print(x)
+llista_speakers = ['bet','eli','eva','jan','mar','ona','pau','pep','pol','teo']
 
 # variables locals
-#
 titol = "teràpies"
 baseDir = os.getcwd()
 dir_dades = f"entrades/{titol}"
@@ -96,7 +95,6 @@ def mostra_sentencia(text, ends):
    ini_color = c.CB_CYN if text in Personatges else c.C_NONE
    ini_color = c.CB_YLW if text == "Teo" else ini_color
    ini_color = c.BG_CYN + "\n" if (text[:8] == "teràpies" or
-                                   text[:5] == "Acte " or
                                    text[:7] == "Escena " or
                                    text[:4] == "Teló") \
                                else ini_color
@@ -186,7 +184,13 @@ if __name__ == "__main__":
    # grupo no captura parentesis "(?:\(.*?\))"
    # grupo con nombre no captura parentesis "(?'parentesi'\(.*?\))"
 
-   if actor == "sencer":
+   if actor == "ajuda":
+      print("\n=============\nLlista de models TTS\n", TTS().list_models())
+      print("=============\nLlista de models tts\n", tts.list_models())
+      print("=============\ntts: ", tts)
+      print("=============\ntts.speakers: ")
+      for x in tts.speakers: print(x)
+   elif actor == "sencer":
       proces()
    else:
       escenes = glob.glob(f"{dir_dades}/{base_arxiu_text}-{actor}-*")

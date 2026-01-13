@@ -38,15 +38,15 @@ arxiu_wav = ""
 tmp3 = f"{dir_sortida}temp.mp3"
 twav = f"{dir_sortida}temp.wav"
 
-Personatges = {'Teo'   :{'sexe':1, 'velocitat':20, 'genere':1, 'edat':60},
-               'Oscar' :{'sexe':1, 'velocitat':25, 'genere':1, 'edat':40},
-               'Andy'  :{'sexe':1, 'velocitat':25, 'genere':1, 'edat':42},
-               'Pruden':{'sexe':0, 'velocitat':40, 'genere':2, 'edat':20},
-               'Stef'  :{'sexe':0, 'velocitat':30, 'genere':2, 'edat':22},
-               'Berta' :{'sexe':0, 'velocitat':30, 'genere':2, 'edat':38}}
+Personatges = {'Teo'   :{'sexe':0, 'velocitat':0, 'genere':1, 'edat':60},
+               'Oscar' :{'sexe':0, 'velocitat':0, 'genere':1, 'edat':40},
+               'Andy'  :{'sexe':0, 'velocitat':80, 'genere':1, 'edat':42},
+               'Pruden':{'sexe':1, 'velocitat':10, 'genere':2, 'edat':20},
+               'Stef'  :{'sexe':1, 'velocitat':100, 'genere':2, 'edat':22},
+               'Berta' :{'sexe':1, 'velocitat':100, 'genere':2, 'edat':38}}
 # parametres del to de veu
 # frequencies entre 200Hz i 1050Hz
-Narrador = {'sexe':1, 'velocitat':25, 'genere':1, 'edat':50}
+Narrador = {'sexe':2, 'velocitat':10, 'genere':2, 'edat':50}
 
 
 def nom_arxiu(num):
@@ -99,58 +99,72 @@ def mostra_sentencia(text, ends):
 def text_to_audio(text, output_file, veu_params, ends):
    mostra_sentencia(text, ends)
 
-   #obtenir els parametres
-   sexe, velocitat, genere, edat = list(veu_params.values())
+   if ends != ": ":
+      #obtenir els parametres
+      sexe, velocitat, genere, edat = list(veu_params.values())
 
-   try:
-      engine = pyttsx3.init('espeak')   # 'espeak', 'dummy'
-      # mostraVeus(engine)
-      engine.setProperty('voice', 'catalan')
-      veu = pyttsx3.voice.Voice('catalan', name='catalan', gender=genere, age=edat)
-      id_veu = engine.getProperty('voice')
+      if sexe < 2:
+         try:
+            engine = pyttsx3.init('espeak')   # 'espeak', 'dummy'
 
-      # Velocitat
-      rate = engine.getProperty('rate')
-      # print(c.C_BLU+"new rate:", rate-velocitat, c.C_NONE)
-      engine.setProperty('rate', rate - velocitat)
+            veus = engine.getProperty('voices')
+            engine.setProperty('voices', veus[11].id) # "roa/ca" Catalan
 
-      # Changing volume
-      volume = engine.getProperty('volume')
-      # print(c.C_BLU+"new volume:", volume+0.25, c.C_NONE)
-      engine.setProperty('volume', volume+0.25)
+            id_veu = engine.getProperty('voice')
+            engine.setProperty('voice', id_veu)  #'roa/ca'
 
-      engine.save_to_file(text, tmp3)
-      engine.runAndWait()
-      time.sleep(0.2)
-      n = 0
-      while engine.isBusy() and n < 100000: n += 1
-      engine.stop()
+            '''# mostraVeus(engine)
+            veu = pyttsx3.voice.Voice('catalan', name='Catalan', languages=['ca'], gender=genere, age=edat)
+            veus = engine.getProperty('voices')
+            for v in veus:
+               print(f"veu:{v}")
+               for l in v.languages:
+                  print(f"- llengua:{l}")
+            '''
 
-      # Convertir l'arxiu mp3 a wav
-      audio = AudioSegment.from_mp3(tmp3)
-      audio.export(twav, format="wav")
-      concatena_wavs(twav)
+            # Velocitat
+            rate = engine.getProperty('rate')
+            #print(c.C_MAG+"new rate:", rate-velocitat, c.C_NONE)
+            engine.setProperty('rate', rate + velocitat)
 
-      ''''# tractament de l'audio
-      x, fs = sf.read(twav)
-      f0, sp, ap = pw.wav2world(x, fs)
-      yy = pw.synthesize(f0/grave, sp/reduction, ap, fs/speed, pw.default_frame_period)
-      sf.write(output_file, yy, fs)
+            # Changing volume
+            volume = engine.getProperty('volume')
+            # print(c.C_MAG+"new volume:", volume+0.25, c.C_NONE)
+            engine.setProperty('volume', volume+0.25)
 
-      # va creant un arxiu únic afegint cada fragment
-      concatena_wavs(output_file)
-      '''
+            engine.save_to_file(text, output_file)
+            engine.runAndWait()
+            time.sleep(0.2)
+            n = 0
+            while engine.isBusy() and n < 100000: n += 1
+            engine.stop()
 
-      # eliminar l'arxiu temporal
-      if os.path.isfile(tmp3):
-         os.remove(tmp3)
-      if os.path.isfile(output_file) and os.path.isfile(twav):
-         os.remove(twav)
-      elif os.path.isfile(twav):
-         os.rename(twav, output_file)
+            # Convertir l'arxiu mp3 a wav
+            audio = AudioSegment.from_mp3(output_file)
+            audio.export(twav, format="wav")
+            concatena_wavs(twav)
 
-   except Exception as ex:
-      print(c.C_BLU+"ERROR:", ex, c.C_NONE)
+            ''''# tractament de l'audio
+            x, fs = sf.read(twav)
+            f0, sp, ap = pw.wav2world(x, fs)
+            yy = pw.synthesize(f0/grave, sp/reduction, ap, fs/speed, pw.default_frame_period)
+            sf.write(output_file, yy, fs)
+
+            # va creant un arxiu únic afegint cada fragment
+            concatena_wavs(output_file)
+            '''
+
+            # eliminar l'arxiu temporal
+            if os.path.isfile(tmp3):
+               os.remove(tmp3)
+            if os.path.isfile(output_file) and os.path.isfile(twav):
+               os.remove(twav)
+            elif os.path.isfile(twav):
+               os.rename(twav, output_file)
+
+         except Exception as ex:
+            #print(c.CB_CYN+"ERROR:", ex, c.C_NONE)
+            print(c.CB_CYN+"ERROR:", c.C_NONE)
 
 def proces(escena=None):
    global arxiu_wav
