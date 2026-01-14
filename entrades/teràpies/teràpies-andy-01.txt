@@ -25,9 +25,9 @@ OSCAR: Però si és la veritat, potser és la teva última oportunitat. Ja saps 
 (Stef entra, els veu, s’amaga darrere una taula.)
 PRUDEN: Deixa de parlar del temps que em queda, sisplau. Tinc més de trenta anys però encara no sóc morta.
 OSCAR: Jo no he dit que siguis morta, només he dit que el nostre temps és limitat.
-PRUDEN: Calla, per favor, no parlis.
+PRUDEN: Calla, si us plau, no parlis.
 (Pruden es tapa les orelles.)
-OSCAR: La Pruden, crec que tu i jo podem ser feliços... (Veu Stef.) Mira, hi ha algú allà. Potser és el cambrer.
+OSCAR: Pruden, crec que tu i jo podem ser feliços... (Veu Stef.) Mira, hi ha algú allà. Potser és el cambrer.
 (Pruden mira.)
 PRUDEN: Oh, el que faltava.
 OSCAR: Què passa?
@@ -43,7 +43,7 @@ PRUDEN: No puc creure que hages estat perseguint-me.
 STEF: Em preocupen els meus pacients. (A l'Oscar.) Està molt malalta, encara li queden molts anys de tractament.
 PRUDEN: Doctora Martone, crec que et vaig deixar molt clar que havia acabat la meva teràpia.
 STEF: Això seria un suïcidi. Acabarà tancada en un psiquiàtric d’aquí a una setmana.
-PRUDEN: No vull tornar a veure’t. Per favor, vés-te’n.
+PRUDEN: No vull tornar a veure’t. Si us plau, vés-te’n.
 STEF: No saps què estàs dient.
 OSCAR: Li pego?
 PRUDEN: No, només vull que se’n vagi.
@@ -51,7 +51,7 @@ STEF: Tu véns amb mi.
 OSCAR: Disculpi, la senyora vol que se’n vagi.
 STEF: (A la Pruden.) Així que aquest és el degenerat de qui em vas parlar?
 OSCAR: Què t’ha explicat de mi?
-PRUDEN: Oscar, no parlis per favor. Stef, vés-te’n ja. N’estic farta!
+PRUDEN: Oscar, no parlis si us plau. Stef, vés-te’n ja. N’estic farta!
 STEF: Jo me’n vaig, però tu véns amb mi. Necessites el meu tractament.
 PRUDEN: No vull saber res de la teva teràpia!
 STEF: Dóna’m una explicació!
