@@ -60,7 +60,7 @@ Personatges = {'Teo':    {'speed': 1.20, 'grave': 3.6, 'reduction': 0.6},
                'Oscar':  {'speed': 1.30, 'grave': 2.0, 'reduction': 0.8},
                'Andy':   {'speed': 1.50, 'grave': 2.4, 'reduction': 1.0}}
 Narrador = {'speed': 1.22, 'grave': 1.6, 'reduction': 1.7}
-Narrador = "narrador"
+Narrador = "narrador"  #el text del narrador no es graba
 
 
 def elimina_fragments(escena=None):
@@ -98,9 +98,7 @@ def nom_arxiu(num):
 def mostra_sentencia(text, ends):
    ini_color = c.CB_CYN if text in Personatges else c.C_NONE
    ini_color = c.CB_YLW if text == actor.capitalize() else ini_color
-   text = f"{c.BG_CYN+text:<60}" if (text[:6] == "Teràpies" or
-                                     text[:5] == "Acte " or
-                                     text[:5] == " Part" or
+   text = f"{c.BG_CYN+text:<60}" if (text[:8] == "Teràpies" or
                                      text[:6] == "Escena" or
                                      text[:4] == "Teló") \
                                  else ini_color+text

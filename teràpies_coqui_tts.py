@@ -52,12 +52,12 @@ dir_sortida = f"sortides/{titol}/wav_tts/"
 ruta_arxiu_wav = baseDir + "/" + dir_sortida
 arxiu_wav = ""
 
-Personatges={'Teo':  '02689',
-             'Oscar':'01591',
-             'Andy': '02452',
-             'Pruden': 'mar',
+Personatges={'Teo':   '02689',
+             'Oscar': '01591',
+             'Andy':  '02452',
+             'Pruden':'mar',
              'Stef':  '00762',
-             'Berta':  'ona'}
+             'Berta': 'ona'}
 Narrador='narrador'
 
 
