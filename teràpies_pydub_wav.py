@@ -54,11 +54,11 @@ twav = dirSortida + "temp.wav"
 silenci = "supplies/silenci.wav"
 
 Personatges = {'Teo':    {'speed': 1.20, 'grave': 3.6, 'reduction': 0.6},
-               'Pruden': {'speed': 1.30, 'grave': 0.9, 'reduction': 1.7},
-               'Stef':   {'speed': 1.40, 'grave': 0.6, 'reduction': 1.4},
-               'Berta':  {'speed': 1.40, 'grave': 1.0, 'reduction': 1.2},
                'Oscar':  {'speed': 1.30, 'grave': 2.0, 'reduction': 0.8},
-               'Andy':   {'speed': 1.50, 'grave': 2.4, 'reduction': 1.0}}
+               'Stef':   {'speed': 1.50, 'grave': 1.1, 'reduction': 1.0},
+               'Pruden': {'speed': 1.30, 'grave': 0.9, 'reduction': 1.7},
+               'Berta':  {'speed': 1.40, 'grave': 0.7, 'reduction': 1.4},
+               'Andy':   {'speed': 1.40, 'grave': 2.4, 'reduction': 1.0}}
 Narrador = {'speed': 1.22, 'grave': 1.6, 'reduction': 1.7}
 Narrador = "narrador"  #el text del narrador no es graba
 
@@ -104,6 +104,35 @@ def mostra_sentencia(text, ends):
                                  else ini_color+text
    print(text, c.C_NONE, end=ends)
 
+def genera_audio(text, output_file, veu_params):
+   # obtenir els parametres
+   speed, grave, reduction = list(veu_params.values())
+
+   # Generar un arxiu d'audio temporal amb gTTS
+   tts = gTTS(text, lang='ca')
+   tts.save(tmp3)
+
+   # Convertir l'arxiu mp3 a wav
+   audio = AudioSegment.from_mp3(tmp3)
+   audio.export(twav, format="wav")
+
+   # tractament de l'audio
+   x, fs = sf.read(twav)
+   f0, sp, ap = pw.wav2world(x, fs)
+   yy = pw.synthesize(f0/grave, sp/reduction, ap, fs/speed, pw.default_frame_period)
+   sf.write(output_file, yy, fs)
+
+   # va creant un arxiu únic afegint cada fragment
+   concatena_wavs(output_file)
+
+   # eliminar l'arxiu temporal
+   if os.path.isfile(tmp3):
+      os.remove(tmp3)
+   if os.path.isfile(output_file) and os.path.isfile(twav):
+      os.remove(twav)
+   elif os.path.isfile(twav):
+      os.rename(twav, output_file)
+
 '''
 @type text: string; text que es vol convertir en veu
 @type output_file: string; nom de l'arxiu de veu que es generarà
@@ -117,6 +146,16 @@ def text_to_audio(text, output_file, veu_params, ends):
    # Si veu_params == "narrador" no es genera audio
    if ends != ": ":
       if veu_params != "narrador":
+         # neteja el text: substitueix el text entre parèntesi per silenci
+         patro = re.compile(r'([^(]*)(?:\((.*?)\))?')
+         for match in patro.finditer(text):
+            if match.group(1):  # text fora de parèntesi
+               genera_audio(match.group(1).strip(), output_file, veu_params)
+            else:
+               #print(f"parentesis: {match.group(2)}")
+               concatena_wavs(silenci)
+
+         '''
          # obtenir els parametres
          speed, grave, reduction = list(veu_params.values())
 
@@ -144,6 +183,7 @@ def text_to_audio(text, output_file, veu_params, ends):
             os.remove(twav)
          elif os.path.isfile(twav):
             os.rename(twav, output_file)
+         '''
       else:
          #one_sec_segment = AudioSegment.silent(duration=1000, frame_rate=23000)
          #one_sec_segment.export(f"{silenci}.wav", format="wav")

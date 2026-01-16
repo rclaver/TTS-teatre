@@ -55,13 +55,15 @@ def llistat_id_veus():
 	voices = client.voices.get_all()
 	for v in voices.voices:
 		print(v.voice_id, v.name, v.settings)
+
 def llistat_de_veus():
 	voices = client.voices.get_all()
-	for veus in voices.voices:
-		print(veus.name)
-		for veu in veus:
-			print(veu)
+	for veu in voices.voices:
+		print(veu.name)
+		for v in veu:
+			print(v)
 		print()
+
 def llistat_raw_veus():
 	voices = client.voices.get_all()
 	print(voices)

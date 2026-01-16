@@ -5,11 +5,9 @@ Creat: 08-01-2025
 @author: rafael
 @description: Convierte texto a audio
 
-pip install TTS
+pip install --no-cache-dir TTS
 """
-import os, re, glob, time, shutil
-import sys
-
+import sys, os, re, glob, time, shutil
 import torch
 from TTS.api import TTS
 import wave

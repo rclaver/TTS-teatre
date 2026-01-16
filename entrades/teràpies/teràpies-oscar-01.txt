@@ -1,33 +1,33 @@
 ESCENA 1
-Un restaurant. L'Oscar assegut mirant el rellotge. Té de 30 a 34 anys, d’aspecte agradable, i probablement porta una camisa oberta i una americana. Entra Pruden, de 29 a 32 anys, arreglada però no massa, amb un vestit o brusa i faldilla. Després de dubtar un moment va cap a l'Oscar.
+Un restaurant. L'Oscar assegut mirant el rellotge. Té de 30 a 34 anys, d'aspecte agradable, i probablement porta una camisa oberta i una americana. Entra Pruden, de 29 a 32 anys, arreglada però no massa, amb un vestit o brusa i faldilla. Després de dubtar un moment va cap a l'Oscar.
 PRUDEN: Hola.
 OSCAR: Hola.
-PRUDEN: Ets l’home blanc, entre 30 i 35 anys, d’un metre vuitanta, ulls blaus, a qui li agrada la música, el cinema, passejar i les vetllades tranquil·les a casa?
+PRUDEN: Ets l'home blanc, entre 30 i 35 anys, d'un metre vuitanta, ulls blaus, a qui li agrada la música, el cinema, passejar i les vetllades tranquil·les a casa?
 OSCAR: Sí.
 PRUDEN: Hola, sóc la Pruden.
 OSCAR: Jo sóc l'Oscar.
 PRUDEN: Encantada.
 OSCAR: Vols seure?
-PRUDEN: Gràcies. (S’asseu.) Ja et vaig dir que mai no havia quedat amb ningú que hagués conegut al xat.
+PRUDEN: Gràcies. (S'asseu.) Ja et vaig dir que mai no havia quedat amb ningú que hagués conegut al xat.
 OSCAR: Jo tampoc. Vull dir que no acostumo a entrar al xat.
 PRUDEN: Però aquest cop vaig dir, per què no?
 OSCAR: Exacte, jo també. (pausa) Espero no ser massa... mascle per tu.
 PRUDEN: ¡No, no, no, no! De moment et trobo molt bé.
-OSCAR: Tens uns pits preciosos. És la primera cosa que miro d’una dona.
+OSCAR: Tens uns pits preciosos. És la primera cosa que miro d'una dona.
 PRUDEN: Gràcies.
 OSCAR: I portes unes lents de contacte molt boniques.
-PRUDEN: Gràcies. M’agrada el teu to de veu. Suau però ferm.
-OSCAR: Gràcies. La teva veu també m’agrada.
-PRUDEN: Gràcies. M’encanta la colònia que portes.
+PRUDEN: Gràcies. M'agrada el teu to de veu. Suau però ferm.
+OSCAR: Gràcies. La teva veu també m'agrada.
+PRUDEN: Gràcies. M'encanta la colònia que portes.
 OSCAR: Gràcies. Teo, el meu xicot, me la va regalar.
 PRUDEN: Què?
-OSCAR: D’alguna manera em recordes a ell.
+OSCAR: D'alguna manera em recordes a ell.
 PRUDEN: Què?
 OSCAR: En realitat li pego a tot. I tu?
 PRUDEN: (Tremolant, seriosa.) No sé... jo sempre vull fer-ho amb les llums apagades.
 (pausa)
-OSCAR: Potser t’he molestat.
-PRUDEN: No, no, no passa res. Només és que no m’agraden els gais.
+OSCAR: Potser t'he molestat.
+PRUDEN: No, no, no passa res. Només és que no m'agraden els gais.
 OSCAR: Jo no sóc gai. Sóc bisexual. És diferent.
 PRUDEN: No conec cap bisexual.
 OSCAR: Tots som bisexuals quan naixem. Si un nen rebés una educació platònica, se sentiria atret pels dos sexes.
@@ -36,23 +36,23 @@ OSCAR: Per descomptat jo mai no educaria un nen com ho feien els grecs.
 PRUDEN: No crec que et deixessin.
 OSCAR: La veritat és que no conec cap nen. (pausa) Tens uns ulls meravellosos. Tan profunds.
 PRUDEN: Gràcies.
-OSCAR: Sento m’agradaria cuidar de tu.
-PRUDEN: (Això li agrada més.) La meva cançó favorita és “Algú que cuidi de mi.”
+OSCAR: Sento m'agradaria cuidar de tu.
+PRUDEN: (Això li agrada més.) La meva cançó favorita és "Algú que cuidi de mi."
 (Oscar canta suaument la cançó.)
 PRUDEN: Sí, aquesta.
-OSCAR: D’una banda ets com una nena i d’una altra com una dona.
+OSCAR: D'una banda ets com una nena i d'una altra com una dona.
 PRUDEN: En quin sentit sóc com una dona?
 OSCAR: (Romàntic.) Vas vestida com una dona i portes maquillatge de dona,
-PRUDEN: Tu ets com un home. Ets alt i t’afaites. Crec que podries cuidar de mi.
-OSCAR: Sóc molt sentimental. M’agrada plorar.
-PRUDEN: Oh, però això no m’agradaria.
-OSCAR: Però a mi m’agrada plorar.
+PRUDEN: Tu ets com un home. Ets alt i t'afaites. Crec que podries cuidar de mi.
+OSCAR: Sóc molt sentimental. M'agrada plorar.
+PRUDEN: Oh, però això no m'agradaria.
+OSCAR: Però a mi m'agrada plorar.
 PRUDEN: Crec que els homes han de plorar només quan els caigui alguna cosa a sobre.
 OSCAR: Això és sexisme. Els homes han estat programats per no demostrar els seus sentiments.
 PRUDEN: No parlis de sexisme quan el primer que has fet ha estat parlar dels meus pits.
 OSCAR: Crec que vaig a plorar.
 PRUDEN: Per què?
-OSCAR: No t’agrado suficientment. Crec que t’agrada més el cambrer.
+OSCAR: No t'agrado suficientment. Crec que t'agrada més el cambrer.
 PRUDEN: El cambrer?
 (L'Oscar plora.)
 PRUDEN: Fes el favor de no plorar, fes-me el favor. No ploris. No puc suportar-ho.
@@ -61,54 +61,54 @@ PRUDEN: Gràcies.
 OSCAR: Noto que ets molt sensible. Vull que siguis la mare dels meus fills.
 PRUDEN: Gràcies.
 OSCAR: Estàs preparada per a un compromís?
-PRUDEN: Crec que necessito coneixe’t una mica més.
-OSCAR: Però si coincidim en tot. T’agrada la música, el cinema, passejar i les vetllades tranquil·les a casa. Segur que odies les coses superficials i que mai no llegeixes revistes del cor.
+PRUDEN: Crec que necessito coneixe't una mica més.
+OSCAR: Però si coincidim en tot. T'agrada la música, el cinema, passejar i les vetllades tranquil·les a casa. Segur que odies les coses superficials i que mai no llegeixes revistes del cor.
 PRUDEN: Sí que les llegeixo. Hi escric en una.
 OSCAR: Jo també. Els envio cartes.
 PRUDEN: Mira que bé.
-OSCAR: En una ocasió em van publicar una. Estem d’acord en tot. Vull tornar a plorar.
-PRUDEN: No m’agraden els homes que ploren. M’agraden els homes forts.
+OSCAR: En una ocasió em van publicar una. Estem d'acord en tot. Vull tornar a plorar.
+PRUDEN: No m'agraden els homes que ploren. M'agraden els homes forts.
 OSCAR: Ets igual que en Teo.
 PRUDEN: Qui?
 OSCAR: Ja ho saps.
 PRUDEN: Ah.
-OSCAR: Em sembla que t’estic posant nerviosa.
-PRUDEN: No. Només és que és difícil conèixer algú. I el cambrer encara no ha vingut i m’agradaria demanar alguna cosa.
+OSCAR: Em sembla que t'estic posant nerviosa.
+PRUDEN: No. Només és que és difícil conèixer algú. I el cambrer encara no ha vingut i m'agradaria demanar alguna cosa.
 OSCAR: Tornem a començar. Hola em diuen Oscar.
 PRUDEN: Hola.
 OSCAR: Pruden. Quin nom més maco.
 PRUDEN: Gràcies.
 OSCAR: Portes un vestit preciós.
-PRUDEN: Gràcies. M’agrada la cadena que portes. Queda molt bé amb els pèls del pit.
-OSCAR: Gràcies. M’agrada la teva pintura d’ungles.
+PRUDEN: Gràcies. M'agrada la cadena que portes. Queda molt bé amb els pèls del pit.
+OSCAR: Gràcies. M'agrada la teva pintura d'ungles.
 PRUDEN: També la porto a les ungles dels peus.
-OSCAR: Ensenya-me’ls.
+OSCAR: Ensenya-me'ls.
 (Pruden es treu una sabata i posa un peu a sobre la taula.)
-OSCAR: M’encanta que et sentis tan còmoda amb mi i que posis els peus a la taula.
-PRUDEN: No he posat els peus a la taula. Només n’hi he posat un. I era per cridar l’atenció del cambrer.
-OSCAR: Estem d’acord en tot. És increïble. Tornaré a plorar.
+OSCAR: M'encanta que et sentis tan còmoda amb mi i que posis els peus a la taula.
+PRUDEN: No he posat els peus a la taula. Només n'hi he posat un. I era per cridar l'atenció del cambrer.
+OSCAR: Estem d'acord en tot. És increïble. Tornaré a plorar.
 (Oscar gemega.)
 PRUDEN: Però per qué?
 (Oscar continua plorant.)
 PRUDEN: Què passa? Quina infància vas tenir?
 OSCAR: Monges. Anava a escola de monges. Quin desastre. Ja no crec en Déu. Crec en els cereals amb fibra. Ajuden a prevenir el càncer de còlon.
-PRUDEN: Sí, a mi també m’agraden els cereals amb fibra.
+PRUDEN: Sí, a mi també m'agraden els cereals amb fibra.
 OSCAR: Vull casar-me amb tu. Em sento preparat per un compromís llarg. Viurem al camp.
 Tindrem dos cotxes. En Teo viurà al garatge i tot serà meravellós.
 PRUDEN: Jo no em sento preparada per a un compromís llarg amb tu. No estàs bé del cap.
-Me’n vaig.
-(Pruden s’aixeca.)
-OSCAR: No te’n vagis.
+Me'n vaig.
+(Pruden s'aixeca.)
+OSCAR: No te'n vagis.
 PRUDEN: No puc quedar-me.
-OSCAR: No te’n vagis. Aquí tenen unes amanides fantàstiques.
+OSCAR: No te'n vagis. Aquí tenen unes amanides fantàstiques.
 PRUDEN: Bé, em quedo una mica més.
 (Pruden torna a seure.)
 OSCAR: La vida et fa por, oi?
 PRUDEN: Home...
-OSCAR: El teu instint és fugir. Tens por de sentir les emocions i els sentiments. Això és una equivocació, Pruden, perquè aleshores no tindràs passió. Coneixes “Equus”?
-PRUDEN: “Equus”?
-OSCAR: “Equus”, l’obra de teatre?
-PRUDEN: “Equus”? No, no la conec.
+OSCAR: El teu instint és fugir. Tens por de sentir les emocions i els sentiments. Això és una equivocació, Pruden, perquè aleshores no tindràs passió. Coneixes "Equus"?
+PRUDEN: "Equus"?
+OSCAR: "Equus", l'obra de teatre?
+PRUDEN: "Equus"? No, no la conec.
 OSCAR: El protagonista pensava que era millor treure-li els ulls a vuit cavalls amb un punxó, abans que no tenir passions. (Agafa una forquilla.) Si cal, treuré els ulls a aquests cavalls abans que no tenir passió, Pruden.
 PRUDEN: Per què no et fas veterinari?
 OSCAR: (Ofés.) No has entés la metàfora.
@@ -117,6 +117,6 @@ OSCAR: No has entès absolutament res. Mai no podré estimar algú que no enteng
 PRUDEN: Haurien de tancar-te.
 OSCAR: No tinc por que em tanquin. Tu sí.
 PRUDEN: Oh, deixa-ho estar.
-OSCAR: Anava a convidar-te a un bon sopar i després t’hagués portat a casa meva per tenir un intercanvi sexual. Però ara crec que te ́n hauries d ́anar.
-PRUDEN: No em rebutges tu. Sóc jo qui t’està rebutjant a tu. Ets idiota.
+OSCAR: Anava a convidar-te a un bon sopar i després t'hagués portat a casa meva per tenir un intercanvi sexual. Però ara crec que te ́n hauries d ́anar.
+PRUDEN: No em rebutges tu. Sóc jo qui t'està rebutjant a tu. Ets idiota.
 OSCAR: I tu una castrant frígida estúpida.
