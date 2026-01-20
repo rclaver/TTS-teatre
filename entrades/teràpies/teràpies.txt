@@ -115,7 +115,7 @@ Oscar: No has entès absolutament res. Mai no podré estimar algú que no enteng
 Pruden: Haurien de tancar-te.
 Oscar: No tinc por que em tanquin. Tu sí.
 Pruden: Oh, deixa-ho estar.
-Oscar: Anava a convidar-te a un bon sopar i després t'hagués portat a casa meva per tenir un intercanvi sexual. Però ara crec que te ́n hauries d ́anar.
+Oscar: Anava a convidar-te a un bon sopar i després t'hagués portat a casa meva per tenir un intercanvi sexual. Però ara crec que te'n hauries d'anar.
 Pruden: No em rebutges tu. Sóc jo qui t'està rebutjant a tu. Ets idiota.
 Oscar: I tu una castrant frígida estúpida.
 
@@ -323,7 +323,7 @@ Pruden: Potser vols assassinar-me.
 Oscar: O potser només vull intentar comunicar-me amb algú.
 Pruden: Això és d'un anunci de telefonia mòbil.
 Oscar: Sí, és d'un anunci. Però és un bon eslògan. Vull dir que és això el que volem tots: trobar algú. Al cap i a la fi jo vaig entrar al xat i tu també, jo vaig quedar amb tu i tu vas acceptar.
-Pruden: Ja ho sé. És molt difícil conéixer algú. Be, jo conec gent, eh. L ́altre dia va venir a la revista en becari. Era molt simpàtic. Però clar, era massa jove per mi.
+Pruden: Ja ho sé. És molt difícil conéixer algú. Be, jo conec gent, eh. L'altre dia va venir a la revista en becari. Era molt simpàtic. Però clar, era massa jove per mi.
 Oscar: Crec que el teu psiquiatre no t'està ajudant massa.
 Pruden: El teu deu estar com una cabra.
 Oscar: La meva diu que hem de ser valents per a fugir de la monotonia. Arriscar-nos!
@@ -405,7 +405,7 @@ Pruden: Bé, podem contemplar l'abisme plegats només per una nit.
 Oscar: I ara parla'm de la teva por al gelat de vainilla.
 (S'aixequen i se'n van.)
 Pruden: T'interessa?
-Oscar: Sí, explica ́m.
+Oscar: Sí, explica'm.
 Pruden: Veuràs, és que jo de petita no tenia cap problema amb el menjar, però hi havia alguna cosa en la textura del gelat de vainilla que em provocava un rebuig...
 (Surten.)
 
@@ -575,7 +575,7 @@ Teo: I ara li ha donat per portar dones a totes hores.
 Pruden: Ah si?
 Teo: Has vist la pel·lícula "Domingo, maldito domingo"?
 Pruden: No, em vaig quedar amb ganes.
-Teo: Doncs ja m ́hauria agradat que l'Oscar no l'hagués vist.
+Teo: Doncs ja m'hauria agradat que l'Oscar no l'hagués vist.
 Pruden: Per què?
 Teo: Li va afectar molt. Molt. Tracta d'un tio interpretat per Murray Head que té una aventura amb Peter Finch i Glenda Jackson alhora.
 Pruden: Molt bons actors.
@@ -657,13 +657,13 @@ Pruden: No ho entenc... amb mi?
 Teo: (Acostant-li el telèfon.) Agafa'l.
 (Tot s'esdevé massa ràpid i no li dóna temps a reaccionar.)
 Pruden: (Al telèfon.) Sí? Digui? Ah, hola. Sí. (Riu incòmoda.) Sí, gràcies. Què? No, no vull destrossar la vida del seu fill. Què? No, no, de cap manera...
-Oscar: (Agafant el telèfon.) Escolta, Marga. T ́he dit mil vegades que no vull que et fiquis a la meva vida. No li estàs fent cap bé a ningú. A Teo tampoc. No cantis quan et parlo! És una falta de respecte cantar quan algú t'està parlant. Marga... Marga... Marga! (Li dóna el telèfon al Teo.) Està cantant "Mi trade quell ́alma ingrata"
+Oscar: (Agafant el telèfon.) Escolta, Marga. T'he dit mil vegades que no vull que et fiquis a la meva vida. No li estàs fent cap bé a ningú. A Teo tampoc. No cantis quan et parlo! És una falta de respecte cantar quan algú t'està parlant. Marga... Marga... Marga! (Li dóna el telèfon al Teo.) Està cantant "Mi trade quell'alma ingrata"
 Teo: De Don Giovanni.
 Oscar: És terrible.
 Teo: (Al telèfon.) Hola, mami.
 Oscar: (A la Pruden.) Està totalment boja.
 Teo: Mami, sóc jo. Ja pots deixar de cantar. Està bé, acaba l'estrofa.
-Pruden: On és el pare de Teo?
+Pruden: On és el pare d'en Teo?
 Oscar: Ella el va assassinar.
 Teo: No fa gràcia, Oscar. Sí, mami, deixa de cantar. Sí, estic bé. Si, els ho diré. (Cap als dos.) Diu que sou uns immadurs. (Al telèfon.) Sí, jo també crec que és lesbiana.
 Pruden: Me'n vaig.

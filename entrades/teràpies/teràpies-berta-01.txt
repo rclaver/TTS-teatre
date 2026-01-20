@@ -1,76 +1,76 @@
 ESCENA 3
 Oficina de Berta Bornikoff. Segurament pèl-roja, amb roba de colors vius. Té una Peggy damunt l'escriptori. Si hi hagués parets estarien plenes de dibuixos infantils.
-BERTA: (Per l'interfon.) Pot fer entrar el següent pacient, Marcela.
+Berta: (Per l'interfon.) Pot fer entrar el següent pacient, Marcela.
 (Entra l'Oscar i s'asseu. La Berta no veu ningú.)
-BERTA: (Per l'interfon.) Marcela, fes passar el següent pacient, sisplau.
+Berta: (Per l'interfon.) Marcela, fes passar el següent pacient, sisplau.
 (Veu l'Oscar.)
-BERTA: Hola.
-OSCAR: Hola. (pausa) Començo?
-BERTA: T'agradaria començar?
-OSCAR: Vaig llençar un got d'aigua a una persona a un restaurant.
-BERTA: De veritat?
-OSCAR: Sí.
-BERTA: La vas mullar?
-OSCAR: Sí.
+Berta: Hola.
+Oscar: Hola. (pausa) Començo?
+Berta: T'agradaria començar?
+Oscar: Vaig llençar un got d'aigua a una persona a un restaurant.
+Berta: De veritat?
+Oscar: Sí.
+Berta: La vas mullar?
+Oscar: Sí.
 (Silenci.)
-BERTA: (Apunta a un dibuix infantil.) T'he mostrat aquest dibuix?
-OSCAR: No ho recordo. Tots semblen iguals.
-BERTA: El va dibuixar un nen de tres anys amb problemes emocionals. Els seus pares li pegaven cada matí després d'esmorzar. Suc de taronja, torrades i cereals...
-OSCAR: Ahà.
-BERTA: Saps què vull dir, no?
-OSCAR: Sí, és com... (pausa) Què vols dir?
-BERTA: Bé, m'estic referint a que quan arriba un propòsit per primer cop, immediatament... He dit propòsit? Quina paraula volia dir? Propòsit? Pompós? Pompó?
+Berta: (Apunta a un dibuix infantil.) T'he mostrat aquest dibuix?
+Oscar: No ho recordo. Tots semblen iguals.
+Berta: El va dibuixar un nen de tres anys amb problemes emocionals. Els seus pares li pegaven cada matí després d'esmorzar. Suc de taronja, torrades i cereals...
+Oscar: Ahà.
+Berta: Saps què vull dir, no?
+Oscar: Sí, és com... (pausa) Què vols dir?
+Berta: Bé, m'estic referint a que quan arriba un propòsit per primer cop, immediatament... He dit propòsit? Quina paraula volia dir? Propòsit? Pompós? Pompó?
 Paparazzi? Poliester? Hala, hala... Paciència! Pacient! Disculpa, volia dir pacient. Bé, de què parlàvem?
-OSCAR: Quan un pacient arriba per primer cop a la teva consulta.
-BERTA: (Un poc irritada.) Sí, però dóna'm més pistes.
-OSCAR: No sé què d'uns dibuixos i d'un pacient que arriba a la consulta.
-BERTA: Sí! No, no, necessito més. Necessito algun indici.
-OSCAR: No ho sé.
-BERTA: Oh, quina ràbia em fa oblidar allò que estava dient. Merda, merda, merda! Bé, deixem-ho. Tu parla i jo intentaré recordar.
+Oscar: Quan un pacient arriba per primer cop a la teva consulta.
+Berta: (Un poc irritada.) Sí, però dóna'm més pistes.
+Oscar: No sé què d'uns dibuixos i d'un pacient que arriba a la consulta.
+Berta: Sí! No, no, necessito més. Necessito algun indici.
+Oscar: No ho sé.
+Berta: Oh, quina ràbia em fa oblidar allò que estava dient. Merda, merda, merda! Bé, deixem-ho. Tu parla i jo intentaré recordar.
 (Berta mou els llavis.)
-OSCAR: (Després d'un moment.) Vols que parli?
-BERTA: T'agradaria parlar?
-OSCAR: Vaig quedar amb algú que vaig conèixer al xat.
-BERTA: Al xat?
-OSCAR: Al xat.
-BERTA: Ah, sí. Al xat. T'he contat que vaig conéixer al primer senyor Bornikoff per un anunci de contactes? Sí. M'encantaven aquests anuncis personals. Ara amb el xat... I va anar bé?
-OSCAR: Bé, em va agradar, i vaig voler ser obert i mostrar les meves emocions amb ella. Fins i tot vaig plorar.
-BERTA: Molt ben fet.
-OSCAR: Però jo no li vaig agradar a ella. I em va llençar l'aigua a la cara.
-BERTA: Oh, pobret, em sap greu. Has de ser valent per a ser emocionalment obert i vulnerable. Pobret meu. Vaig a abraçar-te. (L'abraça i el besa amb la Peggy.) Què vas fer quan et va llençar l'aigua?
-OSCAR: L'hi vaig tornar.
-BERTA: Oh, molt bé! Bravo! (Agafa la Peggy i la fa saltar.) Ole! Ole! Crec que ets molt més expressiu emocionalment des que véns a la teràpia. Estic orgullosa de tu.
-OSCAR: Però crec que alguna cosa no va funcionar. Probablement vaig ser massa fort.
-BERTA: Oh, la vida és tan difícil. Quan vaig conéixer al segon senyor Bornikoff...
+Oscar: (Després d'un moment.) Vols que parli?
+Berta: T'agradaria parlar?
+Oscar: Vaig quedar amb algú que vaig conèixer al xat.
+Berta: Al xat?
+Oscar: Al xat.
+Berta: Ah, sí. Al xat. T'he contat que vaig conéixer al primer senyor Bornikoff per un anunci de contactes? Sí. M'encantaven aquests anuncis personals. Ara amb el xat... I va anar bé?
+Oscar: Bé, em va agradar, i vaig voler ser obert i mostrar les meves emocions amb ella. Fins i tot vaig plorar.
+Berta: Molt ben fet.
+Oscar: Però jo no li vaig agradar a ella. I em va llençar l'aigua a la cara.
+Berta: Oh, pobret, em sap greu. Has de ser valent per a ser emocionalment obert i vulnerable. Pobret meu. Vaig a abraçar-te. (L'abraça i el besa amb la Peggy.) Què vas fer quan et va llençar l'aigua?
+Oscar: L'hi vaig tornar.
+Berta: Oh, molt bé! Bravo! (Agafa la Peggy i la fa saltar.) Ole! Ole! Crec que ets molt més expressiu emocionalment des que véns a la teràpia. Estic orgullosa de tu.
+Oscar: Però crec que alguna cosa no va funcionar. Probablement vaig ser massa fort.
+Berta: Oh, la vida és tan difícil. Quan vaig conéixer al segon senyor Bornikoff...
 Saps? Tots els meus marits s'han dit Bornikoff. Ha estat un tema del meu autoanàlisi. Bé, quan vaig conéixer el segon senyor Bornikoff vaig sentir un escriptori dins el meu coll... no vull dir un escriptori. Què vull dir? Escriptori, estrella, estornell, escala de color, esturió, tovalles, espina de peix... tenia una espina de peix.
-OSCAR: I vas aconseguir treure-te-la?
-BERTA: Oh, sí, ens vam casar i durant un temps la nostra relació va ser meravellosa, però aleshores va començar a veure's amb aquella dona-peix i ho vam deixar. No vull dir una dona-peix, vull dir una cambrera. És una paraula "cambrera"?
-OSCAR: Sí. Dona que treballa a un restaurant.
-BERTA: No, no treballava a un restaurant, era a uns magatzems. Dependenta, això era.
-OSCAR: Quin horror.
-BERTA: Va anar a comprar-me un regal i va fugir amb la dependenta. Ni tan sols em va donar el regal, només una nota. I des d'aleshores vaig estar molt sola durant una temporada. (Plora. Ell l'abraça i la besa amb la Peggy. Ella ho agraeix.) Crec que estic traient-te temps de les teves sessions. Et faré un descompte. Parla tu una mica, jo ja hi estic cansada.
-OSCAR: Bé, em fa por tornar a quedar amb algú del xat després de veure com ha funcionat l'últim cop.
-BERTA: Oh, no tinguis por. Mai no tinguis por d'arriscar-te. T'he parlat d'"Equus", oi? Aquell doctor de la pel·lícula amb el qual em sento completament identificada deia que era millor arriscar-se a estar boig i treure-li els ulls als cavalls que ser convencional i avorrit. Eq, Eq, equus! Ole, ole!
-OSCAR: Així que penses que puc tornar a intentar-ho?
-BERTA: Sí que ho penso. Però aquesta vegada has de posar un perfil que atregui a algú excepcional. Algú que vegi la teva personalitat fascinant.
-OSCAR: En quin sentit sóc fascinant?
-BERTA: Oh, no ho sé. No conec la mediocritat. (Agafa el bloc de notes.) Home... blanc, entre 30 i 35 anys, un metre...
-OSCAR: Vuitanta.
-BERTA: ...noranta-dos...
-OSCAR: Vuitanta.
-BERTA: ¡Noranta-dos! Ulls... verds
-OSCAR: Marrons.
-BERTA: ¡Verds! Guanyador del Pulitzer que li agrada Kierkegaard, Mahler i...
-OSCAR: I el sexe.
-BERTA: I el sexe. Això és! Així caçaràs algú excel·lent.
-OSCAR: Moltíssimes gràcies, doctora Bornikoff. A veure si hi ha sort. Ah, no hem parlat d'en Teo. Al Teo li molesta que conegui dones per Internet. No ho suporta.
-BERTA: Qui és en Teo?
-OSCAR: El noi que viu amb mi des de fa un any.
-BERTA: Ui, durant tota la sessió he pensat que eres un altre pacient. Tu no ets Thomas Norton?
-OSCAR: No, sóc Oscar Blanc. Oscar. Oscar i Teo.
-BERTA: Oh, clar. Oscar i Teo. Ara ho recordo. Ho sento. En qualsevol cas és un bon perfil.
+Oscar: I vas aconseguir treure-te-la?
+Berta: Oh, sí, ens vam casar i durant un temps la nostra relació va ser meravellosa, però aleshores va començar a veure's amb aquella dona-peix i ho vam deixar. No vull dir una dona-peix, vull dir una cambrera. És una paraula "cambrera"?
+Oscar: Sí. Dona que treballa a un restaurant.
+Berta: No, no treballava a un restaurant, era a uns magatzems. Dependenta, això era.
+Oscar: Quin horror.
+Berta: Va anar a comprar-me un regal i va fugir amb la dependenta. Ni tan sols em va donar el regal, només una nota. I des d'aleshores vaig estar molt sola durant una temporada. (Plora. Ell l'abraça i la besa amb la Peggy. Ella ho agraeix.) Crec que estic traient-te temps de les teves sessions. Et faré un descompte. Parla tu una mica, jo ja hi estic cansada.
+Oscar: Bé, em fa por tornar a quedar amb algú del xat després de veure com ha funcionat l'últim cop.
+Berta: Oh, no tinguis por. Mai no tinguis por d'arriscar-te. T'he parlat d'"Equus", oi? Aquell doctor de la pel·lícula amb el qual em sento completament identificada deia que era millor arriscar-se a estar boig i treure-li els ulls als cavalls que ser convencional i avorrit. Eq, Eq, equus! Ole, ole!
+Oscar: Així que penses que puc tornar a intentar-ho?
+Berta: Sí que ho penso. Però aquesta vegada has de posar un perfil que atregui a algú excepcional. Algú que vegi la teva personalitat fascinant.
+Oscar: En quin sentit sóc fascinant?
+Berta: Oh, no ho sé. No conec la mediocritat. (Agafa el bloc de notes.) Home... blanc, entre 30 i 35 anys, un metre...
+Oscar: Vuitanta.
+Berta: ...noranta-dos...
+Oscar: Vuitanta.
+Berta: ¡Noranta-dos! Ulls... verds
+Oscar: Marrons.
+Berta: ¡Verds! Guanyador del Pulitzer que li agrada Kierkegaard, Mahler i...
+Oscar: I el sexe.
+Berta: I el sexe. Això és! Així caçaràs algú excel·lent.
+Oscar: Moltíssimes gràcies, doctora Bornikoff. A veure si hi ha sort. Ah, no hem parlat d'en Teo. Al Teo li molesta que conegui dones per Internet. No ho suporta.
+Berta: Qui és en Teo?
+Oscar: El noi que viu amb mi des de fa un any.
+Berta: Ui, durant tota la sessió he pensat que eres un altre pacient. Tu no ets Thomas Norton?
+Oscar: No, sóc Oscar Blanc. Oscar. Oscar i Teo.
+Berta: Oh, clar. Oscar i Teo. Ara ho recordo. Ho sento. En qualsevol cas és un bon perfil.
 (L'Oscar surt..)
-BERTA: Demana-li cita al meu dirigible per a la setmana que ve. Sí, ja sé... secretària. Crec que hauria de mirar-me el sucre. Adéu.
+Berta: Demana-li cita al meu dirigible per a la setmana que ve. Sí, ja sé... secretària. Crec que hauria de mirar-me el sucre. Adéu.
 (La doctora Bornikoff parla per l'intèrfon.)
-BERTA: Marcela, fes passar el següent propòsit. Espera, no vull dir propòsit, vull dir peniquès, poney, parquet, penis, no, tampoc. Ho sento, Marcela, quan ho recordi t'ho diré.
+Berta: Marcela, fes passar el següent propòsit. Espera, no vull dir propòsit, vull dir peniquès, poney, parquet, penis, no, tampoc. Ho sento, Marcela, quan ho recordi t'ho diré.
 (Mou els llavis intentant recordar.)
