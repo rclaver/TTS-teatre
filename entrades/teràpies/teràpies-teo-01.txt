@@ -4,18 +4,18 @@ L'Oscar col·loca els coixins, mira el rellotge. Se sent el timbre. És la Prude
 Oscar: Hola, passa.
 Pruden: Hola. (Es besen.) He portat vi.
 Oscar: Gràcies.
-Pruden: Quina casa més bonica.
-Oscar: Gràcies.
-Pruden: S'assembla a la meva.
-Oscar: Ah, sí?
-Pruden: I també s'assembla al meu despatx. I al meu banc. Avui en dia, tot s'assembla, no?
-Oscar: Suposo que sí.
-Pruden: Era broma.
-Oscar: Ah. Molt bé. Vols seure?
+(Pruden: Quina casa més bonica.)
+(Oscar: Gràcies.)
+(Pruden: S'assembla a la meva.)
+(Oscar: Ah, sí?)
+(Pruden: I també s'assembla al meu despatx. I al meu banc. Avui en dia, tot s'assembla, no?)
+(Oscar: Suposo que sí.)
+(Pruden: Era broma.)
+(Oscar: Ah. Molt bé. Vols seure?)
 (Seuen.)
-Oscar: Vols beure alguna cosa?
-Oscar: Què vols?
-Pruden: No sé. Què vols tu?
+(Oscar: Vols beure alguna cosa?)
+(Oscar: Què vols?)
+(Pruden: No sé. Què vols tu?)
 Oscar: Crec que tinc aigua.
 Pruden: Mineral?
 Oscar: Crec que sí.
@@ -67,15 +67,15 @@ Teo: (Des de fora.) Jo també n'estic fart!
 (Se sent alguna cosa que es trenca. Pausa. Entra l'Oscar.)
 Oscar: Tot arreglat. (pausa) Hem trencat un gerro. Bé, Teo l'ha trencat.
 Pruden: Crec que hauria d'anar-me'n.
-Oscar: No, tot està arreglat. Teo ja ha descarregat tota la seva ràbia. Ara tot torna a la normalitat.
+Oscar: No, tot està arreglat. En Teo ja ha descarregat tota la seva ràbia. Ara tot torna a la normalitat.
 Pruden: M'havies dit que a Teo ni li importava que tu i jo ens veiéssim.
-Oscar: Era mentida. Ho sento. Uns companys del grup de teràpia de Teo em van dir que si volia sortir amb noies que ho fes, i vaig suposar que l'havien convençut Teo. Però ja veig que encara no ho han fet.
+Oscar: Era mentida. Ho sento. Uns companys del grup de teràpia d'en Teo em van dir que si volia sortir amb noies que ho fes, i vaig suposar que havien convençut en Teo. Però ja veig que encara no ho han fet.
 Pruden: I ara què podem fer?
 Oscar: Mira, quan s'hagi passat la incomoditat inicial, Teo i tu us agradareu molt. I, a més, estic segur que se n'anirà a casa de la seva mare de seguida.
 Pruden: I per què no anem a un restaurant?
 Oscar: No, de veritat. He comprat el sopar. Ai, l'arròs! He d'anar a veure com va. És arròs integral i és més complicat de fer. Torno de seguida.
 Pruden: No, no te'n vagis.
-Oscar: No passa res. Teo vindrà a parlar amb tu.
+Oscar: No passa res. En Teo vindrà a parlar amb tu.
 Pruden: No sé... ai, mare meva!
 (L'Oscar se'n va. Entra en Teo.)
 Teo: Hola de nou.
@@ -113,10 +113,10 @@ Teo: (Amable.) No creus que la Pruden triomfaria en un bar de lesbianes?
 Oscar: Segur.
 Teo: A la meva amiga Alice li encantaria.
 Oscar: Sí, és el seu tipus.
-Pruden: Oscar, podria parlar amb tu un moment? (al Teo.) Disculpa.
+Pruden: Oscar, podria parlar amb tu un moment? (a Teo.) Disculpa.
 (L'Oscar i la Pruden van cap a l'altre costat de la sala.)
-Pruden: Oscar, estic molt incòmoda. Em vas dir que Teo no hi seria a casa i que no estaria gelós de les teves relacions amb dones. I no vull saber si agrado o no agrado a les lesbianes. Així que és millor que ho deixem aquí i me'n vagi.
-Oscar: No, si us plau, no te'n vagis. Teo necessita temps per a assumir-ho. I segur que de seguida se n'anirà a casa de la seva mare. Si us plau, fes un esforç i intenta ser amable amb ell. Fes-ho per tu i per mi.
+Pruden: Oscar, estic molt incòmoda. Em vas dir que en Teo no hi seria a casa i que no estaria gelós de les teves relacions amb dones. I no vull saber si agrado o no agrado a les lesbianes. Així que és millor que ho deixem aquí i me'n vagi.
+Oscar: No, si us plau, no te'n vagis. En Teo necessita temps per a assumir-ho. I segur que de seguida se n'anirà a casa de la seva mare. Si us plau, fes un esforç i intenta ser amable amb ell. Fes-ho per tu i per mi.
 Pruden: No sé.
 Oscar: De veritat, tot anirà bé.
 Pruden: (Decidida.) Molt bé. D'acord.
@@ -147,7 +147,7 @@ Pruden: Perdona, no em referia a la teva mare. A mi... a mi... em va agradar mol
 Teo: La meva mare no té res a veure amb Jack Lemon en "Con faldas i a lo loco".
 Pruden: Oh, no... segur que no. No volia dir...
 Oscar: Canvia de tema, Pruden. Aquest tema no ens porta enlloc.
-Pruden: Oh, està bé. (al Teo.) A què es dedica el Teo?
+Pruden: Oh, està bé. (a Teo.) A què es dedica el Teo?
 Teo: Encara sóc aquí.
 Pruden: Perdona. A què et dediques, Teo?
 Teo: Sóc farmacèutic.
@@ -165,7 +165,7 @@ Pruden: Oscar, tot això és molt desagradable. Crec que és un problema que hau
 Oscar: Tens raó. Sempre tens raó. Per això m'agrades tant.
 (S'acosta i posa el braç per sobre d'ella.)
 Pruden: Crec que és millor que me'n vagi.
-Oscar: Ets massa sensible. A més, Teo ja se'n va.
+Oscar: Ets massa sensible. A més, en Teo ja se'n va.
 (En Teo torna a entrar.)
 Teo: La meva mare està al telèfon.
 Pruden: No l'he sentit sonar.
