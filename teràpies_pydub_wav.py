@@ -58,7 +58,7 @@ Personatges = {'Teo':    {'speed': 1.20, 'grave': 3.6, 'reduction': 0.6},
                'Stef':   {'speed': 1.50, 'grave': 1.1, 'reduction': 1.0},
                'Pruden': {'speed': 1.30, 'grave': 0.9, 'reduction': 1.7},
                'Berta':  {'speed': 1.40, 'grave': 0.7, 'reduction': 1.4},
-               'Andy':   {'speed': 1.40, 'grave': 2.4, 'reduction': 1.0}}
+               'Andy':   {'speed': 1.40, 'grave': 2.2, 'reduction': 0.9}}
 Narrador = {'speed': 1.22, 'grave': 1.6, 'reduction': 1.7}
 Narrador = "narrador"  #el text del narrador no es graba
 
