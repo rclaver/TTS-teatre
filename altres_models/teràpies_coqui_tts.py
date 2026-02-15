@@ -70,6 +70,8 @@ def elimina_fragments(escena):
    os.chdir(baseDir)
 
 def nom_arxiu(num):
+   if not os.path.exists(dir_sortida):
+      os.mkdir(dir_sortida)
    return dir_sortida + titol + "_" + f'{num:{"0"}{">"}{4}}' + ".wav"
 
 def concatena_wavs(wfile):

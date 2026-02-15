@@ -92,6 +92,8 @@ def text_to_audio(text, output_file, veu_params, ends):
 
 
 def nom_arxiu(num):
+   if not os.path.exists(dirSortida):
+      os.mkdir(dirSortida)
    extra = "_" + f'{num:{"0"}{">"}{4}}' if sencer else ""
    return dirSortida + fragmentVeu + extra + ".mp3"
 

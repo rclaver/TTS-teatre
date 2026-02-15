@@ -38,15 +38,15 @@ Teo: Bé, és igual. Li pots dir, quan torni, que vingui un moment a "la nostra"
 Pruden: Clar.
 Teo: Disculpa.
 (Teo se'n va a l'habitació. Entra l'Oscar amb dues aigües minerals amb gas.)
-Oscar: Aquí les tenim. Un aigua mineral i una aigua mineral amb gas.
-Pruden: Pensava que en Teo no hi seria.
-Oscar: L'has vist? Sí, pensava anar-se'n, però va canviar d'opinió i jo ja havia comprat el sopar.
-Pruden: Vols dir que es queda amb nosaltres?
-Oscar: No, no no no. M'ha dit que anava a sopar a casa de la seva mare. La seva mare és molt divertida. És molt teatral.
-Pruden: Ah, sí?
-Oscar: No estiguis incòmoda per en Teo.
-Pruden: Home, semblava un poc violent. M'ha preguntat si jo era la Maria de Romania.
-Oscar: Sempre fa igual. No t'ho prenguis com res personal.
+(Oscar: Aquí les tenim. Un aigua mineral i una aigua mineral amb gas.)
+(Pruden: Pensava que en Teo no hi seria.)
+(Oscar: L'has vist? Sí, pensava anar-se'n, però va canviar d'opinió i jo ja havia comprat el sopar.)
+(Pruden: Vols dir que es queda amb nosaltres?)
+(Oscar: No, no no no. M'ha dit que anava a sopar a casa de la seva mare. La seva mare és molt divertida. És molt teatral.)
+(Pruden: Ah, sí?)
+(Oscar: No estiguis incòmoda per en Teo.)
+(Pruden: Home, semblava un poc violent. M'ha preguntat si jo era la Maria de Romania.)
+(Oscar: Sempre fa igual. No t'ho prenguis com res personal.)
 (Aixecant el got.)
 Oscar: Per nosaltres.
 Pruden: Ha dit que si podies anar a la seva o a la teva habitació un moment.
@@ -65,11 +65,11 @@ Teo: (Des de fora.) Si us plau!
 Oscar: (Des de fora.) Estic fart del teu comportament, Teo.
 Teo: (Des de fora.) Jo també n'estic fart!
 (Se sent alguna cosa que es trenca. Pausa. Entra l'Oscar.)
-Oscar: Tot arreglat. (pausa) Hem trencat un gerro. Bé, Teo l'ha trencat.
-Pruden: Crec que hauria d'anar-me'n.
-Oscar: No, tot està arreglat. En Teo ja ha descarregat tota la seva ràbia. Ara tot torna a la normalitat.
-Pruden: M'havies dit que a Teo ni li importava que tu i jo ens veiéssim.
-Oscar: Era mentida. Ho sento. Uns companys del grup de teràpia d'en Teo em van dir que si volia sortir amb noies que ho fes, i vaig suposar que havien convençut en Teo. Però ja veig que encara no ho han fet.
+(Oscar: Tot arreglat. (pausa) Hem trencat un gerro. Bé, Teo l'ha trencat.)
+(Pruden: Crec que hauria d'anar-me'n.)
+(Oscar: No, tot està arreglat. En Teo ja ha descarregat tota la seva ràbia. Ara tot torna a la normalitat.)
+(Pruden: M'havies dit que a Teo ni li importava que tu i jo ens veiéssim.)
+(Oscar: Era mentida. Ho sento. Uns companys del grup de teràpia d'en Teo em van dir que si volia sortir amb noies que ho fes, i vaig suposar que havien convençut en Teo. Però ja veig que encara no ho han fet.)
 Pruden: I ara què podem fer?
 Oscar: Mira, quan s'hagi passat la incomoditat inicial, Teo i tu us agradareu molt. I, a més, estic segur que se n'anirà a casa de la seva mare de seguida.
 Pruden: I per què no anem a un restaurant?
@@ -258,11 +258,11 @@ Teo: Té raó?
 Oscar: Sí. Som uns estúpids.
 (Sona el telèfon. Despenja i penja. Torna a despenja i marca un número.)
 Oscar: Estic trucant la Doctora Bornikoff. Crec que necessitem ajuda.
-Pruden: Pots trucar-la a aquestes hores?
-Oscar: Sí, és una dona meravellosa. Em va donar el telèfon de casa seva a la segona sessió.
-Pruden: Jo vaig anar al llit amb la meva psiquiatre després de la primera.
-Oscar: (Al telèfon.) Hola? La senyora Bornikoff? Gràcies. (A ells.) Crec que era el seu marit.
+(Pruden: Pots trucar-la a aquestes hores?)
+(Oscar: Sí, és una dona meravellosa. Em va donar el telèfon de casa seva a la segona sessió.)
+(Pruden: Jo vaig anar al llit amb la meva psiquiatre després de la primera.)
+(Oscar: (Al telèfon.) Hola? La senyora Bornikoff? Gràcies. (A ells.) Crec que era el seu marit.)
 (Teo sense agressivitat, per fer alguna cosa, canta.)
-Oscar: Què vol dir que et vas anar al llit amb la teva psiquiatre?
-Pruden: No sé, jo...
-Oscar: (A Teo, que continua cantant.) Txx! (Al telèfon.) Doctora Bornikoff? Hola, sóc l'Oscar. Tenim una petita emergència i em preguntava si ens podria ajudar? La veritat és que estem desesperadament necessitats de teràpia.
+(Oscar: Què vol dir que et vas anar al llit amb la teva psiquiatre?)
+(Pruden: No sé, jo...)
+(Oscar: (A Teo, que continua cantant.) Txx! (Al telèfon.) Doctora Bornikoff? Hola, sóc l'Oscar. Tenim una petita emergència i em preguntava si ens podria ajudar? La veritat és que estem desesperadament necessitats de teràpia.)

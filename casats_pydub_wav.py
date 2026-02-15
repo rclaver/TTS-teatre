@@ -93,6 +93,8 @@ def concatena_wavs(wfile):
       shutil.copyfile(wfile, ArxiuWav)
 
 def nom_arxiu(num):
+   if not os.path.exists(dirSortida):
+      os.mkdir(dirSortida)
    return dirSortida + titol + "_" + f'{num:{"0"}{">"}{4}}' + ".wav"
 
 def mostra_sentencia(text, ends):
