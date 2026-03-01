@@ -50,6 +50,8 @@ Narrador = {'sexe':2, 'velocitat':10, 'genere':2, 'edat':50}
 
 
 def nom_arxiu(num):
+   if not os.path.exists(dir_sortida):
+      os.mkdir(dir_sortida)
    return dir_sortida + titol + "_" + f'{num:{"0"}{">"}{3}}' + ".mp3"
 
 def speak(engine, text):

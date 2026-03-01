@@ -66,6 +66,8 @@ def elimina_fragments(escena):
    os.chdir(baseDir)
 
 def nom_arxiu(num):
+   if not os.path.exists(dirSortida):
+      os.mkdir(dirSortida)
    extra = "_" + f'{num:{"0"}{">"}{4}}' if sencer else ""
    return dirSortida + fragmentVeu + extra + ".mp3"
 

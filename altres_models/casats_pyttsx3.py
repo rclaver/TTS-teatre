@@ -86,6 +86,8 @@ def elimina_fragments(escena=""):
    os.chdir(baseDir)
 
 def nom_arxiu(num):
+   if not os.path.exists(dirSortida):
+      os.mkdir(dirSortida)
    return dirSortida + titol + "_" + f'{num:{"0"}{">"}{4}}' + ".mp3"
 
 def mostra_sentencia(text, ends):
